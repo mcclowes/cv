@@ -1,12 +1,12 @@
 # MAX CLAYTON CLOWES
 
-_Software engineer, designer, &amp; entrepreneur._
-_BSc (Hons) Computer Science, 2:1, Durham University_
-_Duke of York Young Entrepreneur Award winner 2017._
+_Software engineer, designer, &amp; entrepreneur._ 
+_BSc (Hons) Computer Science, 2:1, Durham University._  
+_Duke of York Young Entrepreneur Award winner 2017._   
 
-[maxcc@me.com](mailto:maxcc@me.com)
-[+44 (0) 7976 136 097](tel:+447976136097)
-[mcclowes.com](https://mcclowes.com)
+[maxcc@me.com](mailto:maxcc@me.com)  
+[+44 (0) 7976 136 097](tel:+447976136097)  
+[mcclowes.com](https://mcclowes.com)  
 
 I am a multi-disciplined software engineer based in London. I support my software development with deep business and design experience.
 
