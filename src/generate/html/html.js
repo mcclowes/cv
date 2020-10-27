@@ -43,6 +43,8 @@ const generateHtml = (target, options={} ) => {
 	return `
 		<html>
 			<head>
+				<title>Max Clayton Clowes</title>
+
 				<style>
 					${ css }
 				</style>
