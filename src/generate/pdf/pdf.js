@@ -38,10 +38,6 @@ const writeDebugHTML = (html) => {
   fs.writeFile("mcclowes_cv.html", html, function(err) {
     if (err) console.log(err);
   });
-
-  fs.writeFile("README.md", html, function(err) {
-    if (err) console.log(err);
-  });
 }
 
 const generatePdf = async ( target, destination="./output.pdf", options, ) => {

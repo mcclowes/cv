@@ -4,6 +4,8 @@ import readStylesheet from './readStylesheet'
 import readMarkdownFile from './readMarkdownFile'
 import createHtmlPages from './createHtmlPages'
 
+import fs from "fs";
+
 const STYLESHEETS = {
   "cv": "./src/styles/cv.css",
 };
@@ -33,6 +35,10 @@ const generateHtml = (target, options={} ) => {
 		)
 
 	const css = readStylesheet(styleOptions)
+
+	fs.writeFile("README.md", html, function(err) {
+    if (err) console.log(err);
+  });
 
 	return `
 		<html>
