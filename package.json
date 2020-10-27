@@ -2,7 +2,7 @@
   "name": "cv",
   "version": "1.0.0",
   "description": "mcclowes cv",
-  "main": "index.js",
+  "main": "mcclowes_cv.html",
   "scripts": {
     "build": "babel-node ./src/createCV.js",
     "watch": "watch 'npm run build' ./src --wait=1",
