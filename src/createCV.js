@@ -7,7 +7,7 @@ const options = {
   },
 };
 
-const target = "./README.md";
+const target = "./src/cv.md";
 
 const destination = "./mcclowes_cv.pdf";
 
