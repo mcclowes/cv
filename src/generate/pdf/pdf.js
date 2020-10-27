@@ -35,7 +35,7 @@ const defaultPdfOptions = {
 const writeDebugHTML = (html) => {
   console.log("Saving interim HTML...");
 
-  fs.writeFile("mcclowes_cv.html", html, function(err) {
+  fs.writeFile("index.html", html, function(err) {
     if (err) console.log(err);
   });
 }
