@@ -1,6 +1,6 @@
 <div class="page" id="p1"><h1 id="max-clayton-clowes">Max Clayton Clowes</h1>
 <p><a href="mailto:maxcc@me.com">maxcc@me.com</a> · <a href="tel:+447976136097">+44 (0) 7976 136 097</a> · <a href="https://mcclowes.com">mcclowes.com</a>  </p>
-<p>Frontend developer with diverse software engineering and design background, and experience as a founder of a client-facing business. User-oriented developer. Duke of York Young Entrepreneur Award winner 2017.</p>
+<p>Product Management-aspiring Engineer with diverse software engineering and design background, and experience as a founder of a client-facing business. User-oriented developer. Duke of York Young Entrepreneur Award winner 2017.</p>
 <p><em>References available upon request. You can see what people have said about me <a href="https://github.com/mcclowes/mcclowes/blob/master/recommendations.md">here</a>.</em></p>
 <h2 id="technical-skills">Technical Skills</h2>
 <p><strong>Software Engineering:</strong> <em>React, TypeScript, GraphQL/Apollo, Jest/react-testing-library/Enzyme, Redux, CSS/Styled-Components (Responsive), React Native</em><br><strong>Data:</strong> <em>Python, SQL, R, Excel/Google Sheets</em><br><strong>Project Management:</strong> <em>Agile (Scrum)</em><br><strong>Design:</strong> <em>Figma/Sketch, Adobe CS</em></p>
@@ -50,5 +50,5 @@
 </ul>
 <h2 id="about-me">About Me</h2>
 <p>Regularly attend PM conferences &amp; meet-ups <em>(Elevate, Product School)</em>. Regularly attend developer meet-ups <em>(React London, GitHub Universe, Next Conf)</em>. Currently work mainly with React <em>(ES6)</em>.</p>
-<p>Runner (1st marathon coming up in December), cyclist, rock climber, and dancer (1st place university circuit). Singer and multi-instrumentalist, having been in many bands and choirs.</p>
+<p>Runner (1st marathon coming up in December), cyclist, rock climber, and dancer (1st place university circuit). Singer and multi-instrumentalist.</p>
 </div>
