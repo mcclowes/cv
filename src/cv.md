@@ -38,11 +38,11 @@ Founded Codogo after winning several enterprise awards. Established an agency bu
 - Pitched to top investors, including being flown out to Y Combinator based on the strength of the Alpha of our product, Codogo Write.
 
 ### Other Experience
-1. Development & Design Intern _- Akkroo, 2015_
-1. Design Contractor _- Ludifi, 2014_
-3. Design Contractor _- 4J Studios, 2013_
-2. Junior UX Designer _- Better Brief, 2012 - 2013_
-4. Project manager _- Godfreys.co, 2011 - 2012_
+- Development & Design Intern _- Akkroo, 2015_
+- Design Contractor _- Ludifi, 2014_
+- Design Contractor _- 4J Studios, 2013_
+- Junior UX Designer _- Better Brief, 2012 - 2013_
+- Project manager _- Godfreys.co, 2011 - 2012_
 
 \page
 
@@ -73,9 +73,9 @@ _2003 - 2010_
 A levels: _Physics, Economics, Music_  
 
 ### Other Training
-1. Project Management _- SuperHi, 2019_
-2. Advanced iOS Development _- City University, 2012_
-3. Advanced C Programming _- City University, 2011_
+- Project Management _- SuperHi, 2019_
+- Advanced iOS Development _- City University, 2012_
+- Adva nced C Programming _- City University, 2011_
 
 ## About Me
 

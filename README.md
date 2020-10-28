@@ -21,13 +21,13 @@
 <li>Pitched to top investors, including being flown out to Y Combinator based on the strength of the Alpha of our product, Codogo Write.</li>
 </ul>
 <h3 id="other-experience">Other Experience</h3>
-<ol>
+<ul>
 <li>Development &amp; Design Intern <em>- Akkroo, 2015</em></li>
 <li>Design Contractor <em>- Ludifi, 2014</em></li>
 <li>Design Contractor <em>- 4J Studios, 2013</em></li>
 <li>Junior UX Designer <em>- Better Brief, 2012 - 2013</em></li>
 <li>Project manager <em>- Godfreys.co, 2011 - 2012</em></li>
-</ol>
+</ul>
 <p></div> <div class="page" id="p2"></p>
 <h2 id="education">Education</h2>
 <h3 id="bsc-hons-computer-science-21">BSc (Hons) Computer Science, 2:1</h3>
@@ -43,11 +43,11 @@
 <h4 id="city-of-london-school">City of London School</h4>
 <p><em>2003 - 2010</em><br>A levels: <em>Physics, Economics, Music</em>  </p>
 <h3 id="other-training">Other Training</h3>
-<ol>
+<ul>
 <li>Project Management <em>- SuperHi, 2019</em></li>
 <li>Advanced iOS Development <em>- City University, 2012</em></li>
-<li>Advanced C Programming <em>- City University, 2011</em></li>
-</ol>
+<li>Adva nced C Programming <em>- City University, 2011</em></li>
+</ul>
 <h2 id="about-me">About Me</h2>
 <p>Regularly attend PM conferences &amp; meet-ups <em>(Elevate, Product School)</em>. Regularly attend developer meet-ups <em>(React London, GitHub Universe, Next Conf)</em>. Currently work mainly with React <em>(ES6)</em>.</p>
 <p>Runner (1st marathon coming up in December), cyclist, rock climber, and dancer (1st place university circuit). Singer and multi-instrumentalist, having been in many bands and choirs.</p>
