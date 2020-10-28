@@ -24,6 +24,11 @@
   "bugs": {
     "url": "https://github.com/mcclowes/CV/issues"
   },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run build"
+    }
+  },
   "homepage": "https://github.com/mcclowes/CV#readme",
   "devDependencies": {
     "@babel/cli": "^7.12.1",
