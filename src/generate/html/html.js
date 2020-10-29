@@ -14,7 +14,19 @@ const MARKDOWN_OPTIONS_DEFAULT = {
   "encoding": "utf8",
 };
 
-const generateHtml = (target, options={} ) => {
+const handleTargetPages = (targets, markdownOptions) => {
+	if(Array.isArray(targets)) {
+	  return createHtmlPages(
+	 		targets.map(path => readMarkdownFile(path, markdownOptions)).join(" ") 
+		)
+	}
+
+	return createHtmlPages(
+		readMarkdownFile(targets, markdownOptions)
+	)
+}
+
+const generateHtml = (targets, options={} ) => {
 	console.log("Generating HTML...")
 
 	const styleOptions = options.customStyles 
@@ -23,16 +35,7 @@ const generateHtml = (target, options={} ) => {
 
   const markdownOptions = options.markdownOptions || MARKDOWN_OPTIONS_DEFAULT
 
-	const html = Array.isArray(target) 
-		? target.map(path => {
-				return createHtmlPages(
-					readMarkdownFile(path, markdownOptions)
-				)
-			})
-				.join(" ") 
-		: createHtmlPages(
-			readMarkdownFile(target, markdownOptions)
-		)
+	const html = handleTargetPages(targets, markdownOptions)
 
 	const css = readStylesheet(styleOptions)
 

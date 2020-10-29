@@ -40,10 +40,10 @@ const writeDebugHTML = (html) => {
   });
 }
 
-const generatePdf = async ( target, destination="./output.pdf", options, ) => {
+const generatePdf = async ( targets, destination="./output.pdf", options, ) => {
   console.log('Starting PDF generation...')
 
-  const html = await generateHtml( target, options );
+  const html = await generateHtml( targets, options );
 
   if (options.debug) {
     writeDebugHTML(html)

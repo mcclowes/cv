@@ -1,6 +1,6 @@
 # Max Clayton Clowes
 
-[maxcc@me.com](mailto:maxcc@me.com) · [+44 (0) 7976 136 097](tel:+447976136097) · [mcclowes.com](https://mcclowes.com)  
+[contact@mcclowes.com](mailto:contact@mcclowes.com) · [+44 (0) 7976 136 097](tel:+447976136097) · [mcclowes.com](https://mcclowes.com)  
 
 Product Management-aspiring Engineer with diverse software engineering and design background, and experience as a founder of a client-facing business. User-oriented developer. Duke of York Young Entrepreneur Award winner 2017.
 

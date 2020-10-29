@@ -7,8 +7,14 @@ const options = {
   },
 };
 
-const target = "./src/cv.md";
+const targets = [
+  "./src/sections/header.md",
+  "./src/sections/introduction.md",
+  "./src/sections/experience.md",
+  "./src/sections/education.md",
+  "./src/sections/aboutme.md",
+];
 
 const destination = "./mcclowes_cv.pdf";
 
-generatePDF( target, destination, options, );
+generatePDF( targets, destination, options, );
