@@ -44,6 +44,8 @@ const buildHtml = (css, html, mode='web') =>
 
 				<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=2,shrink-to-fit=no">
 
+				<link rel="icon" href="/favicon.ico" />
+
 				<style>
 					${ css }
 				</style>
