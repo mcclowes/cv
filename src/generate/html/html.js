@@ -74,9 +74,9 @@ const generateHtml = (targets, options={} ) => {
 
   createHtmlFile(html, 'README.md')
 
-  if (options.website) createHtmlFile(buildHtml(css, html, 'debug'), 'debug.html')
+  if (options.debug) createHtmlFile(buildHtml(css, html, 'debug'), 'debug.html')
 
-  if (options.debug) createHtmlFile(buildHtml(css, html))
+  if (options.website) createHtmlFile(buildHtml(css, html))
 
 	return buildHtml(css, html, 'pdf')
 };
