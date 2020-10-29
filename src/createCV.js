@@ -28,6 +28,7 @@ const variations = {
 }
 
 const createCV = (variation) => {
+  console.log(`Creating ${variation} CV`)
   if(variation === primaryCV) {
     const destination = "./mcclowes_cv.pdf";
 
@@ -49,4 +50,10 @@ const createCV = (variation) => {
   );
 }
 
-createCV('engineering');
+const cvs = process.argv.slice(2)
+
+if(cvs.length>0) {
+  cvs.forEach(cv => createCV(cv))
+} else {
+  createCV(primaryCV);
+}
