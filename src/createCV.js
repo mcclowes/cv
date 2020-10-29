@@ -7,7 +7,7 @@ const defaultOptions = {
   printOptions: {
     displayHeaderFooter: false,
   },
-}
+};
 
 const variations = {
   engineering: {
@@ -23,7 +23,7 @@ const variations = {
       website: true,
       primary: true,
       debug: true,
-    }
+    },
   },
   product: {
     files: [
@@ -33,27 +33,23 @@ const variations = {
       "./src/sections/education.md",
       "./src/sections/aboutme.md",
     ],
-  }
-}
+  },
+};
 
 const createCV = (variation) => {
-  const { files, options = defaultOptions } = variations[variation]
-  
+  const { files, options = defaultOptions } = variations[variation];
+
   const destination = options.primary
     ? `./mcclowes_cv.pdf`
     : `./mcclowes_cv_${variation}.pdf`;
 
-  generatePDF(
-    files, 
-    destination, 
-    options,
-  );
-}
+  generatePDF(files, destination, options);
+};
 
-const cvs = process.argv.slice(2)
+const cvs = process.argv.slice(2);
 
-if(cvs.length>0) {
-  cvs.forEach(cv => createCV(cv))
+if (cvs.length > 0) {
+  cvs.forEach((cv) => createCV(cv));
 } else {
-  createCV('engineering');
+  createCV("engineering");
 }

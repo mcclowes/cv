@@ -1,6 +1,6 @@
 # Max Clayton Clowes
 
-[contact@mcclowes.com](mailto:contact@mcclowes.com) · [+44 (0) 7976 136 097](tel:+447976136097) · [mcclowes.com](https://mcclowes.com)  
+[contact@mcclowes.com](mailto:contact@mcclowes.com) · [+44 (0) 7976 136 097](tel:+447976136097) · [mcclowes.com](https://mcclowes.com)
 
 Product Management-aspiring Engineer with diverse software engineering and design background, and experience as a founder of a client-facing business. User-oriented developer. Duke of York Young Entrepreneur Award winner 2017.
 
@@ -8,10 +8,10 @@ _References available upon request. You can see what people have said about me [
 
 ## Technical Skills
 
-__Software Engineering:__ _React, TypeScript, GraphQL/Apollo, Jest/react-testing-library/Enzyme, Redux, CSS/Styled-Components (Responsive), React Native_  
-__Data:__ _Python, SQL, R, Excel/Google Sheets_  
-__Project Management:__ _Agile (Scrum)_  
-__Design:__ _Figma/Sketch, Adobe CS_
+**Software Engineering:** _React, TypeScript, GraphQL/Apollo, Jest/react-testing-library/Enzyme, Redux, CSS/Styled-Components (Responsive), React Native_  
+**Data:** _Python, SQL, R, Excel/Google Sheets_  
+**Project Management:** _Agile (Scrum)_  
+**Design:** _Figma/Sketch, Adobe CS_
 
 ## Experience
 
@@ -19,7 +19,7 @@ __Design:__ _Figma/Sketch, Adobe CS_
 
 _December 2019 - Ongoing_
 
-Developed Pollen’s checkout and payment application (React/Next.js/GraphQL). 
+Developed Pollen’s checkout and payment application (React/Next.js/GraphQL).
 
 ### Software Engineer (FE) _- Workshare_
 
@@ -29,15 +29,17 @@ Built Transact, a document management & sign-off web app (React/Redux). Collabor
 
 ### Product Engineer & Manager _- Codogo_
 
-_April 2016 - August 2018_ 
+_April 2016 - August 2018_
 
 Founded Codogo after winning several enterprise awards. Established an agency business, supporting development of our own product, Write. I personally:
+
 - Designed and delivered products for over 30 clients ranging from the NHS to leading financial think-tanks.
 - Developed software, websites, web apps, and native apps, utilising a range of modern technologies.
 - Managed (Agile) and supported the growth of my small team.
 - Pitched to top investors, including being flown out to Y Combinator based on the strength of the Alpha of our product, Codogo Write.
 
 ### Other Experience
+
 - Development & Design Intern _- Akkroo, 2015_
 - Design Contractor _- Ludifi, 2014_
 - Design Contractor _- 4J Studios, 2013_
@@ -49,30 +51,35 @@ Founded Codogo after winning several enterprise awards. Established an agency bu
 ## Education
 
 ### BSc (Hons) Computer Science, 2:1
-#### Durham University  
+
+#### Durham University
 
 _2012 - 2016_  
 British Computing Society accredited. Awarded Rising Star of Research.  
-Dissertation: _The use of evolutionary AI in the balancing of competitive multiplayer games_  
+Dissertation: _The use of evolutionary AI in the balancing of competitive multiplayer games_
 
 ### BA Interaction Design (Year 1)
-#### Ravensbourne College of Design and Communication  
 
-_2011 - 2012_  
+#### Ravensbourne College of Design and Communication
+
+_2011 - 2012_
 
 ### Foundation Diploma in Art and Design
-#### London College of Communication  
+
+#### London College of Communication
 
 _2010 - 2011_  
-Graphic Design pathway   
+Graphic Design pathway
 
 ### High School
-#### City of London School  
+
+#### City of London School
 
 _2003 - 2010_  
-A levels: _Physics, Economics, Music_  
+A levels: _Physics, Economics, Music_
 
 ### Other Training
+
 - Project Management _- SuperHi, 2019_
 - Advanced iOS Development _- City University, 2012_
 - Adva nced C Programming _- City University, 2011_

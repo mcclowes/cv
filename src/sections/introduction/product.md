@@ -4,7 +4,7 @@ _References available upon request. You can see what people have said about me [
 
 ## Technical Skills
 
-__Software Engineering:__ _React, TypeScript, GraphQL/Apollo, Jest/react-testing-library/Enzyme, Redux, CSS/Styled-Components (Responsive), React Native_  
-__Data:__ _Python, SQL, R, Excel/Google Sheets_  
-__Project Management:__ _Agile (Scrum)_  
-__Design:__ _Figma/Sketch, Adobe CS_
+**Software Engineering:** _React, TypeScript, GraphQL/Apollo, Jest/react-testing-library/Enzyme, Redux, CSS/Styled-Components (Responsive), React Native_  
+**Data:** _Python, SQL, R, Excel/Google Sheets_  
+**Project Management:** _Agile (Scrum)_  
+**Design:** _Figma/Sketch, Adobe CS_

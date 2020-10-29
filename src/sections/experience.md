@@ -4,7 +4,7 @@
 
 _December 2019 - Ongoing_
 
-Developed Pollen’s checkout and payment application (React/Next.js/GraphQL). 
+Developed Pollen’s checkout and payment application (React/Next.js/GraphQL).
 
 ### Software Engineer (FE) _- Workshare_
 
@@ -14,9 +14,10 @@ Built Transact, a document management & sign-off web app (React/Redux). Collabor
 
 ### Product Engineer & Manager _- Codogo_
 
-_April 2016 - August 2018_ 
+_April 2016 - August 2018_
 
 Founded Codogo after winning several enterprise awards. Established an agency business, supporting development of our own product, Write. I personally:
+
 - Designed and delivered products for over 30 clients ranging from the NHS to leading financial think-tanks.
 - Developed software, websites, web apps, and native apps, utilising a range of modern technologies.
 - Managed (Agile) and supported the growth of my small team.
@@ -25,6 +26,7 @@ Founded Codogo after winning several enterprise awards. Established an agency bu
 \page
 
 ### Other Experience
+
 - Development & Design Intern _- Akkroo, 2015_
 - Design Contractor _- Ludifi, 2014_
 - Design Contractor _- 4J Studios, 2013_
