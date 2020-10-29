@@ -8,6 +8,8 @@ const options = {
   },
 };
 
+const primaryCV = 'engineering';
+
 const variations = {
   engineering: [
     "./src/sections/header.md",
@@ -26,7 +28,7 @@ const variations = {
 }
 
 const createCV = (variation) => {
-  if(variation === 'engineering') {
+  if(variation === primaryCV) {
     const destination = "./mcclowes_cv.pdf";
 
     generatePDF(
@@ -46,13 +48,5 @@ const createCV = (variation) => {
     options
   );
 }
-
-const createProductManagementCV = async () => {
-
-  const destination = "./mcclowes_cv_product.pdf";
-
-  generatePDF( targets, destination, options, );
-}
-
 
 createCV('engineering');
