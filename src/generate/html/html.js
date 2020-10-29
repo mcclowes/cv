@@ -26,24 +26,16 @@ const handleTargetPages = (targets, markdownOptions) => {
 	)
 }
 
-const generateHtml = (targets, options={} ) => {
-	console.log("Generating HTML...")
+const createHtmlFile = (html, fileName="index.html") => {
+  console.log(`Saving ${fileName}...`);
 
-	const styleOptions = options.customStyles 
-    ? options.customStyles 
-    : ( STYLESHEETS[options.style] || STYLESHEETS.cv );
-
-  const markdownOptions = options.markdownOptions || MARKDOWN_OPTIONS_DEFAULT
-
-	const html = handleTargetPages(targets, markdownOptions)
-
-	const css = readStylesheet(styleOptions)
-
-	fs.writeFile("README.md", html, function(err) {
+  fs.writeFile(fileName, html, function(err) {
     if (err) console.log(err);
   });
+}
 
-	return `
+const buildHtml = (css, html, mode='web') => 
+	`
 		<html>
 			<head>
 				<title>Max Clayton Clowes CV</title>
@@ -58,12 +50,35 @@ const generateHtml = (targets, options={} ) => {
 			</head>
 			
 			<body class="document">
-				<div class="pages">
+				<div class="pages ${mode}">
 					${ html }
 				</div>
 			</body>
 		</html>
 	`;
+
+const generateHtml = (targets, options={} ) => {
+	console.log("Generating HTML...")
+
+	const styleOptions = options.customStyles 
+    ? options.customStyles 
+    : ( STYLESHEETS[options.style] || STYLESHEETS.cv );
+
+  const markdownOptions = options.markdownOptions || MARKDOWN_OPTIONS_DEFAULT
+
+	const html = handleTargetPages(targets, markdownOptions)
+
+	const css = readStylesheet(styleOptions)
+
+  createHtmlFile(html, 'README.md')
+
+  createHtmlFile(buildHtml(css, html, 'debug'), 'debug.html')
+
+  if (options.debug) {
+    createHtmlFile(buildHtml(css, html))
+  }
+
+	return buildHtml(css, html, 'pdf')
 };
 
 export default generateHtml

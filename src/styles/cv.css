@@ -97,6 +97,14 @@ h4 + p {
   margin-block-start: 3px;
 }
 
+h3 + p {
+ margin-block-end: 3px; 
+}
+
+h3 + p + p {
+ margin-block-start: 3px; 
+}
+
 a { 
   text-decoration: none;
   color: var(--primary);
@@ -127,13 +135,12 @@ hr {
   margin: 0;
 }
 
-.pages {
-  padding: 1em;
+.pages.web {
   max-width: 700px;
 }
 
 .page { 
-  column-count: 2;
+  /*column-count: 2;
   column-fill: auto;
   column-gap: 1cm;
   column-width: 8cm;
@@ -142,19 +149,25 @@ hr {
   -webkit-column-width: 8cm;
   -moz-column-width: 8cm;
   -webkit-column-gap: 1cm;
-  -moz-column-gap: 1cm;
-  counter-increment: phb-page-numbers;
+  -moz-column-gap: 1cm;*/
   position: relative;
-  z-index: 15;
   box-sizing: border-box;
   overflow: hidden;
+}
+
+.pdf .page,
+.debug .page {
   height: 279.4mm;
   width: 215.9mm;
-  padding: 1cm 1.7cm;
-  padding-bottom: 1.5cm;
   text-rendering: optimizeLegibility;
   page-break-before: always;
   page-break-after: always;
+  padding: 1cm 1.7cm;
+  padding-bottom: 1.5cm;
+}
+
+.debug .page {
+  border: 1px solid white;
 }
 
 ul {
@@ -164,4 +177,5 @@ ul {
 h3 + ul {
   padding-inline-start: 0;
   list-style-type: none;
+  margin-top: 3px;
 }

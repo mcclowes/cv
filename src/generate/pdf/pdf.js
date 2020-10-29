@@ -32,22 +32,12 @@ const defaultPdfOptions = {
   },
 };
 
-const writeDebugHTML = (html) => {
-  console.log("Saving interim HTML...");
 
-  fs.writeFile("index.html", html, function(err) {
-    if (err) console.log(err);
-  });
-}
 
 const generatePdf = async ( targets, destination="./output.pdf", options, ) => {
   console.log('Starting PDF generation...')
 
   const html = await generateHtml( targets, options );
-
-  if (options.debug) {
-    writeDebugHTML(html)
-  }
 
   console.log("Creating PDF...");
 

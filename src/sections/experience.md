@@ -10,7 +10,7 @@ Developed Pollen’s checkout and payment application (React/Next.js/GraphQL).
 
 _August 2018 - November 2019_
 
-Built Transact, a document management & sign-off web app (React/Redux). Collaborated with design to define and roadmap features. Trained junior team members and pioneered our best practices.
+Built Transact, a document management & sign-off web app (React/Redux). Collaborated with design to define roadmap. Trained junior team members and pioneered our best practices.
 
 ### Product Engineer & Manager _- Codogo_
 
@@ -22,11 +22,11 @@ Founded Codogo after winning several enterprise awards. Established an agency bu
 - Managed (Agile) and supported the growth of my small team.
 - Pitched to top investors, including being flown out to Y Combinator based on the strength of the Alpha of our product, Codogo Write.
 
+\page
+
 ### Other Experience
 - Development & Design Intern _- Akkroo, 2015_
 - Design Contractor _- Ludifi, 2014_
 - Design Contractor _- 4J Studios, 2013_
 - Junior UX Designer _- Better Brief, 2012 - 2013_
 - Project manager _- Godfreys.co, 2011 - 2012_
-
-\page

@@ -10,7 +10,7 @@
 <p>Developed Pollen’s checkout and payment application (React/Next.js/GraphQL). </p>
 <h3 id="software-engineer-fe---workshare">Software Engineer (FE) <em>- Workshare</em></h3>
 <p><em>August 2018 - November 2019</em></p>
-<p>Built Transact, a document management &amp; sign-off web app (React/Redux). Collaborated with design to define and roadmap features. Trained junior team members and pioneered our best practices.</p>
+<p>Built Transact, a document management &amp; sign-off web app (React/Redux). Collaborated with design to define roadmap. Trained junior team members and pioneered our best practices.</p>
 <h3 id="product-engineer--manager---codogo">Product Engineer &amp; Manager <em>- Codogo</em></h3>
 <p><em>April 2016 - August 2018</em> </p>
 <p>Founded Codogo after winning several enterprise awards. Established an agency business, supporting development of our own product, Write. I personally:</p>
@@ -20,6 +20,7 @@
 <li>Managed (Agile) and supported the growth of my small team.</li>
 <li>Pitched to top investors, including being flown out to Y Combinator based on the strength of the Alpha of our product, Codogo Write.</li>
 </ul>
+<p></div> <div class="page" id="p2"></p>
 <h3 id="other-experience">Other Experience</h3>
 <ul>
 <li>Development &amp; Design Intern <em>- Akkroo, 2015</em></li>
@@ -28,19 +29,14 @@
 <li>Junior UX Designer <em>- Better Brief, 2012 - 2013</em></li>
 <li>Project manager <em>- Godfreys.co, 2011 - 2012</em></li>
 </ul>
-<p></div> <div class="page" id="p2"></p>
  <h2 id="education">Education</h2>
-<h3 id="bsc-hons-computer-science-21">BSc (Hons) Computer Science, 2:1</h3>
-<h4 id="durham-university">Durham University</h4>
+<h3 id="bsc-hons-computer-science-21---durham-university">BSc (Hons) Computer Science, 2:1 <em>- Durham University</em></h3>
 <p><em>2012 - 2016</em><br>British Computing Society accredited. Awarded Rising Star of Research.<br>Dissertation: <em>The use of evolutionary AI in the balancing of competitive multiplayer games</em>  </p>
-<h3 id="ba-interaction-design-year-1">BA Interaction Design (Year 1)</h3>
-<h4 id="ravensbourne-college-of-design-and-communication">Ravensbourne College of Design and Communication</h4>
+<h3 id="ba-interaction-design-year-1---ravensbourne-college-of-design">BA Interaction Design (Year 1) <em>- Ravensbourne College of Design</em></h3>
 <p><em>2011 - 2012</em>  </p>
-<h3 id="foundation-diploma-in-art-and-design">Foundation Diploma in Art and Design</h3>
-<h4 id="london-college-of-communication">London College of Communication</h4>
+<h3 id="foundation-diploma-in-art-and-design---london-college-of-communication">Foundation Diploma in Art and Design <em>- London College of Communication</em></h3>
 <p><em>2010 - 2011</em><br>Graphic Design pathway   </p>
-<h3 id="high-school">High School</h3>
-<h4 id="city-of-london-school">City of London School</h4>
+<h3 id="high-school---city-of-london-school">High School <em>- City of London School</em></h3>
 <p><em>2003 - 2010</em><br>A levels: <em>Physics, Economics, Music</em>  </p>
 <h3 id="other-training">Other Training</h3>
 <ul>
