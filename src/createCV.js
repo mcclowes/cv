@@ -23,6 +23,7 @@ const variations = {
       website: true,
       primary: true,
       debug: true,
+      customStyles: "./src/styles/newspaper.css"
     },
   },
   product: {

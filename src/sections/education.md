@@ -4,11 +4,13 @@
 
 _2012 - 2016_  
 British Computing Society accredited. Awarded Rising Star of Research.  
-Dissertation: _The use of evolutionary AI in the balancing of competitive multiplayer games_
+Dissertation: _The use of evolutionary AI in balancing competitive multiplayer games_
 
 ### BA Interaction Design (Year 1) _- Ravensbourne College of Design_
 
 _2011 - 2012_
+
+\page
 
 ### Foundation Diploma in Art and Design _- London College of Communication_
 

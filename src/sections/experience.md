@@ -23,8 +23,6 @@ Founded Codogo after winning several enterprise awards. Established an agency bu
 - Managed (Agile) and supported the growth of my small team.
 - Pitched to top investors, including being flown out to Y Combinator based on the strength of the Alpha of our product, Codogo Write.
 
-\page
-
 ### Other Experience
 
 - Development & Design Intern _- Akkroo, 2015_

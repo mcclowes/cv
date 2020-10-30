@@ -168,6 +168,10 @@ hr {
   border: 1px solid white;
 }
 
+.web .page {
+  padding: 0 0.5em;
+}
+
 ul {
   padding-inline-start: 1em;
 }
