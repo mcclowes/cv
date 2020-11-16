@@ -8,7 +8,7 @@ const MARKDOWN_SAMPLE = `
   __FOR REAL!__
 `;
 
-const MARKDOWN_AS_HTML = `<div class=\"phb\" id = \"p1\">
+const MARKDOWN_AS_HTML = `<div class=\"page\" id=\"p1\">
   # Hello World
 
   This is some _markdown_.

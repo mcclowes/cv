@@ -1,5 +1,5 @@
 import readMarkdownFile from "../readMarkdownFile";
-import markdown from "mardown.md";
+import markdown from "./markdown.md";
 
 const MARKDOWN_OPTIONS_DEFAULT = {
   encoding: "utf8",
