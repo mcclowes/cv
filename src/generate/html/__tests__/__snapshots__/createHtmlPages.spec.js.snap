@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`createHtmlPages generates correct html 1`] = `
+"<div class=\\"page\\" id=\\"p1\\"><h1 id=\\"hello-world\\">Hello World</h1>
+<p>This is some <em>markdown</em>.</p>
+<p><strong>FOR REAL!</strong></p>
+</div>"
+`;
