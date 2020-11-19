@@ -14,7 +14,7 @@ const variations = {
     files: [
       "./src/sections/header.md",
       "./src/sections/introduction/engineering.md",
-      "./src/sections/experience.md",
+      "./src/sections/experience/engineering.md",
       "./src/sections/education.md",
       "./src/sections/aboutme.md",
     ],
@@ -29,7 +29,7 @@ const variations = {
     files: [
       "./src/sections/header.md",
       "./src/sections/introduction/product.md",
-      "./src/sections/experience.md",
+      "./src/sections/experience/product.md",
       "./src/sections/education.md",
       "./src/sections/aboutme.md",
     ],
