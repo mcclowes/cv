@@ -24,4 +24,4 @@ A levels: _Physics, Economics, Music_
 
 - Project Management _- SuperHi, 2019_
 - Advanced iOS Development _- City University, 2012_
-- Adva nced C Programming _- City University, 2011_
+- Advanced C Programming _- City University, 2011_

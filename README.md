@@ -1,24 +1,23 @@
 <div class="page" id="p1"><h1 id="max-clayton-clowes">Max Clayton Clowes</h1>
 <p><a href="mailto:contact@mcclowes.com">contact@mcclowes.com</a> · <a href="tel:+447976136097">+44 (0) 7976 136 097</a> · <a href="https://bit.ly/mcclowes">mcclowes.com</a></p>
- <p>Product Manager with diverse software engineering and design background, and experience as a founder of a client-facing business. Duke of York Young Entrepreneur Award winner 2017.</p>
+ <p>Product Manager with diverse software engineering and design background, and experience as a founder of a client-facing business. Have been delivering websites and apps for 10+ years. Duke of York Young Entrepreneur Award winner 2017.</p>
 <p><em>References available upon request. You can see what people have said about me <a href="https://github.com/mcclowes/mcclowes/blob/master/recommendations.md">here</a>.</em></p>
 <h2 id="technical-skills">Technical Skills</h2>
-<p><strong>Product &amp; Project Management:</strong> <em>Stakeholder management &amp; engagement, Agile (Scrum)</em><br><strong>Data:</strong> <em>Analysis, ML, Python, SQL, R, Excel/Google Sheets</em><br><strong>Design:</strong> <em>User Research, Ethnographic Research, Figma/Sketch, Adobe CS</em><br><strong>Software Engineering:</strong> <em>React, TypeScript, GraphQL/Apollo, Jest/react-testing-library/Enzyme, Redux, CSS/Styled-Components (Responsive), React Native</em>  </p>
+<p><strong>Product/Project Management:</strong> <em>Stakeholder management &amp; engagement, Agile (Scrum)</em><br><strong>Data:</strong> <em>Google Sheets (I live my life through it), ML, Python, SQL, R</em><br><strong>Design:</strong> <em>User research (ethnographic), Figma/Sketch, Adobe CS</em><br><strong>Software Engineering:</strong> <em>React (TS), GraphQL, react-testing-library , Styled Components</em>  </p>
  <h2 id="experience">Experience</h2>
 <h3 id="software-engineer-fe---pollen">Software Engineer (FE) <em>- Pollen</em></h3>
 <p><em>December 2019 - Ongoing</em></p>
-<p>Worked across Pollen’s checkout, payment, and inventory management applications (React/TS/Next.js/GraphQL/Apollo).</p>
+<p>Advanced product bookings and payment platform, and internal inventory management application (React/TS/Next.js/GraphQL/Apollo). Pioneered best technical and project management practices. Participated in engeering recruitment.</p>
 <h3 id="software-engineer-fe---workshare">Software Engineer (FE) <em>- Workshare</em></h3>
 <p><em>August 2018 - November 2019</em></p>
-<p>Built Transact, a document management &amp; sign-off web app (React/Redux). Collaborated with design to define roadmap. Trained junior team members and pioneered our best practices.</p>
-<h3 id="product-manager--engineer-co-founder---codogo">Product Manager &amp; Engineer, Co-founder <em>- Codogo</em></h3>
+<p>Built legal tech project management &amp; document signing web application, Transact (React/Redux). Worked closely with product in roadmap definition against tight resource constraints. Fed in at early stages of the design process in creation of clean, parsable user experiences, despite large amounts of information and actions. Trained junior team members.</p>
+<h3 id="product-manager-engineer-co-founder---codogo">Product Manager, Engineer, Co-founder <em>- Codogo</em></h3>
 <p><em>April 2016 - August 2018</em></p>
-<p>Co-founded Codogo after winning several pitching and enterprise awards. Established an agency business, supporting development of our own product, Write. I personally:</p>
+<p>Co-founded Codogo, delivering client products through our agency business, whilst developing in-house collaborative document tool Codogo Write. I personally:</p>
 <ul>
-<li>Designed and delivered products for 30+ clients ranging from the NHS to leading financial think-tanks.</li>
-<li>Developed software, websites, web apps, and native apps, utilising a range of modern technologies.</li>
-<li>Managed (Agile) and supported the growth of my team.</li>
-<li>Pitched to top investors, including being flown out to Y Combinator based on the strength of the Alpha of our product, Codogo Write.</li>
+<li>Owned project lifecycle from ideation to delivery of complex web and native apps for from 30+ clients ranging from the NHS to financial think-tanks.</li>
+<li>Pitched, winning <a href="http://bit.ly/35F6psY">awards</a>, clients, and investors, even being flown out to try for Y Combinator with our in-house product.</li>
+<li>Project managed (Agile) and supported the growth of my team.</li>
 </ul>
 <p></div> <div class="page" id="p2"></p>
 <h3 id="other-experience">Other Experience</h3>
@@ -26,7 +25,7 @@
 <li>Development &amp; Design Intern <em>- Akkroo, 2015</em></li>
 <li>Design Contractor <em>- Ludifi, 2014</em></li>
 <li>Design Contractor <em>- 4J Studios, 2013</em></li>
-<li>Junior UX Designer <em>- Better Brief, 2012 - 2013</em></li>
+<li>UX Designer <em>- Better Brief, 2012 - 2013</em></li>
 <li>Project manager <em>- Godfreys.co, 2011 - 2012</em></li>
 </ul>
  <h2 id="education">Education</h2>
@@ -42,9 +41,10 @@
 <ul>
 <li>Project Management <em>- SuperHi, 2019</em></li>
 <li>Advanced iOS Development <em>- City University, 2012</em></li>
-<li>Adva nced C Programming <em>- City University, 2011</em></li>
+<li>Advanced C Programming <em>- City University, 2011</em></li>
 </ul>
  <h2 id="about-me">About Me</h2>
-<p>Regularly attend PM conferences &amp; meet-ups <em>(Elevate, Product School)</em>. Regularly attend developer meet-ups <em>(React London, GitHub Universe, Next Conf)</em>. Currently work mainly with React <em>(ES6)</em>.</p>
-<p>Runner (1st marathon coming up in December), cyclist, rock climber, and dancer (1st place university circuit). Singer and multi-instrumentalist.</p>
+<p>Regularly attend PM conferences &amp; meet-ups <em>(Elevate, Product School)</em>. Keep up to speed with PM best practices through online learning and best-practice blogs.</p>
+<p>Working on several <a href="https://github.com/mcclowes?tab=repositories">personal projects</a>, including a Fantasy Football team-building AI and the <a href="https://github.com/mcclowes/cv-maker">tool that made this CV</a>. Regularly attend developer meet-ups <em>(React London, GitHub Universe, Next Conf)</em>.</p>
+<p>Runner (1st marathon should have been in December, covid-permitting), cyclist, rock climber, and dancer (1st place university circuit). Singer and multi-instrumentalist.</p>
 </div>

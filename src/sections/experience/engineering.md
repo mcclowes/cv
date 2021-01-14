@@ -4,24 +4,23 @@
 
 _December 2019 - Ongoing_
 
-Developed Pollen’s checkout and payment application (React/Next.js/GraphQL).
+Advanced product bookings and payment platform, and internal inventory management application (React/TS/Next.js/GraphQL/Apollo). Pioneered best technical and project management practices. Participated in engeering recruitment.
 
 ### Software Engineer (FE) _- Workshare_
 
 _August 2018 - November 2019_
 
-Built Transact, a document management & sign-off web app (React/Redux). Collaborated with design to define roadmap. Trained junior team members and pioneered our best practices.
+Built legal tech project management & document signing web application, Transact (React/Redux). Worked closely with product in roadmap definition against tight resource constraints. Fed in at early stages of the design process in creation of clean, parsable user experiences, despite large amounts of information and actions. Trained junior team members.
 
-### Product Engineer & Manager _- Codogo_
+### Product Manager, Engineer, Co-founder _- Codogo_
 
 _April 2016 - August 2018_
 
-Founded Codogo after winning several enterprise awards. Established an agency business, supporting development of our own product, Write. I personally:
+Co-founded Codogo, delivering client products through our agency business, whilst developing in-house collaborative document tool Codogo Write. I personally:
 
-- Designed and delivered products for 30+ clients ranging from the NHS to leading financial think-tanks.
-- Developed software, websites, web apps, and native apps, utilising a range of modern technologies.
-- Managed (Agile) and supported the growth of my small team.
-- Pitched to top investors, including being flown out to Y Combinator based on the strength of the Alpha of our product, Codogo Write.
+- Owned project lifecycle from ideation to delivery of complex web and native apps for from 30+ clients ranging from the NHS to financial think-tanks.
+- Pitched, winning [awards](http://bit.ly/35F6psY), clients, and investors, even being flown out to try for Y Combinator with our in-house product.
+- Project managed (Agile) and supported the growth of my team.
 
 \page
 
@@ -30,5 +29,5 @@ Founded Codogo after winning several enterprise awards. Established an agency bu
 - Development & Design Intern _- Akkroo, 2015_
 - Design Contractor _- Ludifi, 2014_
 - Design Contractor _- 4J Studios, 2013_
-- Junior UX Designer _- Better Brief, 2012 - 2013_
+- UX Designer _- Better Brief, 2012 - 2013_
 - Project manager _- Godfreys.co, 2011 - 2012_
