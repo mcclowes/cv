@@ -51,5 +51,5 @@ const cvs = process.argv.slice(2);
 if (cvs.length > 0) {
   cvs.forEach((cv) => createCV(cv));
 } else {
-  createCV("engineering");
+  createCV("product");
 }

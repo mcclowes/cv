@@ -33,7 +33,7 @@ _April 2016 - August 2018_
 
 Founded Codogo after winning several enterprise awards. Established an agency business, supporting development of our own product, Write. I personally:
 
-- Designed and delivered products for over 30 clients ranging from the NHS to leading financial think-tanks.
+- Designed and delivered products for 30+ clients ranging from the NHS to leading financial think-tanks.
 - Developed software, websites, web apps, and native apps, utilising a range of modern technologies.
 - Managed (Agile) and supported the growth of my small team.
 - Pitched to top investors, including being flown out to Y Combinator based on the strength of the Alpha of our product, Codogo Write.
