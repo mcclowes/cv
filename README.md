@@ -1,9 +1,9 @@
 <div class="page" id="p1"><h1 id="max-clayton-clowes">Max Clayton Clowes</h1>
-<p><a href="mailto:contact@mcclowes.com">contact@mcclowes.com</a> · <a href="tel:+447976136097">+44 (0) 7976 136 097</a> · <a href="https://mcclowes.com">mcclowes.com</a></p>
- <p>Product Management-aspiring Engineer with diverse software engineering and design background, and experience as a founder of a client-facing business. User-oriented developer. Duke of York Young Entrepreneur Award winner 2017.</p>
+<p><a href="mailto:contact@mcclowes.com">contact@mcclowes.com</a> · <a href="tel:+447976136097">+44 (0) 7976 136 097</a> · <a href="https://bit.ly/mcclowes">mcclowes.com</a></p>
+ <p>Product Manager with diverse software engineering and design background, and experience as a founder of a client-facing business. Duke of York Young Entrepreneur Award winner 2017. Currently working as engineer but looking to return to Product Management.</p>
 <p><em>References available upon request. You can see what people have said about me <a href="https://github.com/mcclowes/mcclowes/blob/master/recommendations.md">here</a>.</em></p>
 <h2 id="technical-skills">Technical Skills</h2>
-<p><strong>Software Engineering:</strong> <em>React, TypeScript, GraphQL/Apollo, Jest/react-testing-library/Enzyme, Redux, CSS/Styled-Components (Responsive), React Native</em><br><strong>Data:</strong> <em>Python, SQL, R, Excel/Google Sheets</em><br><strong>Project Management:</strong> <em>Agile (Scrum)</em><br><strong>Design:</strong> <em>Figma/Sketch, Adobe CS</em></p>
+<p><strong>Product &amp; Project Management:</strong> <em>Stakeholder management &amp; engagement, Agile (Scrum)</em><br><strong>Data:</strong> <em>Analysis, ML, Python, SQL, R, Excel/Google Sheets</em><br><strong>Design:</strong> <em>User Research, Ethnographic Research, Figma/Sketch, Adobe CS</em><br><strong>Software Engineering:</strong> <em>React, TypeScript, GraphQL/Apollo, Jest/react-testing-library/Enzyme, Redux, CSS/Styled-Components (Responsive), React Native</em>  </p>
  <h2 id="experience">Experience</h2>
 <h3 id="software-engineer-fe---pollen">Software Engineer (FE) <em>- Pollen</em></h3>
 <p><em>December 2019 - Ongoing</em></p>
@@ -15,7 +15,7 @@
 <p><em>April 2016 - August 2018</em></p>
 <p>Founded Codogo after winning several enterprise awards. Established an agency business, supporting development of our own product, Write. I personally:</p>
 <ul>
-<li>Designed and delivered products for over 30 clients ranging from the NHS to leading financial think-tanks.</li>
+<li>Designed and delivered products for 30+ clients ranging from the NHS to leading financial think-tanks.</li>
 <li>Developed software, websites, web apps, and native apps, utilising a range of modern technologies.</li>
 <li>Managed (Agile) and supported the growth of my small team.</li>
 <li>Pitched to top investors, including being flown out to Y Combinator based on the strength of the Alpha of our product, Codogo Write.</li>

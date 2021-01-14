@@ -18,12 +18,6 @@ const variations = {
       "./src/sections/education.md",
       "./src/sections/aboutme.md",
     ],
-    options: {
-      ...defaultOptions,
-      website: true,
-      primary: true,
-      debug: true,
-    },
   },
   product: {
     files: [
@@ -33,8 +27,16 @@ const variations = {
       "./src/sections/education.md",
       "./src/sections/aboutme.md",
     ],
+    options: {
+      ...defaultOptions,
+      website: true,
+      primary: true,
+      debug: true,
+    },
   },
 };
+
+const DEFAULT_CV = "product"
 
 const createCV = (variation) => {
   const { files, options = defaultOptions } = variations[variation];
@@ -51,5 +53,5 @@ const cvs = process.argv.slice(2);
 if (cvs.length > 0) {
   cvs.forEach((cv) => createCV(cv));
 } else {
-  createCV("engineering");
+  createCV(DEFAULT_CV);
 }
