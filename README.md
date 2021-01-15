@@ -7,10 +7,10 @@
  <h2 id="experience">Experience</h2>
 <h3 id="software-engineer-fe---pollen">Software Engineer (FE) <em>- Pollen</em></h3>
 <p><em>December 2019 - Ongoing</em></p>
-<p>Advanced product bookings and payment platform, and internal inventory management application (React/TS/Next.js/GraphQL/Apollo). Pioneered best technical and project management practices. Participated in engeering recruitment.</p>
+<p>Advanced product bookings and payment platform, and internal inventory management application <em>(React, TS, Next.js, GraphQL, Apollo)</em>. Pioneered best technical and project management practices. Participated in engeering recruitment.</p>
 <h3 id="software-engineer-fe---workshare">Software Engineer (FE) <em>- Workshare</em></h3>
 <p><em>August 2018 - November 2019</em></p>
-<p>Built legal tech project management &amp; document signing web application, Transact (React/Redux). Worked closely with product in roadmap definition against tight resource constraints. Fed in at early stages of the design process in creation of clean, parsable user experiences, despite large amounts of information and actions. Trained junior team members.</p>
+<p>Built legal tech project management &amp; document signing web application, Transact <em>(React, Redux)</em>. Worked closely with product in roadmap definition against tight resource constraints. Fed in at early stages of the design process in creation of clean, parsable user experiences, despite large amounts of information and actions. Trained junior team members.</p>
 <h3 id="product-manager-engineer-co-founder---codogo">Product Manager, Engineer, Co-founder <em>- Codogo</em></h3>
 <p><em>April 2016 - August 2018</em></p>
 <p>Co-founded Codogo, delivering client products through our agency business, whilst developing in-house collaborative document tool Codogo Write. I personally:</p>
@@ -45,6 +45,6 @@
 </ul>
  <h2 id="about-me">About Me</h2>
 <p>Regularly attend PM conferences &amp; meet-ups <em>(Elevate, Product School)</em>. Keep up to speed with PM best practices through online learning and best-practice blogs.</p>
-<p>Working on several <a href="https://github.com/mcclowes?tab=repositories">personal projects</a>, including a Fantasy Football team-building AI and the <a href="https://github.com/mcclowes/cv-maker">tool that made this CV</a>. Regularly attend developer meet-ups <em>(React London, GitHub Universe, Next Conf)</em>.</p>
+<p>Working on several <a href="https://github.com/mcclowes?tab=repositories">personal projects</a>, including a fantasy football team-building AI and the <a href="https://github.com/mcclowes/cv-maker">tool that made this CV</a>. Regularly attend developer meet-ups <em>(React London, GitHub Universe, Next Conf)</em>.</p>
 <p>Runner (1st marathon should have been in December, covid-permitting), cyclist, rock climber, and dancer (1st place university circuit). Singer and multi-instrumentalist.</p>
 </div>
