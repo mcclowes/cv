@@ -4,13 +4,13 @@
 
 _December 2019 - Ongoing_
 
-Advanced product bookings and payment platform, and internal inventory management application (React/TS/Next.js/GraphQL/Apollo). Pioneered best technical and project management practices. Participated in engeering recruitment.
+Advanced product bookings and payment platform, and internal inventory management application _(React, TS, Next.js, GraphQL, Apollo)_. Pioneered best technical and project management practices. Participated in engeering recruitment.
 
 ### Software Engineer (FE) _- Workshare_
 
 _August 2018 - November 2019_
 
-Built legal tech project management & document signing web application, Transact (React/Redux). Worked closely with product in roadmap definition against tight resource constraints. Fed in at early stages of the design process in creation of clean, parsable user experiences, despite large amounts of information and actions. Trained junior team members.
+Built legal tech project management & document signing web application, Transact _(React, Redux)_. Worked closely with product in roadmap definition against tight resource constraints. Fed in at early stages of the design process in creation of clean, parsable user experiences, despite large amounts of information and actions. Trained junior team members.
 
 ### Product Manager, Engineer, Co-founder _- Codogo_
 
