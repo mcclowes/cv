@@ -33,8 +33,6 @@ const createHtmlFile = (html, fileName="index.html") => {
   });
 };
 
-
-
 const buildHtml = (css, html, metaOptions, mode="web") =>
   `
 		<html>
