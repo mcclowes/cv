@@ -150,7 +150,6 @@ hr {
   -moz-column-gap: 1cm;
   position: relative;
   box-sizing: border-box;
-  overflow: hidden;
 }
 
 .pdf .page,

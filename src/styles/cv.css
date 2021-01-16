@@ -141,7 +141,6 @@ hr {
 .page {
   position: relative;
   box-sizing: border-box;
-  overflow: hidden;
 }
 
 .pdf .page,
