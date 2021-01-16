@@ -7,7 +7,7 @@
  <h2 id="experience">Experience</h2>
 <h3 id="software-engineer-fe---pollen">Software Engineer (FE) <em>- Pollen</em></h3>
 <p><em>December 2019 - Ongoing</em></p>
-<p>Advanced product bookings and payment platform, and internal inventory management application <em>(React, TS, Next.js, GraphQL, Apollo)</em>. Pioneered best technical and project management practices. Participated in engeering recruitment.</p>
+<p>Advanced product bookings and payment platform, and internal inventory management application <em>(React, TS, Next.js, GraphQL, Apollo)</em>. Pioneered best technical and project management practices. Participated in engineering recruitment.</p>
 <h3 id="software-engineer-fe---workshare">Software Engineer (FE) <em>- Workshare</em></h3>
 <p><em>August 2018 - November 2019</em></p>
 <p>Built legal tech project management &amp; document signing web application, Transact <em>(React, Redux)</em>. Worked closely with product in roadmap definition against tight resource constraints. Fed in at early stages of the design process in creation of clean, parsable user experiences, despite large amounts of information and actions. Trained junior team members.</p>

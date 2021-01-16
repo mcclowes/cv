@@ -4,7 +4,7 @@
 
 _December 2019 - Ongoing_
 
-Advanced product bookings and payment platform, and internal inventory management application _(React, TS, Next.js, GraphQL, Apollo)_. Pioneered best technical and project management practices. Participated in engeering recruitment.
+Advanced product bookings and payment platform, and internal inventory management application _(React, TS, Next.js, GraphQL, Apollo)_. Pioneered best technical and project management practices. Participated in engineering recruitment.
 
 ### Software Engineer (FE) _- Workshare_
 
