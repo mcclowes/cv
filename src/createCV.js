@@ -9,20 +9,16 @@ const defaultOptions = {
   },
 };
 
+const meta = {
+  name: "Max Clayton Clowes",
+  description: "Product Manager with diverse software engineering and design background, and experience as a founder of a client-facing business. Have been delivering websites and apps for 10+ years. Duke of York Young Entrepreneur Award winner 2017.",
+  previewImage: "/preview.png",
+  previewImageText: "Max Clayton Clowes CV",
+  url: "https://cv.mcclowes.com/",
+  twitterUsername: "@mcclowes",
+}
+
 const variations = {
-  engineering: {
-    files: [
-      "./src/sections/header.md",
-      "./src/sections/introduction/engineering.md",
-      "./src/sections/experience/engineering.md",
-      "./src/sections/education.md",
-      "./src/sections/aboutme.md",
-    ],
-    options: {
-      ...defaultOptions,
-      debug: true,
-    }
-  },
   product: {
     files: [
       "./src/sections/header.md",
@@ -31,19 +27,36 @@ const variations = {
       "./src/sections/education.md",
       "./src/sections/aboutme.md",
     ],
-    options: {
-      ...defaultOptions,
+    customOptions: {
       website: true,
       primary: true,
       debug: true,
     },
+  },
+  engineering: {
+    files: [
+      "./src/sections/header.md",
+      "./src/sections/introduction/engineering.md",
+      "./src/sections/experience/engineering.md",
+      "./src/sections/education.md",
+      "./src/sections/aboutme.md",
+    ],
+    customOptions: {
+      debug: true,
+    }
   },
 };
 
 const DEFAULT_CV = "product"
 
 const createCV = (variation) => {
-  const { files, options = defaultOptions } = variations[variation];
+  const { files, customOptions } = variations[variation];
+
+  const options = {
+    meta,
+    ...defaultOptions,
+    ...customOptions,
+  }
 
   const destination = options.primary
     ? `./mcclowes_cv.pdf`

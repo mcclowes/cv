@@ -3,6 +3,7 @@ import _ from "lodash";
 import readStylesheet from "./readStylesheet";
 import readMarkdownFile from "./readMarkdownFile";
 import createHtmlPages from "./createHtmlPages";
+import meta from "./meta";
 
 import fs from "fs";
 
@@ -24,7 +25,7 @@ const handleTargetPages = (targets, markdownOptions) => {
   return createHtmlPages(readMarkdownFile(targets, markdownOptions));
 };
 
-const createHtmlFile = (html, fileName = "index.html") => {
+const createHtmlFile = (html, fileName="index.html") => {
   console.log(`Saving ${fileName}...`);
 
   fs.writeFile(fileName, html, function (err) {
@@ -32,17 +33,13 @@ const createHtmlFile = (html, fileName = "index.html") => {
   });
 };
 
-const buildHtml = (css, html, mode = "web") =>
+
+
+const buildHtml = (css, html, metaOptions, mode="web") =>
   `
 		<html>
 			<head>
-				<title>Max Clayton Clowes CV</title>
-
-				<meta name="description" content="The CV of Max Clayton Clowes">
-
-				<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=2,shrink-to-fit=no">
-
-				<link rel="icon" href="/favicon.ico" />
+        ${meta(metaOptions)}
 
 				<style>
 					${css}
@@ -73,11 +70,12 @@ const generateHtml = (targets, options = {}) => {
   createHtmlFile(html, "README.md");
 
   if (options.debug)
-    createHtmlFile(buildHtml(css, html, "debug"), "debug.html");
+    createHtmlFile(buildHtml(css, html, options.meta, "debug"), "debug.html");
 
-  if (options.website) createHtmlFile(buildHtml(css, html));
+  if (options.website) 
+    createHtmlFile(buildHtml(css, html, options.meta, "web"), "index.html");
 
-  return buildHtml(css, html, "pdf");
+  return buildHtml(css, html, options.meta, "pdf");
 };
 
 export default generateHtml;
