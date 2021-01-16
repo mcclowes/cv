@@ -18,7 +18,7 @@ _April 2016 - August 2018_
 
 Co-founded Codogo, delivering client products through our agency business, whilst developing in-house collaborative document tool Codogo Write. I personally:
 
-- Owned project lifecycle from ideation to delivery of complex web and native apps for from 30+ clients ranging from the NHS to financial think-tanks.
+- Owned project lifecycle from ideation to delivery of complex web and native apps for from 30+ clients ranging from the NHS to Arsenal FC.
 - Pitched, winning [awards](http://bit.ly/35F6psY), clients, and investors, even being flown out to try for Y Combinator with our in-house product.
 - Project managed (Agile) and supported the growth of my team.
 
