@@ -4,7 +4,7 @@
 
 _December 2019 - Ongoing_
 
-Advanced bookings platform, and internal inventory management application. Pioneered best technical and project management practices. Participated in recruitment.
+Developed bookings platform and internal inventory management application. Pioneered best technical and project management practices. Participated in recruitment.
 
 ### Software Engineer (FE) _- Workshare_
 
