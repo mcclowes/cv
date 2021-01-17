@@ -49,7 +49,7 @@
 <h3 id="high-school---city-of-london-school">High School <em>- City of London School</em></h3>
 <p><em>2003 - 2010</em><br>A levels: <em>Physics, Economics, Music</em></p>
  <h2 id="⚡️-skills">⚡️ Skills</h2>
-<p><strong>Product:</strong> <em>Research, Stakeholder management &amp; engagement, Prioritization &amp; roadmapping, A/B testing, Documentation, Project Management (SuperHi, 2019)</em><br><strong>Data:</strong> <em>Google Sheets (I live my life through it), ML, Python, SQL, R</em><br><strong>Design:</strong> <em>User research (ethnographic), Prototyping/wireframing (Figma/Sketch), Adobe CS</em><br><strong>Engineering:</strong> <em>JS (React, TS, GraphQL, Redux), testing (TDD, Jest, Enzyme), CSS (responsive), Agile</em>  </p>
+<p><strong>Product:</strong> <em>Research, Stakeholder management &amp; engagement, Prioritization &amp; roadmapping, A/B testing, Documentation, Project Management (SuperHi, 2019)</em><br><strong>Data:</strong> <em>Google Sheets (I live my life through it), ML, Python, SQL, R</em><br><strong>Design:</strong> <em>Prototyping/wireframing (Figma/Sketch), Adobe CS, User research (ethnographic), UX, UI</em><br><strong>Engineering:</strong> <em>JS (React, TS, GraphQL, Redux), testing (TDD, react-testing-library, Jest, Enzyme), CSS (responsive, Styled-Components), Agile</em>  </p>
  <h2 id="🏆-awards">🏆 Awards</h2>
 <ul>
 <li><strong>Duke of York Young Entrepreneur Award</strong>, <em>2017</em></li>
