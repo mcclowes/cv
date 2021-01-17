@@ -9,7 +9,6 @@ Dissertation: _The use of evolutionary AI in the balancing of competitive multip
 ### BA Interaction Design (Year 1) _- Ravensbourne College of Design_
 
 _2011 - 2012_  
-Actually describe this
 
 ### Foundation Diploma in Art and Design _- London College of Communication_
 

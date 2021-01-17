@@ -4,7 +4,7 @@
 
 _December 2019 - Ongoing_
 
-Advanced bookings platform, and internal inventory management application. Pioneered best technical and project management practices. Participated in engineering recruitment.
+Advanced bookings platform, and internal inventory management application. Pioneered best technical and project management practices. Participated in recruitment.
 
 ### Software Engineer (FE) _- Workshare_
 
@@ -22,7 +22,7 @@ Co-founded Codogo, delivering client products through our agency business, whils
 - Pitched, winning [awards](http://bit.ly/35F6psY), clients, and investors, even being flown out to try for Y Combinator with our in-house product.
 - Project managed (Agile) and supported the growth of my team.
 
-\page
+\page 
 
 ### Other Experience
 

@@ -1,15 +1,11 @@
 import _ from "lodash";
 
-import readStylesheet from "./readStylesheet";
+import readStylesheets from "./readStylesheets";
 import readMarkdownFile from "./readMarkdownFile";
 import createHtmlPages from "./createHtmlPages";
 import meta from "./meta";
 
 import fs from "fs";
-
-const STYLESHEETS = {
-  cv: "./src/styles/cv.css",
-};
 
 const MARKDOWN_OPTIONS_DEFAULT = {
   encoding: "utf8",
@@ -55,20 +51,18 @@ const buildHtml = (css, html, metaOptions, mode="web") =>
 const generateHtml = (targets, options = {}) => {
   console.log("Generating HTML...");
 
-  const styleOptions = options.customStyles
-    ? options.customStyles
-    : STYLESHEETS[options.style] || STYLESHEETS.cv;
+  const styleOptions = options.customStyles || options.style || "cv";
 
   const markdownOptions = options.markdownOptions || MARKDOWN_OPTIONS_DEFAULT;
 
   const html = handleTargetPages(targets, markdownOptions);
 
-  const css = readStylesheet(styleOptions);
+  const css = readStylesheets(styleOptions).join('');
 
   createHtmlFile(html, "README.md");
 
   if (options.debug)
-    createHtmlFile(buildHtml(css, html, options.meta, "debug"), "debug.html");
+    createHtmlFile(buildHtml(css, html, options.meta, "debug pdf"), "debug.html");
 
   if (options.website) 
     createHtmlFile(buildHtml(css, html, options.meta, "web"), "index.html");

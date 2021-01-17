@@ -1,11 +1,7 @@
 ## 5 problems I've solved
 
-A federation of around 50 London GP practices were restricted by __NHS__ regulation and struggling with collaboration, communication, and project governance. Based on thorough requirement gathering, and through a 3-phase build, I delivered a bespoke private network and project management tool, only retired when the NHS rolled out MS Office in 2020.
-
-__Arsenal FC__ were looking to efficiently record and report match-day injuries. They thought they needed a bespoke data gathering and reporting system; in half a day I created a simple workflow using free tools which transformed their process and they still use today.
-
-After being let down by a previous agency __Cityboard__ had a barely functioning iOS-only app and little runway. Under tight time and budget constraints, I designed and delivered a [beautiful, cross-platform MVP](https://portfolio.mcclowes.co) with (at the time) brand-new technology React Native.
-
-__The Business of Cities__ needed a way or aggregating and analyzing indexes. Through novel use of the Elo rating algorithm, I created a methodology & tool which is "critical to their work", providing insight to [cities across the world](https://www.thebusinessofcities.com/partners).
-
-While working a saturday job __Godfreys.co__ butchers, I saw that the traditional store was in need of an online presence, was trusted with a business rebrand, & designed and delivered an [award-winning eCommerce website](https://portfolio.mcclowes.co) that now brings in 30% of their revenue.
+1. A federation of 40+ London GP practices were restricted by __NHS__ regulation and struggling with collaboration, communication, and project governance. Based on thorough requirement gathering, and through a 3-phase build, I delivered a bespoke private network and project management tool, only retired when the NHS rolled out MS Office in 2020.
+2. __Arsenal FC__ were looking to efficiently record and report match-day injuries. They thought they needed a bespoke data gathering and reporting system; in half a day I created a simple workflow using free tools which transformed their process and they still use today.
+3. After being let down by a previous agency, __Cityboard__ had a barely functioning iOS-only app and little runway. Under tight time and budget constraints, I designed and delivered a [beautiful, cross-platform MVP](https://portfolio.mcclowes.co) with (at the time) brand-new technology React Native.
+4. __The Business of Cities__ needed a way or aggregating and analyzing indexes for their clients. Through novel use of the Elo rating algorithm, I created a methodology & tool which is _"critical to their work"_, providing insight to [cities across the world](https://www.thebusinessofcities.com/partners).
+5. While working a saturday job __Godfreys.co__ butchers, I saw that the traditional store was in need of an online presence, was trusted with a business rebrand, & designed and delivered an [award-winning eCommerce website](https://portfolio.mcclowes.co) that now brings in 30% of their revenue.

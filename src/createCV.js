@@ -21,28 +21,33 @@ const meta = {
 const variations = {
   productnew: {
     files: [
-      "./src/sections/header.md",
+      "./src/sections/header/productnew.md",
       "./src/sections/introduction/productnew.md",
       "./src/sections/problems.md",
       "./src/sections/experience/productnew.md",
       "./src/sections/education/productnew.md",
       "./src/sections/skills/productnew.md",
-      "./src/sections/aboutme.md",
+      "./src/sections/awards.md",
+      "./src/sections/aboutme/productnew.md",
     ],
     customOptions: {
       website: true,
       primary: true,
       debug: true,
+      style: [
+        "cv",
+        "newspaper",
+      ],
     },
   },
   product: {
     files: [
-      "./src/sections/header.md",
+      "./src/sections/header/normal.md",
       "./src/sections/introduction/product.md",
       "./src/sections/skills/product.md",
       "./src/sections/experience/product.md",
       "./src/sections/education/product.md",
-      "./src/sections/aboutme.md",
+      "./src/sections/aboutme/main.md",
     ],
     customOptions: {
       debug: true,
@@ -50,12 +55,12 @@ const variations = {
   },
   engineering: {
     files: [
-      "./src/sections/header.md",
+      "./src/sections/header/normal.md",
       "./src/sections/introduction/engineering.md",
       "./src/sections/skills/engineering.md",
       "./src/sections/experience/engineering.md",
       "./src/sections/education/engineering.md",
-      "./src/sections/aboutme.md",
+      "./src/sections/aboutme/main.md",
     ],
     customOptions: {
       debug: true,
