@@ -1,4 +1,4 @@
-## Skills
+## ⚡️ Skills
 
 **Product:** _Research, Stakeholder management & engagement, Prioritization & roadmapping, A/B testing, Documentation, Project Management (SuperHi, 2019)_  
 **Data:** _Google Sheets (I live my life through it), ML, Python, SQL, R_  

@@ -1,4 +1,4 @@
-## Education
+## 🎓 Education
 
 ### BSc (Hons) Computer Science, 2:1 _- Durham University_
 

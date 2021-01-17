@@ -188,7 +188,11 @@ h3 + ul {
   margin-top: 3px;
 }
 
-ol {
+.pages.web ol {
+  padding-inline-start: 1em;
+}
+
+.pages:not(.web) ol {
   padding-inline-start: 0;
 }
 

@@ -1,4 +1,4 @@
-## About Me
+## 🤷‍♂️ About Me
 
 I regularly attend PM conferences & meet-ups _(Elevate, Product School)_. I keep up to speed with PM best-practice through online learning and blogs/newsletters.
 

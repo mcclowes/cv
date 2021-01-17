@@ -1,4 +1,4 @@
-## Experience
+## 📄 Experience
 
 ### Software Engineer (FE) _- Pollen_
 

@@ -1,4 +1,4 @@
-## 5 problems I've solved
+## 💡 5 problems I've solved
 
 1. A federation of 40+ London GP practices were restricted by __NHS__ regulation and struggling with collaboration, communication, and project governance. Based on thorough requirement gathering, and through a 3-phase build, I delivered a bespoke private network and project management tool, only retired when the NHS rolled out MS Office in 2020.
 2. __Arsenal FC__ were looking to efficiently record and report match-day injuries. They thought they needed a bespoke data gathering and reporting system; in half a day I created a simple workflow using free tools which transformed their process and they still use today.

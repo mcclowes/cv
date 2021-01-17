@@ -1,4 +1,4 @@
-## Awards
+## 🏆 Awards
 
 - __Duke of York Young Entrepreneur Award__, _2017_
 - __Rising Stars of Research Symposium Member__, _Durham University, 2016_
