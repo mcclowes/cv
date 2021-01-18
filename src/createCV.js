@@ -7,12 +7,13 @@ const defaultOptions = {
   printOptions: {
     displayHeaderFooter: false,
   },
+  downloadLink: "https://github.com/mcclowes/CV/raw/master/mcclowes_cv.pdf",
 };
 
 const meta = {
   name: "Max Clayton Clowes",
   description: "Product Manager with diverse software engineering and design background, and experience as a founder of a client-facing business. Have been delivering websites and apps for 10+ years. Duke of York Young Entrepreneur Award winner 2017.",
-  previewImage: "https://cv.mcclowes.com/preview.png",
+  previewImage: "https://cv.mcclowes.com/assets/preview.png",
   previewImageText: "Max Clayton Clowes CV",
   url: "https://cv.mcclowes.com/",
   twitterUsername: "@mcclowes",

@@ -201,3 +201,23 @@ ol li {
   /* text-align: justify; */
   /* text-justify: inter-word; */
 }
+
+/* */
+
+.pages:not(.web) .download-link {
+  display: none;
+  text-align: center;
+}
+
+.download-link:hover {
+  opacity: 0.5;
+  text-decoration: none;
+}
+
+.download-link svg {
+  fill: var(--primary);
+  width: 1em;
+  height: 1em;
+  margin-right: 0.25em;
+  vertical-align: text-top;
+}

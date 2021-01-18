@@ -3,7 +3,7 @@ const meta = (config) => {
     return `
         <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=2,shrink-to-fit=no">
 
-        <link rel="icon" href="favicon.ico" />
+        <link rel="icon" href="assets/favicon.ico" />
 
         <title>CV</title>
         <meta name="description" content="CV made with cv-maker">
@@ -13,7 +13,7 @@ const meta = (config) => {
   return `
     <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=2,shrink-to-fit=no">
 
-    <link rel="icon" href="favicon.ico" />
+    <link rel="icon" href="assets/favicon.ico" />
 
     <title>${config.name} CV</title>
     <meta name="description" content="${config.description}">
