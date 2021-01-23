@@ -42,7 +42,7 @@
  <h2 id="🎓-education">🎓 Education</h2>
 <h3 id="bsc-hons-computer-science-21---durham-university">BSc (Hons) Computer Science, 2:1 <em>- Durham University</em></h3>
 <p><em>2012 - 2016</em><br>British Computing Society accredited. Awarded Rising Star of Research.<br>Dissertation: <em>The use of evolutionary AI in the balancing of competitive multiplayer games</em></p>
-<h3 id="ba-interaction-design-year-1---ravensbourne-college-of-design">BA Interaction Design (Year 1) <em>- Ravensbourne College of Design</em></h3>
+<h3 id="ba-product--interaction-design---ravensbourne-college-of-design-year-1">BA Product &amp; Interaction Design <em>- Ravensbourne College of Design, Year 1</em></h3>
 <p><em>2011 - 2012</em>  </p>
 <h3 id="foundation-diploma-in-art-and-design---london-college-of-communication">Foundation Diploma in Art and Design <em>- London College of Communication</em></h3>
 <p><em>2010 - 2011</em><br>Graphic Design pathway</p>
