@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400&display=swap');
+
 @media (prefers-color-scheme: light) {
   :root {
     --white: #ffffff;
@@ -50,7 +52,7 @@ h3,
 h4,
 p,
 li {
-  font-family: avenir next, helvetica, sans-serif;
+  font-family: 'Avenir Next', 'Montserrat', 'Helvetica', sans-serif;
   color: var(--black);
 }
 
@@ -147,7 +149,6 @@ hr {
 
 .page {
   position: relative;
-  box-sizing: border-box;
 }
 
 .pdf .page,
@@ -162,7 +163,7 @@ hr {
 }
 
 .debug .page {
-  border: 1px solid white;
+  outline: 1px solid white;
 }
 
 .web.pages {
