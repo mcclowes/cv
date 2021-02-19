@@ -47,7 +47,7 @@ const buildHtml = (css, html, options, mode="web") =>
           ${
             options.downloadLink
             ?
-              `<a class="download-link" href="${options.downloadLink}">
+              `<a class="download-link" href="${options.downloadLink}" target="_blank">
                 <svg x="0px" y="0px" width="36.375px" height="36.376px" viewBox="0 0 36.375 36.376" style="enable-background:new 0 0 36.375 36.376;" xml:space="preserve">
                   <g>
                     <path d="M33.938,25.626v8.25c0,1.383-1.119,2.5-2.5,2.5h-26.5c-1.381,0-2.5-1.117-2.5-2.5v-8.25c0-1.381,1.119-2.5,2.5-2.5
