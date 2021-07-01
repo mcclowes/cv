@@ -37,7 +37,7 @@
   },
   "homepage": "https://github.com/mcclowes/CV#readme",
   "devDependencies": {
-    "@babel/cli": "^7.12.13",
+    "@babel/cli": "^7.14.5",
     "@babel/core": "^7.12.13",
     "@babel/node": "^7.12.13",
     "@babel/preset-env": "^7.12.13",
