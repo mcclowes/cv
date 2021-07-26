@@ -4,7 +4,7 @@
 
 _March 2021 - Ongoing_
 
-Responsible for increasing customer engagement and conversion through partner integrations. Are you a FinTech product provider with an API? Get in touch!
+Managing consumption of loan provider and credit scoring APIs, as well as release of Swoop's own API. Have recently delivered a new sales channel for Swoop, allowing users to find themselves up to £1,000,000 in funding, accessible within 24 hours via our loan providers' APIs.
 
 ### Software Engineer (FE) _- Pollen_
 
@@ -18,7 +18,7 @@ _August 2018 - November 2019_
 
 Built legal tech project management & document-signing enterprise web app. Worked with product in roadmap definition against tight resource constraints. Contributed to creation of clean, parsable user experiences, despite large amounts of information and actions.
 
-### Product Manager, Engineer, Co-founder _- Codogo_
+### Product Manager _- Codogo_
 
 _April 2016 - August 2018_
 
