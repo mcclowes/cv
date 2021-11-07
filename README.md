@@ -16,26 +16,24 @@
 <li>Traditional, premium butchers <strong>Godfreys.co</strong> had queues round the block and no online presence. I designed and project-managed a complete rebrand and award-winning eCommerce website that now brings in 30% of their revenue.</li>
 </ol>
  <h2 id="📄-experience">📄 Experience</h2>
+<h3 id="senior-product-manager---codat">Senior Product Manager <em>- Codat</em></h3>
+<p><em>November 2021 - Ongoing</em></p>
 <h3 id="product-manager---swoop">Product Manager <em>- Swoop</em></h3>
-<p><em>March 2021 - Ongoing</em></p>
+<p><em>March 2021 - Novmber 2021</em></p>
 <p>Managing consumption of loan provider and credit scoring APIs, as well as release of Swoop&#39;s own API. Have recently delivered a new sales channel for Swoop, allowing users to find themselves up to £1,000,000 in funding, accessible within 24 hours via our loan providers&#39; APIs.</p>
-<h3 id="software-engineer-fe---pollen">Software Engineer (FE) <em>- Pollen</em></h3>
-<p><em>December 2019 - March 2021</em></p>
-<p>Developed bookings platform and internal inventory management application. Pioneered best technical and project management practices. Participated in recruitment.</p>
-<h3 id="software-engineer-fe---workshare">Software Engineer (FE) <em>- Workshare</em></h3>
-<p><em>August 2018 - November 2019</em></p>
-<p>Built legal tech project management &amp; document-signing enterprise web app. Worked with product in roadmap definition against tight resource constraints. Contributed to creation of clean, parsable user experiences, despite large amounts of information and actions.</p>
 <h3 id="product-manager---codogo">Product Manager <em>- Codogo</em></h3>
 <p><em>April 2016 - August 2018</em></p>
 <p>Co-founded Codogo, delivering client products through our agency business, whilst developing in-house collaborative document tool Codogo Write. I personally:</p>
-<p></div> <div class="page" id="p2"> </p>
 <ul>
 <li>Owned project lifecycle from ideation to delivery of complex web and native apps for from 30+ clients ranging from the NHS to Arsenal FC.</li>
 <li>Pitched, winning <a href="http://bit.ly/35F6psY">awards</a>, clients, and investors, even being flown out to try for Y Combinator with our in-house product.</li>
 <li>Project managed (Agile) and supported the growth of my team.</li>
 </ul>
+<p></div> <div class="page" id="p2"></p>
 <h3 id="other-experience">Other Experience</h3>
 <ul>
+<li>Software Engineer (FE) <em>- Pollen, 2019 - 2021</em></li>
+<li>Software Engineer (FE) <em>- Workshare, 2018 - 2019</em></li>
 <li>Development &amp; Design Intern <em>- Akkroo, 2015</em></li>
 <li>Design Contractor <em>- Ludifi, 2014</em></li>
 <li>Design Contractor <em>- 4J Studios, 2013</em></li>
