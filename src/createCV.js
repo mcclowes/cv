@@ -20,16 +20,15 @@ const meta = {
 }
 
 const variations = {
-  productnew: {
+  product: {
     files: [
       "./src/sections/header/productnew.md",
       "./src/sections/introduction/productnew.md",
-      "./src/sections/problems.md",
-      "./src/sections/experience/productnew.md",
-      "./src/sections/education/productnew.md",
-      "./src/sections/skills/productnew.md",
+      "./src/sections/experience.md",
+      "./src/sections/skills/product.md",
+      "./src/sections/education.md",
       "./src/sections/awards.md",
-      "./src/sections/aboutme/productnew.md",
+      "./src/sections/aboutme.md",
     ],
     customOptions: {
       website: true,
@@ -41,35 +40,9 @@ const variations = {
       ],
     },
   },
-  product: {
-    files: [
-      "./src/sections/header/normal.md",
-      "./src/sections/introduction/product.md",
-      "./src/sections/skills/product.md",
-      "./src/sections/experience/product.md",
-      "./src/sections/education/product.md",
-      "./src/sections/aboutme/main.md",
-    ],
-    customOptions: {
-      debug: true,
-    },
-  },
-  engineering: {
-    files: [
-      "./src/sections/header/normal.md",
-      "./src/sections/introduction/engineering.md",
-      "./src/sections/skills/engineering.md",
-      "./src/sections/experience/engineering.md",
-      "./src/sections/education/engineering.md",
-      "./src/sections/aboutme/main.md",
-    ],
-    customOptions: {
-      debug: true,
-    }
-  },
 };
 
-const DEFAULT_CV = "productnew"
+const DEFAULT_CV = "product"
 
 const createCV = (variation) => {
   const { files, customOptions } = variations[variation];
