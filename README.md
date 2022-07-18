@@ -25,7 +25,7 @@
 <h3 id="product-manager---swoop">Product Manager <em>- Swoop</em></h3>
 <p><em>March 2021 - Novmber 2021</em></p>
 <p>Managing consumption of loan provider and credit scoring APIs, as well as release of <a href="https://bit.ly/swoopfunding">Swoop</a>&#39;s own API. Have recently delivered a new sales channel for Swoop, allowing SMBs to find themselves up to £1,000,000 in funding, accessible within 24 hours via our loan providers&#39; APIs. </p>
-<p>My responsibilities also involved delivery management and in my tenure we released several major projects, whereas in the 6 months before and after I joined my engineering team had never released code to production.</p>
+<p>My responsibilities also involved delivery management. In my tenure we released several major projects; in the 6 months before and after I joined, my engineering team released no code to production.</p>
 <h3 id="product-manager---codogo">Product Manager <em>- Codogo</em></h3>
 <p><em>April 2016 - August 2018</em></p>
 <p>Co-founded Codogo, delivering client products through our agency business, whilst developing in-house collaborative document tool Codogo Write. I personally:</p>

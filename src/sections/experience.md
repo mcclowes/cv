@@ -22,7 +22,7 @@ _March 2021 - Novmber 2021_
 
 Managing consumption of loan provider and credit scoring APIs, as well as release of [Swoop](https://bit.ly/swoopfunding)'s own API. Have recently delivered a new sales channel for Swoop, allowing SMBs to find themselves up to £1,000,000 in funding, accessible within 24 hours via our loan providers' APIs. 
 
-My responsibilities also involved delivery management and in my tenure we released several major projects, whereas in the 6 months before and after I joined my engineering team had never released code to production.
+My responsibilities also involved delivery management. In my tenure we released several major projects; in the 6 months before and after I joined, my engineering team released no code to production.
 
 ### Product Manager _- Codogo_
 
