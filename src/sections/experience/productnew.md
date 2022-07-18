@@ -4,7 +4,7 @@
 
 _November 2021 - Ongoing_
 
-Heading Codat's Portal product, focused on new users' experiences and maximising the speed at which developers can build with Codat.
+Heading Codat's developer portal, focused on new users' experiences and maximising the speed at which devs can build with Codat.
 
 ### Product Manager _- Swoop_
 
