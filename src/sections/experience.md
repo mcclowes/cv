@@ -20,9 +20,9 @@ Heading [Codat](https://bit.ly/3ObH0e0)'s developer portal, currently focused on
 
 _March 2021 - Novmber 2021_
 
-Managing consumption of loan provider and credit scoring APIs, as well as release of [Swoop](https://bit.ly/swoopfunding)'s own API. Have recently delivered a new sales channel for Swoop, allowing SMBs to find themselves up to £1,000,000 in funding, accessible within 24 hours via our loan providers' APIs. 
+Managed building to loan provider and credit scoring APIs, as well as designing [Swoop](https://bit.ly/swoopfunding)'s own API. Have recently delivered a new sales channel for Swoop, allowing SMBs to find themselves up to £1,000,000 in funding, accessible within 24 hours via our loan providers' APIs. 
 
-My responsibilities also involved delivery management. In my tenure we released several major projects; in the 6 months before and after I joined, my engineering team released no code to production.
+My responsibilities also involved delivery management, and dramatically increased our my team's velocity, releasing several major projects.
 
 ### Product Manager _- Codogo_
 
@@ -36,7 +36,7 @@ Co-founded Codogo, delivering client products through our agency business, whils
 
 ### Other Experience
 
-- Software Engineer (FE) _- [Pollen](https://pollen.co/uk), Workshare, 2018 - 2021_
+- Software Engineer (FE) _- [Pollen](https://pollen.co/uk), [Workshare](https://www.litera.com/litera-and-workshare/), 2018 - 2021_
 - Development & Design Intern _- Akkroo, 2015_
 - UX Designer _- Better Brief, 2012 - 2013_
 - Project manager _- Godfreys.co, 2011 - 2012_
