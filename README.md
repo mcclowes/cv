@@ -36,7 +36,7 @@
 </ul>
 <h3 id="other-experience">Other Experience</h3>
 <ul>
-<li>Software Engineer (FE) <em>- <a href="https://pollen.co/uk">Pollen</a>, Workshare, 2018 - 2021</em></li>
+<li>Software Engineer (FE) <em>- <a href="https://pollen.co/uk">Pollen</a>, <a href="https://www.litera.com/litera-and-workshare/">Workshare</a>, 2018 - 2021</em></li>
 <li>Development &amp; Design Intern <em>- Akkroo, 2015</em></li>
 <li>UX Designer <em>- Better Brief, 2012 - 2013</em></li>
 <li>Project manager <em>- Godfreys.co, 2011 - 2012</em></li>
