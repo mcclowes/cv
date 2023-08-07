@@ -5,21 +5,21 @@ const STYLESHEETS = {
   newspaper: "./src/styles/newspaper.css",
 };
 
-const readStyle = style => 
+const readStyle = (style) =>
   fs.readFileSync(style, function (err) {
     if (err) console.log(err);
-  })
+  });
 
 const readStylesheets = (styleOptions) => {
   console.log("Stylesheets:", styleOptions);
 
-  if(Array.isArray(styleOptions)) {
-    return styleOptions.map(option => 
+  if (Array.isArray(styleOptions)) {
+    return styleOptions.map((option) =>
       readStyle(STYLESHEETS[option] || option)
-    )
+    );
   }
 
-  return readStyle(STYLESHEETS[styleOptions] || styleOptions)
+  return readStyle(STYLESHEETS[styleOptions] || styleOptions);
 };
 
 export default readStylesheets;

@@ -1,4 +1,3 @@
-
 import meta from "../meta";
 
 const CONFIG = {
@@ -8,12 +7,10 @@ const CONFIG = {
   previewImageText: "Joe Bloggs CV",
   url: "https://cv.joebloggs.com/",
   twitterUsername: "@joebloggs",
-}
+};
 
 describe("meta", () => {
   it("generates correct meta html", () => {
-    expect(
-      meta(CONFIG)
-    ).toMatchSnapshot();
+    expect(meta(CONFIG)).toMatchSnapshot();
   });
 });

@@ -1,31 +1,32 @@
 <div class="page" id="p1"><h1 class="full-width">Max Clayton Clowes</h1>
 
 <p class="full-width">
-    <a href="mailto:contact@mcclowes.com">contact@mcclowes.com</a> · <a href="tel:+447976136097">+44 (0) 7976 136 097</a> · <a href="https://bit.ly/mcclowes">mcclowes.com</a>
+    <a href="mailto:contact@mcclowes.com">contact@mcclowes.com</a> · <a href="https://bit.ly/mcclowes">mcclowes.com</a>
 </p>
  <p class="full-width">I am a Product Manager with a diverse software engineering and design background. I use my background to get the best out of my developement peers, and the best for my developer users. Intuition lead, data backed. I've been delivering websites and apps for 10+ years. DoY's Young Entrepreneur Award winner as a founder</p>
 
 <p class="full-width"><i>References available upon request. You can see what people have said about me <a href="https://github.com/mcclowes/mcclowes/blob/master/recommendations.md">here</a>.</i></p>
 
-<hr class="full-width"/> <h2 id="📄-experience">📄 Experience</h2>
-<h3 id="senior-product-manager---codat">Senior Product Manager <em>- Codat</em></h3>
+<hr class="full-width"/>
+ <h2 id="📄-experience">📄 Experience</h2>
+<h3 id="product-director-client-experience---codat">Product Director, Client Experience <em>- Codat</em></h3>
 <p><em>November 2021 - Ongoing</em></p>
-<p>Heading <a href="https://bit.ly/3ObH0e0">Codat</a>&#39;s developer portal, currently focused on the onboarding experience, maximising the speed at which developers can build with Codat, and improving enterprise client workflows. Over the past 9 months I have:</p>
+<p>Heading <a href="https://bit.ly/3ObH0e0">Codat</a>&#39;s developer experience, I&#39;ve:</p>
 <ul>
-<li>Lead the complete redesign and rebuild of the <a href="https://bit.ly/3AXMZjC">Codat Portal</a></li>
-<li>Launched a new prcing model, reducing friction in adoption</li>
+<li><a href="https://docs.codat.io/">Docs</a> - Fully reimagined docs site, launched new detailed API ref and SDKs, and sample code</li>
+<li><a href="https://app.codat.io/">Dev portal</a> - Redesigned and rebuilt the <a href="https://bit.ly/3AXMZjC">Codat Portal</a></li>
+<li>[Self-serve] - Launched a new pricing model and growth motion, reducing friction in adoption</li>
 <li>Pioneered data-driven product management, supported by Amplitude</li>
 <li>Rolled out our design system across our products, with a focus on accessibility</li>
-<li>Lead the Portal product team, reporting directly to Codat&#39;s CEO</li>
-<li>Collaborated with designers to create a beautiful Portal experience</li>
-<li>Worked closely with designers and developers across 6 engineering teams</li>
-<li>Delivered features for major US &amp; UK banks</li>
+<li>Delivered features for major enterprises and US &amp; UK banks, including enterprise-grade SSO</li>
+<li>Lead our design team to create a beautiful and usable experiences</li>
 <li>Created an ethnographic research practice, focused on our developer personas</li>
+<li>Been promoted at pace several times to my current responsibilities</li>
 </ul>
 <h3 id="product-manager---swoop">Product Manager <em>- Swoop</em></h3>
 <p><em>March 2021 - Novmber 2021</em></p>
-<p>Managed building to loan provider and credit scoring APIs, as well as designing <a href="https://bit.ly/swoopfunding">Swoop</a>&#39;s own API. Have recently delivered a new sales channel for Swoop, allowing SMBs to find themselves up to £1,000,000 in funding, accessible within 24 hours via our loan providers&#39; APIs. </p>
-<p>My responsibilities also involved delivery management, and dramatically increased our my team&#39;s velocity, releasing several major projects.</p>
+<p>Managed building to loan provider and credit scoring APIs, as well as designing <a href="https://bit.ly/swoopfunding">Swoop</a>&#39;s own API. Have recently delivered a new sales channel for Swoop, allowing SMBs to find themselves up to £1,000,000 in funding, accessible within 24 hours via our loan providers&#39; APIs.</p>
+<p>Ran delivery management for the team, and dramatically increased our my team&#39;s velocity, releasing several major projects.</p>
 <h3 id="product-manager---codogo">Product Manager <em>- Codogo</em></h3>
 <p><em>April 2016 - August 2018</em></p>
 <p>Co-founded Codogo, delivering client products through our agency business, whilst developing in-house collaborative document tool Codogo Write. I personally:</p>
@@ -43,12 +44,12 @@
 </ul>
 <p></div> <div class="page" id="p2"></p>
  <h2 id="⚡️-skills">⚡️ Skills</h2>
-<p><strong>Product:</strong> <em>Research, Stakeholder management &amp; engagement, Prioritization &amp; roadmapping (Productboard), A/B testing, Documentation, Project Management (SuperHi, 2019)</em><br><strong>Data:</strong> <em>Google Sheets (I live my life through it), Amplitude, Python, SQL, R</em><br><strong>Design:</strong> <em>Prototyping/wireframing (Figma/Sketch), Adobe CS, User research (ethnographic), UX, UI</em><br><strong>Engineering:</strong> <em>JS (React, TS, GraphQL, Redux), testing (TDD, react-testing-library, Jest, Enzyme), CSS (responsive, Styled-Components), Agile</em>  </p>
+<p><strong>Product:</strong> <em>Research, Stakeholder management &amp; engagement, Prioritization &amp; roadmapping (Productboard), A/B testing, Documentation, Project Management (SuperHi, 2019)</em><br><strong>Data:</strong> <em>Google Sheets (I live my life through it), Amplitude, Python, SQL, R</em><br><strong>Design:</strong> <em>Prototyping/wireframing (Figma/Sketch), Adobe CS, User research (ethnographic), UX, UI</em><br><strong>Engineering:</strong> <em>JS (React, TS, GraphQL, Redux), testing (TDD, react-testing-library, Jest, Enzyme), CSS (responsive, Styled-Components), Agile</em></p>
  <h2 id="🎓-education">🎓 Education</h2>
 <h3 id="bsc-hons-computer-science-21---durham-university">BSc (Hons) Computer Science, 2:1 <em>- Durham University</em></h3>
 <p><em>2012 - 2016</em><br>British Computing Society accredited. Awarded Rising Star of Research.<br>Dissertation: <em>The use of evolutionary AI in the balancing of competitive multiplayer games</em></p>
 <h3 id="ba-product--interaction-design---ravensbourne-college-of-design-year-1">BA Product &amp; Interaction Design <em>- Ravensbourne College of Design, Year 1</em></h3>
-<p><em>2011 - 2012</em>  </p>
+<p><em>2011 - 2012</em></p>
 <h3 id="foundation-diploma-in-art-and-design---london-college-of-communication">Foundation Diploma in Art and Design <em>- London College of Communication</em></h3>
 <p><em>2010 - 2011</em><br>Graphic Design pathway</p>
 <h3 id="high-school---city-of-london-school">High School <em>- City of London School</em></h3>
