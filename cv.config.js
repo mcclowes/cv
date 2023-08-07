@@ -5,7 +5,7 @@ const defaults = {
   printOptions: {
     displayHeaderFooter: false,
   },
-  downloadLink: "https://github.com/mcclowes/CV/raw/master/mcclowes_cv.pdf",
+  downloadLink: "https://github.com/mcclowes/cv/raw/main/mcclowes_cv.pdf",
 };
 
 const meta = {
