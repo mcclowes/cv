@@ -1,33 +1,33 @@
-import _ from "lodash";
-import Markdown from "marked";
+import { marked } from "marked";
+import lodash from "lodash";
 import fs from "fs";
 
-const renderer = new Markdown.Renderer();
+const renderer = {
+  // Processes the markdown within an HTML block if it's just a class-wrapper
+  html(html) {
+    if (
+      lodash.startsWith(lodash.trim(html), "<div") &&
+      lodash.endsWith(lodash.trim(html), "</div>")
+    ) {
+      const openTag = html.substring(0, html.indexOf(">") + 1);
 
-//Processes the markdown within an HTML block if it's just a class-wrapper
-renderer.html = (html) => {
-  if (
-    _.startsWith(_.trim(html), "<div") &&
-    _.endsWith(_.trim(html), "</div>")
-  ) {
-    const openTag = html.substring(0, html.indexOf(">") + 1);
+      html = html.substring(html.indexOf(">") + 1);
+      html = html.substring(0, html.lastIndexOf("</div>"));
 
-    html = html.substring(html.indexOf(">") + 1);
+      return `${openTag} ${markdown.parse(html)} </div>`;
+    }
 
-    html = html.substring(0, html.lastIndexOf("</div>"));
-
-    return `${openTag} ${Markdown(html)} </div>`;
-  }
-
-  return html;
+    return html;
+  },
 };
 
 const readMarkdownFile = (target, markdownOptions) => {
   console.log("Markdown options:", markdownOptions);
 
-  return Markdown(fs.readFileSync(target, markdownOptions.encoding), {
-    renderer: renderer,
-  });
+  const fileContent = fs.readFileSync(target, markdownOptions.encoding);
+
+  marked.use({ renderer });
+  return marked.parse(fileContent);
 };
 
 export default readMarkdownFile;

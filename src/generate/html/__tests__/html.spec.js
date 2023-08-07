@@ -1,13 +1,15 @@
-import generateHtml from "../html";
+import generateHtml from "../index";
 
 const CONFIG = {
   name: "Joe Bloggs",
   description: "Enter a summary of you here.",
-  previewImage: "https://cv.joebloggs.com/preview.png",
-  previewImageText: "Joe Bloggs CV",
+  preview: {
+    image: "https://cv.joebloggs.com/preview.png",
+    text: "Joe Bloggs CV",
+  },
   url: "https://cv.joebloggs.com/",
   twitterUsername: "@joebloggs",
-}
+};
 
 const OPTIONS_DEFAULT = {
   debug: false,
@@ -22,30 +24,22 @@ const OPTIONS_DEFAULT = {
 describe("generateHtml", () => {
   it("default", () => {
     expect(
-      generateHtml(
-        "src/generate/html/__tests__/markdown.md"
-      )
+      generateHtml("src/generate/html/__tests__/markdown.md")
     ).toMatchSnapshot();
   });
 
   it("with standard options", () => {
     expect(
-      generateHtml(
-        "src/generate/html/__tests__/markdown.md", 
-        OPTIONS_DEFAULT
-      )
+      generateHtml("src/generate/html/__tests__/markdown.md", OPTIONS_DEFAULT)
     ).toMatchSnapshot();
   });
 
   it("for website", () => {
     expect(
-      generateHtml(
-        "src/generate/html/__tests__/markdown.md", 
-        {
-          ...OPTIONS_DEFAULT,
-          website: true,
-        }
-      )
+      generateHtml("src/generate/html/__tests__/markdown.md", {
+        ...OPTIONS_DEFAULT,
+        website: true,
+      })
     ).toMatchSnapshot();
   });
 
@@ -55,7 +49,7 @@ describe("generateHtml", () => {
         [
           "src/generate/html/__tests__/markdown.md",
           "src/generate/html/__tests__/markdown.md",
-        ], 
+        ],
         OPTIONS_DEFAULT
       )
     ).toMatchSnapshot();

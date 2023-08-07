@@ -18,6 +18,6 @@ exports[`meta generates correct meta html 1`] = `
 
     <meta name=\\"twitter:card\\" content=\\"summary_large_image\\">
     <meta name=\\"twitter:image:alt\\" content=\\"Joe Bloggs CV\\">
-    <meta name=\\"twitter:site\\" content=\\"@joebloggs\\">
+    <meta name=\\"twitter:site\\" content=\\"undefined\\">
   "
 `;

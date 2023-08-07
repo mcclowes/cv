@@ -8,7 +8,7 @@ describe("readMarkdownFile", () => {
   it("generates correct html", () => {
     expect(
       readMarkdownFile(
-        "src/generate/html/__tests__/markdown.md", 
+        "src/generate/html/__tests__/markdown.md",
         MARKDOWN_OPTIONS_DEFAULT
       )
     ).toMatchSnapshot();

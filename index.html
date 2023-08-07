@@ -6,360 +6,76 @@
 
     <link rel="icon" href="assets/favicon.ico" />
 
-    <title>Max Clayton Clowes CV</title>
-    <meta name="description" content="Product Manager with diverse software engineering and design background, and experience as a founder of a client-facing business. Have been delivering websites and apps for 10+ years. Duke of York Young Entrepreneur Award winner 2017.">
+    <title>Joe Bloggs CV</title>
+    <meta name="description" content="Enter a summary of you here.">
 
     <!--  Social tags -->    
-    <meta property="og:description" content="Product Manager with diverse software engineering and design background, and experience as a founder of a client-facing business. Have been delivering websites and apps for 10+ years. Duke of York Young Entrepreneur Award winner 2017.">
-    <meta property="og:image" content="https://cv.mcclowes.com/assets/preview.png">
-    <meta property="og:site_name" content="The CV of Max Clayton Clowes">
-    <meta property="og:title" content="The CV of Max Clayton Clowes">
-    <meta property="og:url" content="https://cv.mcclowes.com/">
+    <meta property="og:description" content="Enter a summary of you here.">
+    <meta property="og:image" content="https://cv.joebloggs.com/preview.png">
+    <meta property="og:site_name" content="The CV of Joe Bloggs">
+    <meta property="og:title" content="The CV of Joe Bloggs">
+    <meta property="og:url" content="https://cv.joebloggs.com/">
 
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:image:alt" content="Max Clayton Clowes CV">
-    <meta name="twitter:site" content="@mcclowes">
+    <meta name="twitter:image:alt" content="Joe Bloggs CV">
+    <meta name="twitter:site" content="undefined">
   
 
 				<style>
-					@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400&display=swap');
-
-@media (prefers-color-scheme: light) {
-  :root {
-    --white: #ffffff;
-    --primary-light: #8ee3c6;
-    --primary: #437868;
-    --primary-dark: #2e5a4d;
-    --gray: #666;
-    --black: #171d1b;
-  }
-}
-@media (prefers-color-scheme: dark) {
-  :root {
-    --white: #18191a;
-    --primary-light: #dda1b7;
-    --primary: #dda1b7;
-    --primary-dark: #dda1b7;
-    --gray: #ccc;
-    --black: #ffffff;
-  }
-}
-
-html,
-body {
-  padding: 0;
-  margin: 0;
-  
-  color: var(--black);
-  background-color: var(--white);
-
-  font-size: 11pt;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-body {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-/* Fonts */
-
-h1,
-h2,
-h3,
-h4,
-p,
-li {
-  font-family: 'Avenir Next', 'Montserrat', 'Helvetica', sans-serif;
-  color: var(--black);
-}
-
-h1 {
-  margin: 0;
-}
-
-h1 + p {
-  margin-top: 3px;
-}
-
-h2 {
-  border-bottom: 2px solid var(--black);
-  display: flex;
-  margin-block-start: 0.75em;
-  padding-bottom: 0.3em;
-}
-
-h3 {
-  margin-block-start: 1em;
-  color: var(--primary-dark);
-}
-
-h3 em {
-  font-style: normal;
-  font-weight: lighter;
-}
-
-h4 {
-  margin-block-start: 1em;
-  color: var(--primary-dark);
-  font-weight: normal;
-}
-
-h3,
-h4 {
-  margin-block-end: 3px;
-}
-
-h3 + p,
-h3 + h4,
-h4 + p {
-  margin-block-start: 3px;
-}
-
-h3 + p {
-  margin-block-end: 3px;
-}
-
-h3 + p + p {
-  margin-block-start: 3px;
-}
-
-/* Text Styling */
-
-a {
-  text-decoration: none;
-  color: var(--primary);
-}
-
-a:hover {
-  text-decoration: underline;
-  opacity: 0.75;
-}
-
-em {
-  color: var(--gray);
-}
-
-strong {
-  color: var(--primary-dark);
-}
-
-blockquote {
-  color: var(--primary-light);
-}
-
-/* Other widgets */
-
-hr {
-  opacity: 0.2;
-  margin: 1.5em 0;
-}
-
-/* Page */
-
-@page {
-  margin: 0;
-}
-
-.pages.web {
-  max-width: 700px;
-}
-
-.page {
-  position: relative;
-}
-
-.pdf .page,
-.debug .page {
-  height: 279.4mm;
-  width: 215.9mm;
-  text-rendering: optimizeLegibility;
-  page-break-before: always;
-  page-break-after: always;
-  padding: 1cm 1.7cm;
-  padding-bottom: 1.5cm;
-}
-
-.debug .page {
-  outline: 1px solid white;
-}
-
-.web.pages {
-  padding: 1.6em 1em;
-}
-
-/* Lists */
-
-ul {
-  padding-inline-start: 1em;
-}
-
-ul,
-ol {
-  margin-block-start: 0.5em;
-  margin-block-end: 0.5em;
-}
-
-h2 + ul,
-h3 + ul {
-  padding-inline-start: 0;
-  list-style-type: none;
-  margin-top: 3px;
-}
-
-.pages.web ol {
-  padding-inline-start: 1em;
-}
-
-.pages:not(.web) ol {
-  padding-inline-start: 0;
-}
-
-ol li {
-  margin-bottom: 0.5em;
-  /* text-align: justify; */
-  /* text-justify: inter-word; */
-}
-
-/* */
-
-.pages:not(.web) .download-link {
-  display: none;
-  text-align: center;
-}
-
-.download-link:hover {
-  opacity: 0.5;
-  text-decoration: none;
-}
-
-.download-link svg {
-  fill: var(--primary);
-  width: 1em;
-  height: 1em;
-  margin-right: 0.25em;
-  vertical-align: text-top;
-}.pdf .page {
-  column-count: 2;
-  column-fill: auto;
-  column-gap: 1cm;
-  column-width: 8cm;
-  -webkit-column-count: 2;
-  -moz-column-count: 2;
-  -webkit-column-width: 8cm;
-  -moz-column-width: 8cm;
-  -webkit-column-gap: 1cm;
-  -moz-column-gap: 1cm;
-}
-
-.pdf .full-width {
-  column-span: all;
-}
-
-.pdf .full-width + h2:not(.full-width) {
-  margin-top: 0;
-}
-
-.page p:first-child {
-  margin: 0;
-}
-
-.page h3:nth-child(2) {
-  margin-top: 0;
-}
+					4742326410510911211111411632117114108403410411611611211558474710211111011611546103111111103108101971121051154699111109479911511550631029710910510812161771111101161151011141149711658105116971084411910310411664484452484859484455484859494452484838100105115112108971216111511997112344159324247104742641021111101164510297991013212310323232321021111101164510297109105108121583277111110116115101114114971165910323232321151149958321171141084039464647464647971151151011161154710211111011611547771111101161151011141149711645869711410597981081017011111011695119103104116461161161023941591012542471010641021111101164510297991013212310323232321021111101164510297109105108121583234791121011103283971101153459103232323211511499583211711410840394646474646479711511510111611547102111110116115477911210111083971101154586971141059798108101701111101169511910310411646116116102394159101251010641091011001059732401121141011021011141154599111108111114451159910410110910158321081051031041164132123103232581141111111163212310323232324545119104105116101583235102102102102102102591032323232454511211410510997114121451081051031041165832355610110151995459103232323245451121141051099711412158323552515556545659103232323245451121141051099711412145100971141075832355010153975210059103232323245451031149712158323554545459103232323245459810897991075832354955491004998591032321251012510641091011001059732401121141011021011141154599111108111114451159910410110910158321009711410741321231032325811411111111632123103232323245451191041051161015832354956495749975910323232324545112114105109971141214510810510310411658323510010097499855591032323232454511211410510997114121583235100100974998555910323232324545112114105109971141214510097114107583235100100974998555910323232324545103114971215832359999995910323232324545981089799107583235102102102102102102591032321251012510101041161091084410981111001213212310323211297100100105110103583248591032321099711410310511058324859101032329911110811111458321189711440454598108979910741591032329897991071031141111171101004599111108111114583211897114404545119104105116101415910103232102111110116451151051221015832494911211659103232116101120116451141011101001011141051101035832111112116105109105122101761011031059810510810511612159103232102111110116451029710910510812158323465118101110105114327810112011634443234771111101161151011141149711634443234791121011103283971101153444324597112112108101451151211151161011094432661081051101077797998312111511610110970111110116443234831011031111013285733269109111106105344432346511211210810132671111081111143269109111106105344432721011081181011161059997443265114105971084432115971101154511510111410510259103232474210211111011645102971091051081215832459711211210810145115121115116101109443266108105110107779799831211151161011097011111011644328310110311110132857344328211198111116111443279120121103101110441032323232859811711011611744326797110116971141011081084432701051149732839711011544326811411110510032839711011544327210110811810111610599973278101117101443211597110115451151011141051025942471012510104232123103232981111204511510512210511010358329811111410010111445981111205910125101098111100121321231032321001051151121089712158321021081011205910323297108105103110451051161011091155832991011101161011145910323210611711511610510212145991111101161011101165832991011101161011145910125101047423270111110116115324247101010449441010450441010451441010452441011244101081053212310323247421021111101164510297109105108121583247423465118101110105114327810112011634443234771111101161151011141149711634443234721011081181011161059997344432347911210111032839711011534443211597110115451151011141051025942471032329911110811111458321189711440454598108979910741591012510101044932123103232109971141031051105832485910125101010449324332112321231032321099711410310511045116111112583251112120591012510101045032123103232981111141001011144598111116116111109583250112120321151111081051003211897114404545981089799107415910323210010511511210897121583210210810112059103232109971141031051104598108111991074511511697114116583248465553101109591032321129710010010511010345981111161161111095832484651101109591012510101045132123103232109971141031051104598108111991074511511697114116583249101109591032329911110811111458321189711440454511211410510997114121451009711410741591012510101045132101109321231032321021111101164511511612110810158321101111141099710859103232102111110116451191011051031041165832108105103104116101114591012510101045232123103232109971141031051104598108111991074511511697114116583249101109591032329911110811111458321189711440454511211410510997114121451009711410741591032321021111101164511910110510310411658321101111141099710859101251010104514410104523212310323210997114103105110459810811199107451011101005832511121205910125101010451324332112441010451324332104524410104523243321123212310323210997114103105110459810811199107451151169711411658325111212059101251010104513243321123212310323210997114103105110459810811199107451011101005832511121205910125101010451324332112324332112321231032321099711410310511045981081119910745115116971141165832511121205910125101047423284101120116328311612110810511010332424710109732123103232116101120116451001019911111497116105111110583211011111010159103232991111081111145832118971144045451121141051099711412141591012510109758104111118101114321231032321161011201164510010199111114971161051111105832117110100101114108105110101591032321111129799105116121583248465553591012510101011093212310323299111108111114583211897114404545103114971214159101251010115116114111110103321231032329911110811111458321189711440454511211410510997114121451009711410741591012510109810811199107113117111116101321231032329911110811111458321189711440454511211410510997114121451081051031041164159101251010474232791161041011143211910510010310111611532424710101041143212310323211111297991051161215832484650591032321099711410310511058324946531011093248591012510104742328097103101324247101064112971031013212310323210997114103105110583248591012510104611297103101115461191019832123103232109971204511910510011610458325548481121205910125101046112971031013212310323211211111510511610511111058321141011089711610511810159101251010461121001023246112971031014410461001019811710332461129710310132123103232104101105103104116583250555746521091095910323211910510011610458325049534657109109591032321161011201164511410111010010111410511010358321111121161051091051221017610110310598105108105116121591032321129710310145981141019710745981011021111141015832971081199712111559103232112971031014598114101971074597102116101114583297108119971211155910323211297100100105110103583249991093249465599109591032321129710010010511010345981111161161111095832494653991095910125101046100101981171033246112971031013212310323211111711610810511010158324911212032115111108105100321191041051161015910125101046119101984611297103101115321231032321129710010010511010358324946541011093249101109591012510104742327610511511611532424710101171083212310323211297100100105110103451051101081051101014511511697114116583249101109591012510101171084410111108321231032321099711410310511045981081119910745115116971141165832484653101109591032321099711410310511045981081119910745101110100583248465310110959101251010104503243321171084410104513243321171083212310323211297100100105110103451051101081051101014511511697114116583248591032321081051151164511511612110810145116121112101583211011111010159103232109971141031051104511611111258325111212059101251010461129710310111546119101983211110832123103232112971001001051101034510511010810511010145115116971141165832491011095910125101046112971031011155811011111640461191019841321111083212310323211297100100105110103451051101081051101014511511697114116583248591012510101111083210810532123103232109971141031051104598111116116111109583248465310110959103232474232116101120116459710810510311058321061171151161051021215932424710323247423211610112011645106117115116105102121583210511011610111445119111114100593242471012510104742324247101046112971031011155811011111640461191019841324610011111911010811197100451081051101073212310323210010511511210897121583211011111010159103232116101120116459710810510311058329910111011610111459101251010461001111191101081119710045108105110107581041111181011143212310323211111297991051161215832484653591032321161011201164510010199111114971161051111105832110111110101591012510104610011111911010811197100451081051101073211511810332123103232102105108108583211897114404545112114105109971141214159103232119105100116104583249101109591032321041011051031041165832491011095910323210997114103105110451141051031041165832484650531011095910323211810111411610599971084597108105103110583211610112011645116111112591012510
 				</style>
 			</head>
 			
 			<body class="document">
 				<div class="pages web">
-					<div class="page" id="p1"><h1 class="full-width">Max Clayton Clowes</h1>
-
-<p class="full-width">
-    <a href="mailto:contact@mcclowes.com">contact@mcclowes.com</a> · <a href="tel:+447976136097">+44 (0) 7976 136 097</a> · <a href="https://bit.ly/mcclowes">mcclowes.com</a>
-</p>
- <p class="full-width">I am a Product Manager with a diverse software engineering and design background. I use my background to get the best out of my developement peers, and the best for my developer users. Intuition lead, data backed. I've been delivering websites and apps for 10+ years. DoY's Young Entrepreneur Award winner as a founder</p>
-
-<p class="full-width"><i>References available upon request. You can see what people have said about me <a href="https://github.com/mcclowes/mcclowes/blob/master/recommendations.md">here</a>.</i></p>
-
-<hr class="full-width"/> <h2 id="📄-experience">📄 Experience</h2>
-<h3 id="senior-product-manager---codat">Senior Product Manager <em>- Codat</em></h3>
-<p><em>November 2021 - Ongoing</em></p>
-<p>Heading <a href="https://bit.ly/3ObH0e0">Codat</a>&#39;s developer portal, currently focused on the onboarding experience, maximising the speed at which developers can build with Codat, and improving enterprise client workflows. Over the past 9 months I have:</p>
-<ul>
-<li>Lead the complete redesign and rebuild of the <a href="https://bit.ly/3AXMZjC">Codat Portal</a></li>
-<li>Launched a new prcing model, reducing friction in adoption</li>
-<li>Pioneered data-driven product management, supported by Amplitude</li>
-<li>Rolled out our design system across our products, with a focus on accessibility</li>
-<li>Lead the Portal product team, reporting directly to Codat&#39;s CEO</li>
-<li>Collaborated with designers to create a beautiful Portal experience</li>
-<li>Worked closely with designers and developers across 6 engineering teams</li>
-<li>Delivered features for major US &amp; UK banks</li>
-<li>Created an ethnographic research practice, focused on our developer personas</li>
-</ul>
-<h3 id="product-manager---swoop">Product Manager <em>- Swoop</em></h3>
-<p><em>March 2021 - Novmber 2021</em></p>
-<p>Managed building to loan provider and credit scoring APIs, as well as designing <a href="https://bit.ly/swoopfunding">Swoop</a>&#39;s own API. Have recently delivered a new sales channel for Swoop, allowing SMBs to find themselves up to £1,000,000 in funding, accessible within 24 hours via our loan providers&#39; APIs. </p>
-<p>My responsibilities also involved delivery management, and dramatically increased our my team&#39;s velocity, releasing several major projects.</p>
-<h3 id="product-manager---codogo">Product Manager <em>- Codogo</em></h3>
+					<div class="page" id="p1"><h1>Max Clayton Clowes</h1>
+<p><a href="mailto:contact@mcclowes.com">contact@mcclowes.com</a> · <a href="tel:+447976136097">+44 (0) 7976 136 097</a> · <a href="https://mcclowes.com">mcclowes.com</a></p>
+<h2>Experience</h2>
+<h3>Software Engineer (FE) <em>- Pollen</em></h3>
+<p><em>December 2019 - Ongoing</em></p>
+<p>Developed Pollen’s checkout and payment application (React/Next.js/GraphQL).</p>
+<h3>Software Engineer (FE) <em>- Workshare</em></h3>
+<p><em>August 2018 - November 2019</em></p>
+<p>Built Transact, a document management &amp; sign-off web app (React/Redux). Collaborated with design to define roadmap. Trained junior team members and pioneered our best practices.</p>
+<h3>Product Engineer &amp; Manager <em>- Codogo</em></h3>
 <p><em>April 2016 - August 2018</em></p>
-<p>Co-founded Codogo, delivering client products through our agency business, whilst developing in-house collaborative document tool Codogo Write. I personally:</p>
+<p>Founded Codogo after winning several enterprise awards. Established an agency business, supporting development of our own product, Write. I personally:</p>
 <ul>
-<li>Owned project lifecycle from ideation to delivery of complex web and native apps for from 30+ clients ranging from the NHS to Arsenal FC.</li>
-<li>Pitched, winning <a href="http://bit.ly/35F6psY">awards</a>, clients, and investors, even being flown out to try for Y Combinator with our in-house product.</li>
-<li>Project managed (Agile) and supported the growth of my team.</li>
-</ul>
-<h3 id="other-experience">Other Experience</h3>
-<ul>
-<li>Software Engineer (FE) <em>- <a href="https://pollen.co/uk">Pollen</a>, <a href="https://www.litera.com/litera-and-workshare/">Workshare</a>, 2018 - 2021</em></li>
-<li>Development &amp; Design Intern <em>- Akkroo, 2015</em></li>
-<li>UX Designer <em>- Better Brief, 2012 - 2013</em></li>
-<li>Project manager <em>- Godfreys.co, 2011 - 2012</em></li>
+<li>Designed and delivered products for 30+ clients ranging from the NHS to leading financial think-tanks.</li>
+<li>Developed software, websites, web apps, and native apps, utilising a range of modern technologies.</li>
+<li>Managed (Agile) and supported the growth of my small team.</li>
+<li>Pitched to top investors, including being flown out to Y Combinator based on the strength of the Alpha of our product, Codogo Write.</li>
 </ul>
 <p></div> <div class="page" id="p2"></p>
- <h2 id="⚡️-skills">⚡️ Skills</h2>
-<p><strong>Product:</strong> <em>Research, Stakeholder management &amp; engagement, Prioritization &amp; roadmapping (Productboard), A/B testing, Documentation, Project Management (SuperHi, 2019)</em><br><strong>Data:</strong> <em>Google Sheets (I live my life through it), Amplitude, Python, SQL, R</em><br><strong>Design:</strong> <em>Prototyping/wireframing (Figma/Sketch), Adobe CS, User research (ethnographic), UX, UI</em><br><strong>Engineering:</strong> <em>JS (React, TS, GraphQL, Redux), testing (TDD, react-testing-library, Jest, Enzyme), CSS (responsive, Styled-Components), Agile</em>  </p>
- <h2 id="🎓-education">🎓 Education</h2>
-<h3 id="bsc-hons-computer-science-21---durham-university">BSc (Hons) Computer Science, 2:1 <em>- Durham University</em></h3>
-<p><em>2012 - 2016</em><br>British Computing Society accredited. Awarded Rising Star of Research.<br>Dissertation: <em>The use of evolutionary AI in the balancing of competitive multiplayer games</em></p>
-<h3 id="ba-product--interaction-design---ravensbourne-college-of-design-year-1">BA Product &amp; Interaction Design <em>- Ravensbourne College of Design, Year 1</em></h3>
-<p><em>2011 - 2012</em>  </p>
-<h3 id="foundation-diploma-in-art-and-design---london-college-of-communication">Foundation Diploma in Art and Design <em>- London College of Communication</em></h3>
-<p><em>2010 - 2011</em><br>Graphic Design pathway</p>
-<h3 id="high-school---city-of-london-school">High School <em>- City of London School</em></h3>
-<p><em>2003 - 2010</em><br>A levels: <em>Physics, Economics, Music</em></p>
- <h2 id="🏆-awards">🏆 Awards</h2>
+<h3>Other Experience</h3>
 <ul>
-<li><strong>Duke of York Young Entrepreneur Award</strong>, <em>2017</em></li>
-<li><strong>Rising Stars of Research Symposium Member</strong>, <em>Durham University, 2016</em></li>
-<li><strong>Blueprint Enterprise Challenge</strong>, <em>Durham University, 2016</em></li>
-<li><strong>Genesis Pitching Competition</strong>, <em>2016</em></li>
-<li><strong>Enterprise Kickstart Winner</strong>, <em>Durham University Enterprise Society, 2015</em></li>
-<li><strong>Best Website Award</strong>, <em>Meat Management Magazine, 2012</em></li>
+<li>Development &amp; Design Intern <em>- Akkroo, 2015</em></li>
+<li>Design Contractor <em>- Ludifi, 2014</em></li>
+<li>Design Contractor <em>- 4J Studios, 2013</em></li>
+<li>Junior UX Designer <em>- Better Brief, 2012 - 2013</em></li>
+<li>Project manager <em>- Godfreys.co, 2011 - 2012</em></li>
 </ul>
- <h2 id="🤷♂️-about-me">🤷‍♂️ About Me</h2>
-<p>I regularly attend PM conferences &amp; meet-ups <em>(Elevate, Product School)</em>. I keep up to speed with PM best-practice through online learning and blogs/newsletters.</p>
-<p>I&#39;ve always got a <a href="https://github.com/mcclowes?tab=repositories">personal development project</a> on the go; currently, I&#39;m building a fantasy football team-building AI and the <a href="https://github.com/mcclowes/cv-maker">tool that made this CV</a>. I regularly attend developer meet-ups <em>(React London, GitHub Universe, Next Conf)</em>.</p>
-<p>I love board games, quizzes, cryptic crosswords, and cats. I&#39;m a runner (first marathon will be in Valencia in December), cyclist, rock climber, and dancer (1st place university circuit). I sing and am a multi-instrumentalist.</p>
+<h2>Education</h2>
+<h3>BSc (Hons) Computer Science, 2:1 <em>- Durham University</em></h3>
+<p><em>2012 - 2016</em><br>British Computing Society accredited. Awarded Rising Star of Research.<br>Dissertation: <em>The use of evolutionary AI in the balancing of competitive multiplayer games</em></p>
+<h3>BA Interaction Design (Year 1) <em>- Ravensbourne College of Design</em></h3>
+<p><em>2011 - 2012</em></p>
+<h3>Foundation Diploma in Art and Design <em>- London College of Communication</em></h3>
+<p><em>2010 - 2011</em><br>Graphic Design pathway</p>
+<h3>High School <em>- City of London School</em></h3>
+<p><em>2003 - 2010</em><br>A levels: <em>Physics, Economics, Music</em></p>
+<h3>Other Training</h3>
+<ul>
+<li>Project Management <em>- SuperHi, 2019</em></li>
+<li>Advanced iOS Development <em>- City University, 2012</em></li>
+<li>Adva nced C Programming <em>- City University, 2011</em></li>
+</ul>
+<h2>About Me</h2>
+<p>Regularly attend PM conferences &amp; meet-ups <em>(Elevate, Product School)</em>. Regularly attend developer meet-ups <em>(React London, GitHub Universe, Next Conf)</em>. Currently work mainly with React <em>(ES6)</em>.</p>
+<p>Runner (1st marathon coming up in December), cyclist, rock climber, and dancer (1st place university circuit). Singer and multi-instrumentalist.</p>
 </div>
 
-          <a class="download-link" href="https://github.com/mcclowes/CV/raw/master/mcclowes_cv.pdf" target="_blank">
-                <svg x="0px" y="0px" width="36.375px" height="36.376px" viewBox="0 0 36.375 36.376" style="enable-background:new 0 0 36.375 36.376;" xml:space="preserve">
-                  <g>
-                    <path d="M33.938,25.626v8.25c0,1.383-1.119,2.5-2.5,2.5h-26.5c-1.381,0-2.5-1.117-2.5-2.5v-8.25c0-1.381,1.119-2.5,2.5-2.5
-                      s2.5,1.119,2.5,2.5v5.75h21.5v-5.75c0-1.381,1.119-2.5,2.5-2.5S33.938,24.245,33.938,25.626z M16.42,27.768
-                      c0.488,0.488,1.129,0.732,1.768,0.732c0.643,0,1.279-0.244,1.77-0.732l7.5-7.498c0.978-0.975,0.978-2.558,0-3.535
-                      c-0.977-0.977-2.561-0.977-3.535,0l-3.231,3.232V2.5c0-1.381-1.119-2.5-2.5-2.5s-2.5,1.119-2.5,2.5v17.467l-3.232-3.232
-                      c-0.977-0.977-2.561-0.977-3.535,0c-0.977,0.978-0.977,2.56,0,3.535L16.42,27.768z"/>
-                  </g>
-                </svg>
-                Download CV
-              </a>
+          
 				</div>
 			</body>
 		</html>

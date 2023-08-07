@@ -1,28 +1,28 @@
 ## 📄 Experience
 
-### Senior Product Manager _- Codat_
+### Product Director _- Codat_
 
 _November 2021 - Ongoing_
 
-Heading [Codat](https://bit.ly/3ObH0e0)'s developer portal, currently focused on the onboarding experience, maximising the speed at which developers can build with Codat, and improving enterprise client workflows. Over the past 9 months I have:
+Heading [Codat](https://bit.ly/3ObH0e0)'s client and developer experience, I've:
 
-- Lead the complete redesign and rebuild of the [Codat Portal](https://bit.ly/3AXMZjC)
-- Launched a new prcing model, reducing friction in adoption
+- [Docs](https://docs.codat.io/) - Fully reimagined docs site, launched new detailed API ref and SDKs, and sample code
+- [Dev portal](https://app.codat.io/) - Redesigned and rebuilt the [Codat Portal](https://bit.ly/3AXMZjC)
+- [Growth] - Launched a new pricing model and growth motion, reducing friction in adoption
 - Pioneered data-driven product management, supported by Amplitude
 - Rolled out our design system across our products, with a focus on accessibility
-- Lead the Portal product team, reporting directly to Codat's CEO
-- Collaborated with designers to create a beautiful Portal experience
-- Worked closely with designers and developers across 6 engineering teams
-- Delivered features for major US & UK banks
+- Delivered features for major enterprises and US & UK banks, including enterprise-grade SSO
+- Lead our design team to create a beautiful and usable experiences
 - Created an ethnographic research practice, focused on our developer personas
+- Been promoted at pace several times to my current responsibilities
 
 ### Product Manager _- Swoop_
 
 _March 2021 - Novmber 2021_
 
-Managed building to loan provider and credit scoring APIs, as well as designing [Swoop](https://bit.ly/swoopfunding)'s own API. Have recently delivered a new sales channel for Swoop, allowing SMBs to find themselves up to £1,000,000 in funding, accessible within 24 hours via our loan providers' APIs. 
+Managed building to loan provider and credit scoring APIs, as well as designing [Swoop](https://bit.ly/swoopfunding)'s own API. Have recently delivered a new sales channel for Swoop, allowing SMBs to find themselves up to £1,000,000 in funding, accessible within 24 hours via our loan providers' APIs.
 
-My responsibilities also involved delivery management, and dramatically increased our my team's velocity, releasing several major projects.
+Ran delivery management for the team, and dramatically increased our my team's velocity, releasing several major projects.
 
 ### Product Manager _- Codogo_
 
