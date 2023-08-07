@@ -3,23 +3,6 @@ import * as pdf from "html-pdf-chrome";
 
 import generateHtml from "../html";
 
-// const HEIGHT = 282;
-// const WIDTH = 216;
-
-// const elementDimensions = {
-//   page: {
-//     height: HEIGHT,
-//     width: WIDTH,
-//     padding: 5,
-//   },
-//   card: {
-//     height: 82,
-//     width: 59,
-//     margin: 2,
-//     border: 1,
-//   },
-// };
-
 const DEFAULT_PDF_OPTIONS = {
   //port: 9222,
   printOptions: {
@@ -30,7 +13,6 @@ const DEFAULT_PDF_OPTIONS = {
     marginTop: 0,
     printBackground: true,
   },
-  chromeFlags: ["--disable-web-security"],
 };
 
 const generatePdf = async (content, destination = "./output.pdf", options) => {

@@ -1,5 +1,5 @@
 {
-  "name": "CV",
+  "name": "cv",
   "version": "1.0.0",
   "description": "Product Manager with diverse software engineering and design background, and experience as a founder of a client-facing business. Have been delivering websites and apps for 10+ years. Duke of York Young Entrepreneur Award winner 2017.",
   "main": "index.html",
@@ -9,7 +9,8 @@
     "format": "prettier --write src/",
     "format:staged": "pretty-quick --staged --pattern ./src/**",
     "test": "jest",
-    "test:watch": "jest --watch --runInBand --bail"
+    "test:watch": "jest --watch --runInBand --bail",
+    "prepare": "husky install"
   },
   "repository": {
     "type": "git",
@@ -26,7 +27,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "npm run format:staged && echo Did you remember to build the CV?"
+      "pre-commit": "npm run format:staged && echo 'Did you remember to build the CV?'"
     }
   },
   "jest": {
@@ -44,10 +45,9 @@
     "babel-jest": "^26.6.3",
     "copyfiles": "^2.4.1",
     "fs": "0.0.1-security",
-    "html-pdf-chrome": "^0.6.1",
-    "husky": "^4.3.8",
+    "husky": "^8.0.0",
     "jest": "^26.6.3",
-    "lodash": "^4.17.20",
+    "lodash": "^4.17.21",
     "markdown-loader-jest": "^0.1.1",
     "merge-md": "^1.0.3",
     "path": "^0.12.7",
@@ -56,6 +56,7 @@
     "watch": "^1.0.2"
   },
   "dependencies": {
-    "marked": "^6.0.0"
+    "html-pdf-chrome": "^0.8.4",
+    "marked": "^7.0.0"
   }
 }

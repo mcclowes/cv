@@ -1,14 +1,14 @@
 ## 📄 Experience
 
-### Product Director, Client Experience _- Codat_
+### Product Director _- Codat_
 
 _November 2021 - Ongoing_
 
-Heading [Codat](https://bit.ly/3ObH0e0)'s developer experience, I've:
+Heading [Codat](https://bit.ly/3ObH0e0)'s client and developer experience, I've:
 
 - [Docs](https://docs.codat.io/) - Fully reimagined docs site, launched new detailed API ref and SDKs, and sample code
 - [Dev portal](https://app.codat.io/) - Redesigned and rebuilt the [Codat Portal](https://bit.ly/3AXMZjC)
-- [Self-serve] - Launched a new pricing model and growth motion, reducing friction in adoption
+- [Growth] - Launched a new pricing model and growth motion, reducing friction in adoption
 - Pioneered data-driven product management, supported by Amplitude
 - Rolled out our design system across our products, with a focus on accessibility
 - Delivered features for major enterprises and US & UK banks, including enterprise-grade SSO
