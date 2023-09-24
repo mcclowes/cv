@@ -15,7 +15,7 @@ const readStylesheets = (styleOptions) => {
 
   if (Array.isArray(styleOptions)) {
     return styleOptions.map((option) =>
-      readStyle(STYLESHEETS[option] || option)
+      readStyle(STYLESHEETS[option] || option),
     );
   }
 

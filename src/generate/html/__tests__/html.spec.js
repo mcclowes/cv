@@ -24,13 +24,13 @@ const OPTIONS_DEFAULT = {
 describe("generateHtml", () => {
   it("default", () => {
     expect(
-      generateHtml("src/generate/html/__tests__/markdown.md")
+      generateHtml("src/generate/html/__tests__/markdown.md"),
     ).toMatchSnapshot();
   });
 
   it("with standard options", () => {
     expect(
-      generateHtml("src/generate/html/__tests__/markdown.md", OPTIONS_DEFAULT)
+      generateHtml("src/generate/html/__tests__/markdown.md", OPTIONS_DEFAULT),
     ).toMatchSnapshot();
   });
 
@@ -39,7 +39,7 @@ describe("generateHtml", () => {
       generateHtml("src/generate/html/__tests__/markdown.md", {
         ...OPTIONS_DEFAULT,
         website: true,
-      })
+      }),
     ).toMatchSnapshot();
   });
 
@@ -50,8 +50,8 @@ describe("generateHtml", () => {
           "src/generate/html/__tests__/markdown.md",
           "src/generate/html/__tests__/markdown.md",
         ],
-        OPTIONS_DEFAULT
-      )
+        OPTIONS_DEFAULT,
+      ),
     ).toMatchSnapshot();
   });
 });

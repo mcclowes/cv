@@ -12,7 +12,7 @@ const MARKDOWN_OPTIONS_DEFAULT = {
 const handleTargetPages = (content, markdownOptions) => {
   if (Array.isArray(content)) {
     return createHtmlPages(
-      content.map((path) => readMarkdownFile(path, markdownOptions)).join(" ")
+      content.map((path) => readMarkdownFile(path, markdownOptions)).join(" "),
     );
   }
 
@@ -61,7 +61,7 @@ const buildHtml = (css, html, options, mode = "web") => {
 				</div>
 			</body>
 		</html>
-	`
+	`;
 };
 
 const generateHtml = (content, options = {}) => {

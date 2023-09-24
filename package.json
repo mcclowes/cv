@@ -1,6 +1,6 @@
 {
   "name": "cv",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Product Manager with diverse software engineering and design background, and experience as a founder of a client-facing business. Have been delivering websites and apps for 10+ years. Duke of York Young Entrepreneur Award winner 2017.",
   "main": "index.html",
   "scripts": {
@@ -45,18 +45,16 @@
     "babel-jest": "^26.6.3",
     "copyfiles": "^2.4.1",
     "fs": "0.0.1-security",
+    "html-pdf-chrome": "^0.8.4",
     "husky": "^8.0.0",
     "jest": "^26.6.3",
     "lodash": "^4.17.21",
     "markdown-loader-jest": "^0.1.1",
+    "marked": "^9.0.3",
     "merge-md": "^1.0.3",
     "path": "^0.12.7",
-    "prettier": "^2.7.1",
-    "pretty-quick": "^3.1.0",
+    "prettier": "^3.0.3",
+    "pretty-quick": "^3.1.3",
     "watch": "^1.0.2"
-  },
-  "dependencies": {
-    "html-pdf-chrome": "^0.8.4",
-    "marked": "^7.0.0"
   }
 }

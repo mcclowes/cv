@@ -9,8 +9,8 @@ describe("readMarkdownFile", () => {
     expect(
       readMarkdownFile(
         "src/generate/html/__tests__/markdown.md",
-        MARKDOWN_OPTIONS_DEFAULT
-      )
+        MARKDOWN_OPTIONS_DEFAULT,
+      ),
     ).toMatchSnapshot();
   });
 });
