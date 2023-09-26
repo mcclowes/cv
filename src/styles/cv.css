@@ -76,10 +76,6 @@ h1 {
   margin: 0;
 }
 
-h1 + p {
-  margin-top: 3px;
-}
-
 h2 {
   border-bottom: 2px solid var(--black);
   display: flex;
@@ -106,6 +102,10 @@ h3 em {
   font-weight: lighter;
 }
 
+h3 + p {
+  margin-top: 0.5em;
+}
+
 h4 {
   margin-block-start: 1em;
   color: var(--primary-dark);
@@ -124,7 +124,7 @@ h4 + p {
 }
 
 h3 + p {
-  margin-block-end: 3px;
+  margin-block-end: 10px;
 }
 
 h3 + p + p {
