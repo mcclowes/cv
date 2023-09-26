@@ -12,6 +12,8 @@ const DEFAULT_PDF_OPTIONS = {
     marginRight: 0,
     marginTop: 0,
     printBackground: true,
+    paperWidth: 210 / 25.4,
+    paperHeight: 297 / 25.4,
   },
 };
 
