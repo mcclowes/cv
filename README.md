@@ -19,19 +19,23 @@
 <p><em>November 2021 - Ongoing</em></p>
 <p>Heading <a href="https://bit.ly/3ObH0e0">Codat</a>&#39;s client and developer experience, I&#39;ve:</p>
 <ul>
+<li>Created the product vision and strategy for the user experiences and platform teams (the majority of Codat&#39;s P&amp;E org), reporting directly to the CEO.</li>
+<li>Managed high-performing product, engineering, design, and technical writing teams, coaching contributors consistently recognised as top achievers.</li>
+<li>Created Codat&#39;s best-in-class <a href="https://docs.codat.io/auth-flow/overview">Link</a> product, driving the data sharing for 100,000s of SMBs.</li>
+<li>Replatformed Codat.</li>
+<li><a href="https://app.codat.io/">Dev portal</a> - Redesigned and built the <a href="https://bit.ly/3AXMZjC">Codat Portal</a></li>
 <li><a href="https://docs.codat.io/">Docs</a> - Fully reimagined docs site, launched new detailed API ref and SDKs, and sample code</li>
-<li><a href="https://app.codat.io/">Dev portal</a> - Redesigned and rebuilt the <a href="https://bit.ly/3AXMZjC">Codat Portal</a></li>
-<li>Growth - Launched a new pricing model and growth motion, reducing friction in adoption</li>
-<li>Pioneered data-driven product management, supported by Amplitude</li>
+<li>Delivered major features for the largest US &amp; UK banks and other major enterprises</li>
+<li>Growth - Launched (and later sunset) an experimental new pricing model and growth motion for Codat.</li>
+<li>Managed the design team, creating beautiful and usable experiences</li>
 <li>Rolled out our design system across our products, with a focus on accessibility</li>
-<li>Delivered features for major enterprises and US &amp; UK banks, including enterprise-grade SSO</li>
-<li>Lead our design team to create a beautiful and usable experiences</li>
+<li>Pioneered data-driven product management, supported by Amplitude</li>
 <li>Created an ethnographic research practice, focused on our developer personas</li>
-<li>Been promoted at pace several times to my current responsibilities</li>
+<li>Celebrated as &quot;Codat&#39;s top PM&quot; and &quot;top manager&quot; and promoted at pace several times to current responsibilities</li>
 </ul>
 <h3>Product Manager <em>- Swoop</em></h3>
 <p><em>March 2021 - Novmber 2021</em></p>
-<p>Managed building to loan provider and credit scoring APIs, as well as designing <a href="https://bit.ly/swoopfunding">Swoop</a>&#39;s own API. Have recently delivered a new sales channel for Swoop, allowing SMBs to find themselves up to £1,000,000 in funding, accessible within 24 hours via our loan providers&#39; APIs.</p>
+<p>Managed building to loan provider and credit scoring APIs, as well as designing <a href="https://bit.ly/swoopfunding">Swoop</a>&#39;s own instant-decisioning API product. Delivered a new growth product for Swoop, allowing SMBs to find themselves up to £1,000,000 in funding, accessible within 24 hours via our loan providers&#39; APIs.</p>
 <p>Ran delivery management for the team, and dramatically increased our my team&#39;s velocity, releasing several major projects.</p>
 <h3>Product Manager <em>- Codogo</em></h3>
 <p><em>April 2016 - August 2018</em></p>
@@ -41,6 +45,7 @@
 <li>Pitched, winning <a href="http://bit.ly/35F6psY">awards</a>, clients, and investors, even being flown out to try for Y Combinator with our in-house product.</li>
 <li>Project managed (Agile) and supported the growth of my team.</li>
 </ul>
+<p></div> <div class="page" id="p2"></p>
 <h3>Other Experience</h3>
 <ul>
 <li>Software Engineer (FE) <em>- <a href="https://pollen.co/uk">Pollen</a>, <a href="https://www.litera.com/litera-and-workshare/">Workshare</a>, 2018 - 2021</em></li>
@@ -48,7 +53,6 @@
 <li>UX Designer <em>- Better Brief, 2012 - 2013</em></li>
 <li>Project manager <em>- Godfreys.co, 2011 - 2012</em></li>
 </ul>
-<p></div> <div class="page" id="p2"></p>
  <h2>
     <svg xmlns="http://www.w3.org/2000/svg" id="Layer_1" data-name="Layer 1" viewBox="0 0 24 24" width="512" height="512"><path d="M11.24,24a2.262,2.262,0,0,1-.948-.212,2.18,2.18,0,0,1-1.2-2.622L10.653,16H6.975A3,3,0,0,1,4.1,12.131l3.024-10A2.983,2.983,0,0,1,10,0h3.693a2.6,2.6,0,0,1,2.433,3.511L14.443,8H17a3,3,0,0,1,2.483,4.684l-6.4,10.3A2.2,2.2,0,0,1,11.24,24ZM10,2a1,1,0,0,0-.958.71l-3.024,10A1,1,0,0,0,6.975,14H12a1,1,0,0,1,.957,1.29L11.01,21.732a.183.183,0,0,0,.121.241A.188.188,0,0,0,11.4,21.9l6.4-10.3a1,1,0,0,0,.078-1.063A.979.979,0,0,0,17,10H13a1,1,0,0,1-.937-1.351l2.19-5.84A.6.6,0,0,0,13.693,2Z"/></svg>
     Skills
@@ -75,7 +79,9 @@
     Awards
 </h2>
 
+
 <ul>
+<li><strong>UK Technical Communication award</strong>, <em>ISTC, 2024</em></li>
 <li><strong>Duke of York Young Entrepreneur Award</strong>, <em>2017</em></li>
 <li><strong>Rising Stars of Research Symposium Member</strong>, <em>Durham University, 2016</em></li>
 <li><strong>Blueprint Enterprise Challenge</strong>, <em>Durham University, 2016</em></li>
@@ -88,6 +94,7 @@
     About Me
 </h2>
 
+<p>You can read my thoughts at <a href="https://mcclowes.com/blog">my blog</a>.</p>
 <p>I regularly attend PM conferences &amp; meet-ups <em>(Elevate, Product School)</em>. I keep up to speed with PM best-practice through online learning and blogs/newsletters.</p>
 <p>I&#39;ve always got a <a href="https://github.com/mcclowes?tab=repositories">personal development project</a> on the go; currently, I&#39;m building a fantasy football team-building AI and the <a href="https://github.com/mcclowes/cv-maker">tool that made this CV</a>. I regularly attend developer meet-ups <em>(React London, GitHub Universe, Next Conf)</em>.</p>
 <p>I love board games, quizzes, cryptic crosswords, and cats. I&#39;m a runner (first marathon will be in Valencia in December), cyclist, rock climber, and dancer (1st place university circuit). I sing and am a multi-instrumentalist.</p>

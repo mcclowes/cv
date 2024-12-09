@@ -29,7 +29,7 @@ const createHtmlFile = (html, fileName = "index.html") => {
 
 const buildHtml = (css, html, options, mode = "web") => {
   return `
-		<html>
+		<html class="${mode}">
 			<head>
         ${meta(options.meta)}
 
@@ -39,7 +39,7 @@ const buildHtml = (css, html, options, mode = "web") => {
 			</head>
 			
 			<body class="document">
-				<div class="pages ${mode}">
+				<div class="pages">
 					${html}
 
           ${

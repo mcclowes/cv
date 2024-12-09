@@ -3,6 +3,8 @@
 	Awards
 </h2>
 
+
+- **UK Technical Communication award**, _ISTC, 2024_
 - **Duke of York Young Entrepreneur Award**, _2017_
 - **Rising Stars of Research Symposium Member**, _Durham University, 2016_
 - **Blueprint Enterprise Challenge**, _Durham University, 2016_

@@ -1,5 +1,5 @@
 
-		<html>
+		<html class="debug pdf">
 			<head>
         
     <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=2,shrink-to-fit=no">
@@ -22,60 +22,85 @@
   
 
 				<style>
-					/* @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400&display=swap"); */
-/*@font-face {
-    font-family: Montserrat;
-    src: url('../../assets/fonts/Montserrat-VariableFont_wght.ttf');
-}*/
+					/* colors and fonts */
 
-/*@font-face {
-  font-family: "Open Sans";
-  src: url("../../assets/fonts/OpenSans-VariableFont_wght.ttf");
-}*/
+:root {
+  --color-green: #4b5f5f;
+  --color-green-dark: #3c6c5e;
+  --color-green-darker: #396658;
+  --color-green-darkest: #2f5449;
+  --color-green-light: #4a8472;
+  --color-green-lighter: #4d8a78;
+  --color-green-lightest: #579c87;
 
-@media (prefers-color-scheme: light) {
-  :root {
-    --white: #ffffff;
-    --primary-light: #8ee3c6;
-    --primary: #437868;
-    --primary-dark: #2e5a4d;
-    --gray: #666;
-    --black: #171d1b;
-  }
+  --color-offwhite-light: #fffdf3;
+  --color-offwhite: #fffae1;
+  --color-offwhite-dark: #d7d1b1;
+  --color-offwhite-alt-light: #bab59f;
+  --color-offwhite-alt: #C2BDA7;
+  --color-offwhite-alt-dark: #a29d84;
+
+  --color-white: var(--color-offwhite);
+  --color-gray-light: #efefef;
+  --color-gray-dark: #666;
+  --color-black: #171d1b;
+
+  --color-primary-light: var(--color-green-light);
+  --color-primary: var(--color-green);
+  --color-primary-dark: var(--color-green-dark);
+
+  --color-background: var(--color-offwhite);
+  --color-background-alt: var(--color-green);
+
+  --color-font-body: var(--color-black);
+  --color-font-header: var(--color-offwhite);
+  --color-font-accent: var(--color-primary);
+  --color-font-highlight: var(--color-gray-dark);
+  --color-font-quote: var(--color-gray-light);
+
+  @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700');
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+  --font-family-serif: 'Merriweather', sans-serif;
+  --font-family-mono: 'Roboto Mono', monospace;
 }
+
 @media (prefers-color-scheme: dark) {
   :root {
-    --white: #18191a;
-    --primary-light: #dda1b7;
-    --primary: #dda1b7;
-    --primary-dark: #dda1b7;
-    --gray: #ccc;
-    --black: #ffffff;
+    --color-primary-light: var(--color-offwhite-alt-light);
+    --color-primary: var(--color-offwhite-alt);
+    --color-primary-dark: var(--color-offwhite-alt-dark);
+
+    --color-background: var(--color-green);
+    --color-background-alt: var(--color-offwhite);
+
+    --color-font-body: var(--color-offwhite);
+    --color-font-header: var(--color-green);
+    --color-font-accent: #ff7070;
+    --color-font-highlight: var(--color-offwhite-dark);
+    --color-font-quote: var(--color-gray-light);
   }
+}
+
+/* core styles */
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background-color: var(--color-background);
 }
 
 html,
 body {
   padding: 0;
   margin: 0;
-  color: var(--black);
-  background-color: var(--white);
+  color: var(--color-font-body);
   font-size: 11pt;
   text-rendering: optimizeLegibility;
-  font-family:
-    "Montserrat",
-    "Open Sans",
-    -apple-system,
-    BlinkMacSystemFont,
-    "Segoe UI Emoji",
-    "Apple Color Emoji",
-    Helvetica,
-    Arial,
-    sans-serif;
-}
-
-* {
-  box-sizing: border-box;
+  font-family: var(--font-family-serif);
 }
 
 body {
@@ -84,7 +109,7 @@ body {
   justify-content: center;
 }
 
-/* Fonts */
+/* Core */
 
 h1,
 h2,
@@ -92,25 +117,35 @@ h3,
 h4,
 p,
 li {
-  /*font-family: /*"Avenir Next", "Montserrat", "Helvetica", "Open Sans", sans-serif;*/
-  color: var(--black);
+  color: var(--color-font-body);
 }
+
+p,
+li {
+  font-family: var(--font-family-mono);
+  font-size: 0.95em;
+}
+
+/* Headers */
 
 h1 {
   margin: 0;
 }
 
 h2 {
-  border-bottom: 2px solid var(--black);
   display: flex;
   margin-block-start: 0.75em;
-  padding-bottom: 0.3em;
+  padding: 0.3em 0;
   display: flex;
   align-items: center;
+  padding: 0.25em 0.5em;
+  border-radius: 4px;
+  background: var(--color-background-alt);
+  color: var(--color-font-header);
 }
 
 h2 > svg {
-  fill: var(--black);
+  fill: var(--color-font-header);
   height: 20px;
   width: 20px;
   margin-right: 0.5em;
@@ -118,7 +153,7 @@ h2 > svg {
 
 h3 {
   margin-block-start: 1em;
-  color: var(--primary-dark);
+  color: var(--color-font-accent);
 }
 
 h3 em {
@@ -132,7 +167,7 @@ h3 + p {
 
 h4 {
   margin-block-start: 1em;
-  color: var(--primary-dark);
+  color: var(--color-font-accent);
   font-weight: normal;
 }
 
@@ -158,25 +193,24 @@ h3 + p + p {
 /* Text Styling */
 
 a {
-  text-decoration: none;
-  color: var(--primary);
+  color: var(--color-font-accent);
 }
 
 a:hover {
-  text-decoration: underline;
+  text-decoration: none;
   opacity: 0.75;
 }
 
 em {
-  color: var(--gray);
+  color: var(--color-font-highlight);
 }
 
 strong {
-  color: var(--primary-dark);
+  color: var(--color-font-accent);
 }
 
 blockquote {
-  color: var(--primary-light);
+  color: var(--color-font-quote);
 }
 
 /* Other widgets */
@@ -192,8 +226,9 @@ hr {
   margin: 0;
 }
 
-.pages.web {
+.web .pages {
   max-width: 700px;
+  padding: 1.6em 1em;
 }
 
 .page {
@@ -202,8 +237,8 @@ hr {
 
 .pdf .page,
 .debug .page {
-  height: 279.4mm;
-  width: 215.9mm;
+  height: 297mm;
+  width: 210mm;
   text-rendering: optimizeLegibility;
   page-break-before: always;
   page-break-after: always;
@@ -211,12 +246,20 @@ hr {
   padding-bottom: 1.5cm;
 }
 
-.debug .page {
-  outline: 1px solid white;
+.pdf {
+  background: white !important;
 }
 
-.web.pages {
-  padding: 1.6em 1em;
+.pdf h2 {
+  color: white !important;
+}
+
+.pdf h2>svg {
+  fill: white !important;
+}
+
+.debug .page {
+  outline: 1px solid white;
 }
 
 /* Lists */
@@ -265,23 +308,26 @@ ol li {
 }
 
 .download-link svg {
-  fill: var(--primary);
+  fill: var(--color-font-body);
   width: 1em;
   height: 1em;
   margin-right: 0.25em;
   vertical-align: text-top;
 }
 .pdf .page {
+  --gap: 0.75cm;
+  --width: 8cm;
+
   column-count: 2;
   column-fill: auto;
-  column-gap: 1cm;
-  column-width: 8cm;
+  column-gap: var(--gap);
+  column-width: var(--width);
   -webkit-column-count: 2;
   -moz-column-count: 2;
-  -webkit-column-width: 8cm;
-  -moz-column-width: 8cm;
-  -webkit-column-gap: 1cm;
-  -moz-column-gap: 1cm;
+  -webkit-column-width: var(--width);
+  -moz-column-width: var(--width);
+  -webkit-column-gap: var(--gap);
+  -moz-column-gap: var(--gap );
 }
 
 .pdf .full-width {
@@ -304,7 +350,7 @@ ol li {
 			</head>
 			
 			<body class="document">
-				<div class="pages debug pdf">
+				<div class="pages">
 					<div class="page" id="p1"><h1 class="full-width">Max Clayton Clowes</h1>
 
 <p class="full-width">
@@ -326,19 +372,23 @@ ol li {
 <p><em>November 2021 - Ongoing</em></p>
 <p>Heading <a href="https://bit.ly/3ObH0e0">Codat</a>&#39;s client and developer experience, I&#39;ve:</p>
 <ul>
+<li>Created the product vision and strategy for the user experiences and platform teams (the majority of Codat&#39;s P&amp;E org), reporting directly to the CEO.</li>
+<li>Managed high-performing product, engineering, design, and technical writing teams, coaching contributors consistently recognised as top achievers.</li>
+<li>Created Codat&#39;s best-in-class <a href="https://docs.codat.io/auth-flow/overview">Link</a> product, driving the data sharing for 100,000s of SMBs.</li>
+<li>Replatformed Codat.</li>
+<li><a href="https://app.codat.io/">Dev portal</a> - Redesigned and built the <a href="https://bit.ly/3AXMZjC">Codat Portal</a></li>
 <li><a href="https://docs.codat.io/">Docs</a> - Fully reimagined docs site, launched new detailed API ref and SDKs, and sample code</li>
-<li><a href="https://app.codat.io/">Dev portal</a> - Redesigned and rebuilt the <a href="https://bit.ly/3AXMZjC">Codat Portal</a></li>
-<li>Growth - Launched a new pricing model and growth motion, reducing friction in adoption</li>
-<li>Pioneered data-driven product management, supported by Amplitude</li>
+<li>Delivered major features for the largest US &amp; UK banks and other major enterprises</li>
+<li>Growth - Launched (and later sunset) an experimental new pricing model and growth motion for Codat.</li>
+<li>Managed the design team, creating beautiful and usable experiences</li>
 <li>Rolled out our design system across our products, with a focus on accessibility</li>
-<li>Delivered features for major enterprises and US &amp; UK banks, including enterprise-grade SSO</li>
-<li>Lead our design team to create a beautiful and usable experiences</li>
+<li>Pioneered data-driven product management, supported by Amplitude</li>
 <li>Created an ethnographic research practice, focused on our developer personas</li>
-<li>Been promoted at pace several times to my current responsibilities</li>
+<li>Celebrated as &quot;Codat&#39;s top PM&quot; and &quot;top manager&quot; and promoted at pace several times to current responsibilities</li>
 </ul>
 <h3>Product Manager <em>- Swoop</em></h3>
 <p><em>March 2021 - Novmber 2021</em></p>
-<p>Managed building to loan provider and credit scoring APIs, as well as designing <a href="https://bit.ly/swoopfunding">Swoop</a>&#39;s own API. Have recently delivered a new sales channel for Swoop, allowing SMBs to find themselves up to £1,000,000 in funding, accessible within 24 hours via our loan providers&#39; APIs.</p>
+<p>Managed building to loan provider and credit scoring APIs, as well as designing <a href="https://bit.ly/swoopfunding">Swoop</a>&#39;s own instant-decisioning API product. Delivered a new growth product for Swoop, allowing SMBs to find themselves up to £1,000,000 in funding, accessible within 24 hours via our loan providers&#39; APIs.</p>
 <p>Ran delivery management for the team, and dramatically increased our my team&#39;s velocity, releasing several major projects.</p>
 <h3>Product Manager <em>- Codogo</em></h3>
 <p><em>April 2016 - August 2018</em></p>
@@ -348,6 +398,7 @@ ol li {
 <li>Pitched, winning <a href="http://bit.ly/35F6psY">awards</a>, clients, and investors, even being flown out to try for Y Combinator with our in-house product.</li>
 <li>Project managed (Agile) and supported the growth of my team.</li>
 </ul>
+<p></div> <div class="page" id="p2"></p>
 <h3>Other Experience</h3>
 <ul>
 <li>Software Engineer (FE) <em>- <a href="https://pollen.co/uk">Pollen</a>, <a href="https://www.litera.com/litera-and-workshare/">Workshare</a>, 2018 - 2021</em></li>
@@ -355,7 +406,6 @@ ol li {
 <li>UX Designer <em>- Better Brief, 2012 - 2013</em></li>
 <li>Project manager <em>- Godfreys.co, 2011 - 2012</em></li>
 </ul>
-<p></div> <div class="page" id="p2"></p>
  <h2>
     <svg xmlns="http://www.w3.org/2000/svg" id="Layer_1" data-name="Layer 1" viewBox="0 0 24 24" width="512" height="512"><path d="M11.24,24a2.262,2.262,0,0,1-.948-.212,2.18,2.18,0,0,1-1.2-2.622L10.653,16H6.975A3,3,0,0,1,4.1,12.131l3.024-10A2.983,2.983,0,0,1,10,0h3.693a2.6,2.6,0,0,1,2.433,3.511L14.443,8H17a3,3,0,0,1,2.483,4.684l-6.4,10.3A2.2,2.2,0,0,1,11.24,24ZM10,2a1,1,0,0,0-.958.71l-3.024,10A1,1,0,0,0,6.975,14H12a1,1,0,0,1,.957,1.29L11.01,21.732a.183.183,0,0,0,.121.241A.188.188,0,0,0,11.4,21.9l6.4-10.3a1,1,0,0,0,.078-1.063A.979.979,0,0,0,17,10H13a1,1,0,0,1-.937-1.351l2.19-5.84A.6.6,0,0,0,13.693,2Z"/></svg>
     Skills
@@ -382,7 +432,9 @@ ol li {
     Awards
 </h2>
 
+
 <ul>
+<li><strong>UK Technical Communication award</strong>, <em>ISTC, 2024</em></li>
 <li><strong>Duke of York Young Entrepreneur Award</strong>, <em>2017</em></li>
 <li><strong>Rising Stars of Research Symposium Member</strong>, <em>Durham University, 2016</em></li>
 <li><strong>Blueprint Enterprise Challenge</strong>, <em>Durham University, 2016</em></li>
@@ -395,6 +447,7 @@ ol li {
     About Me
 </h2>
 
+<p>You can read my thoughts at <a href="https://mcclowes.com/blog">my blog</a>.</p>
 <p>I regularly attend PM conferences &amp; meet-ups <em>(Elevate, Product School)</em>. I keep up to speed with PM best-practice through online learning and blogs/newsletters.</p>
 <p>I&#39;ve always got a <a href="https://github.com/mcclowes?tab=repositories">personal development project</a> on the go; currently, I&#39;m building a fantasy football team-building AI and the <a href="https://github.com/mcclowes/cv-maker">tool that made this CV</a>. I regularly attend developer meet-ups <em>(React London, GitHub Universe, Next Conf)</em>.</p>
 <p>I love board games, quizzes, cryptic crosswords, and cats. I&#39;m a runner (first marathon will be in Valencia in December), cyclist, rock climber, and dancer (1st place university circuit). I sing and am a multi-instrumentalist.</p>
