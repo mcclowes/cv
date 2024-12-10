@@ -25,7 +25,6 @@ const cvs = {
       "./src/sections/header/productnew.md",
       "./src/sections/introduction/productnew.md",
       "./src/sections/experience.md",
-      "./src/sections/skills/product.md",
       "./src/sections/education.md",
       "./src/sections/awards.md",
       "./src/sections/aboutme.md",

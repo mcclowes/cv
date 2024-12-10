@@ -14,6 +14,11 @@
   -moz-column-gap: var(--gap );
 }
 
+.pdf .page a {
+  --color-font-link: var(--color-primary);
+  text-decoration: underline;
+}
+
 .pdf .full-width {
   column-span: all;
 }
@@ -26,6 +31,6 @@
   margin: 0;
 }
 
-.page h3:nth-child(2) {
+.page p:first-child + h3 {
   margin-top: 0;
 }

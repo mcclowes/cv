@@ -3,7 +3,7 @@
 <p class="full-width">
     <a href="mailto:contact@mcclowes.com">contact@mcclowes.com</a> · <a href="https://bit.ly/mcclowes">mcclowes.com</a>
 </p>
- <p class="full-width">I am a Product Manager with a diverse software engineering and design background. I use my background to get the best out of my developement peers, and the best for my developer users. Intuition lead, data backed. I've been delivering websites and apps for 10+ years. DoY's Young Entrepreneur Award winner as a founder.</p>
+ <p class="full-width">I am a Product Manager with a diverse software engineering and design background. I use my background to get the best out of my development peers, and the best for my developer users. Intuition led, data backed. I've been delivering websites and apps for 10+ years. DoY's Young Entrepreneur Award winner as a founder.</p>
 
 <p class="full-width"><i>References available upon request. You can see what people have said about me <a href="https://github.com/mcclowes/mcclowes/blob/master/recommendations.md">here</a>.</i></p>
 
@@ -17,48 +17,41 @@
 
 <h3>Product Director <em>- Codat</em></h3>
 <p><em>November 2021 - Ongoing</em></p>
-<p>Heading <a href="https://bit.ly/3ObH0e0">Codat</a>&#39;s client and developer experience, I&#39;ve:</p>
+<p>Heading <a href="https://bit.ly/3ObH0e0">Codat</a>&#39;s user experience and platform teams, I&#39;ve:</p>
 <ul>
-<li>Created the product vision and strategy for the user experiences and platform teams (the majority of Codat&#39;s P&amp;E org), reporting directly to the CEO.</li>
+<li>Created and delivered product vision and strategy for the the majority of Codat&#39;s P&amp;E org, reporting directly to the CEO.</li>
 <li>Managed high-performing product, engineering, design, and technical writing teams, coaching contributors consistently recognised as top achievers.</li>
 <li>Created Codat&#39;s best-in-class <a href="https://docs.codat.io/auth-flow/overview">Link</a> product, driving the data sharing for 100,000s of SMBs.</li>
 <li>Replatformed Codat.</li>
-<li><a href="https://app.codat.io/">Dev portal</a> - Redesigned and built the <a href="https://bit.ly/3AXMZjC">Codat Portal</a></li>
-<li><a href="https://docs.codat.io/">Docs</a> - Fully reimagined docs site, launched new detailed API ref and SDKs, and sample code</li>
+<li>Redesigned and built the Codat <a href="https://bit.ly/3AXMZjC">developer portal</a></li>
+<li>Fully reimagined Codat&#39;s award-winning <a href="https://docs.codat.io/">docs</a>, launched new detailed API ref and SDKs, and sample code</li>
 <li>Delivered major features for the largest US &amp; UK banks and other major enterprises</li>
-<li>Growth - Launched (and later sunset) an experimental new pricing model and growth motion for Codat.</li>
 <li>Managed the design team, creating beautiful and usable experiences</li>
 <li>Rolled out our design system across our products, with a focus on accessibility</li>
+<li>Launched (and later sunset) an experimental new pricing model and growth motion for Codat.</li>
 <li>Pioneered data-driven product management, supported by Amplitude</li>
 <li>Created an ethnographic research practice, focused on our developer personas</li>
 <li>Celebrated as &quot;Codat&#39;s top PM&quot; and &quot;top manager&quot; and promoted at pace several times to current responsibilities</li>
 </ul>
 <h3>Product Manager <em>- Swoop</em></h3>
-<p><em>March 2021 - Novmber 2021</em></p>
+<p><em>March 2021 - November 2021</em></p>
 <p>Managed building to loan provider and credit scoring APIs, as well as designing <a href="https://bit.ly/swoopfunding">Swoop</a>&#39;s own instant-decisioning API product. Delivered a new growth product for Swoop, allowing SMBs to find themselves up to £1,000,000 in funding, accessible within 24 hours via our loan providers&#39; APIs.</p>
-<p>Ran delivery management for the team, and dramatically increased our my team&#39;s velocity, releasing several major projects.</p>
+<p>Ran delivery management for the team, and dramatically increased my team&#39;s velocity, releasing several major projects.</p>
+<p></div> <div class="page" id="p2"></p>
 <h3>Product Manager <em>- Codogo</em></h3>
 <p><em>April 2016 - August 2018</em></p>
 <p>Co-founded Codogo, delivering client products through our agency business, whilst developing in-house collaborative document tool Codogo Write. I personally:</p>
 <ul>
-<li>Owned project lifecycle from ideation to delivery of complex web and native apps for from 30+ clients ranging from the NHS to Arsenal FC.</li>
+<li>Owned project lifecycle from ideation to delivery of complex web and native apps for 30+ clients ranging from the NHS to Arsenal FC.</li>
 <li>Pitched, winning <a href="http://bit.ly/35F6psY">awards</a>, clients, and investors, even being flown out to try for Y Combinator with our in-house product.</li>
-<li>Project managed (Agile) and supported the growth of my team.</li>
 </ul>
-<p></div> <div class="page" id="p2"></p>
 <h3>Other Experience</h3>
 <ul>
-<li>Software Engineer (FE) <em>- <a href="https://pollen.co/uk">Pollen</a>, <a href="https://www.litera.com/litera-and-workshare/">Workshare</a>, 2018 - 2021</em></li>
+<li>Software Engineer (FE) <em>- <a href="https://www.crunchbase.com/organization/streetteam-software">Pollen</a>, <a href="https://www.crunchbase.com/organization/workshare">Workshare</a>, 2018 - 2021</em></li>
 <li>Development &amp; Design Intern <em>- Akkroo, 2015</em></li>
-<li>UX Designer <em>- Better Brief, 2012 - 2013</em></li>
-<li>Project manager <em>- Godfreys.co, 2011 - 2012</em></li>
+<li>UX Designer <em>- Better Brief, 2012</em></li>
+<li>Project Manager <em>- Godfreys.co, 2011</em></li>
 </ul>
- <h2>
-    <svg xmlns="http://www.w3.org/2000/svg" id="Layer_1" data-name="Layer 1" viewBox="0 0 24 24" width="512" height="512"><path d="M11.24,24a2.262,2.262,0,0,1-.948-.212,2.18,2.18,0,0,1-1.2-2.622L10.653,16H6.975A3,3,0,0,1,4.1,12.131l3.024-10A2.983,2.983,0,0,1,10,0h3.693a2.6,2.6,0,0,1,2.433,3.511L14.443,8H17a3,3,0,0,1,2.483,4.684l-6.4,10.3A2.2,2.2,0,0,1,11.24,24ZM10,2a1,1,0,0,0-.958.71l-3.024,10A1,1,0,0,0,6.975,14H12a1,1,0,0,1,.957,1.29L11.01,21.732a.183.183,0,0,0,.121.241A.188.188,0,0,0,11.4,21.9l6.4-10.3a1,1,0,0,0,.078-1.063A.979.979,0,0,0,17,10H13a1,1,0,0,1-.937-1.351l2.19-5.84A.6.6,0,0,0,13.693,2Z"/></svg>
-    Skills
-</h2>
-
-<p><strong>Product:</strong> <em>Research, Stakeholder management &amp; engagement, Prioritization &amp; roadmapping (Productboard), A/B testing, Documentation, Project Management (SuperHi, 2019)</em><br><strong>Data:</strong> <em>Google Sheets (I live my life through it), Amplitude, Python, SQL, R</em><br><strong>Design:</strong> <em>Prototyping/wireframing (Figma/Sketch), Adobe CS, User research (ethnographic), UX, UI</em><br><strong>Engineering:</strong> <em>JS (React, TS, GraphQL, Redux), testing (TDD, react-testing-library, Jest, Enzyme), CSS (responsive, Styled-Components), Agile</em></p>
  <h2>
     <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve" width="512" height="512">
         <path d="M470.549,111.573L313.237,36.629c-34.628-20.684-77.728-21.051-112.704-0.96L41.451,111.573  c-0.597,0.299-1.216,0.619-1.792,0.96c-37.752,21.586-50.858,69.689-29.272,107.441c7.317,12.798,18.08,23.284,31.064,30.266  l43.883,20.907V375.68c0.026,46.743,30.441,88.039,75.072,101.931c31.059,8.985,63.264,13.384,95.595,13.056  c32.326,0.362,64.531-4,95.595-12.949c44.631-13.891,75.046-55.188,75.072-101.931V271.104l42.667-20.395v175.957  c0,11.782,9.551,21.333,21.333,21.333c11.782,0,21.333-9.551,21.333-21.333v-256C512.143,145.615,492.363,122.473,470.549,111.573z   M384,375.787c0.011,27.959-18.129,52.69-44.8,61.077c-27.046,7.728-55.073,11.479-83.2,11.136  c-28.127,0.343-56.154-3.408-83.2-11.136c-26.671-8.388-44.811-33.118-44.8-61.077v-84.309l70.763,33.707  c17.46,10.368,37.401,15.816,57.707,15.765c19.328,0.137,38.331-4.98,54.976-14.805L384,291.477V375.787z M452.267,211.733  l-160.896,76.8c-22.434,13.063-50.241,12.693-72.32-0.96l-157.419-74.88c-17.547-9.462-24.101-31.357-14.639-48.903  c3.2-5.934,7.998-10.853,13.85-14.201l159.893-76.373c22.441-13.034,50.233-12.665,72.32,0.96l157.312,74.944  c11.569,6.424,18.807,18.555,18.965,31.787C469.354,193.441,462.9,205.097,452.267,211.733L452.267,211.733z"/>
@@ -70,8 +63,8 @@
 <p><em>2012 - 2016</em><br>British Computing Society accredited. Awarded Rising Star of Research.<br>Dissertation: <em>The use of evolutionary AI in the balancing of competitive multiplayer games</em></p>
 <h3>BA Product &amp; Interaction Design <em>- Ravensbourne College of Design, Year 1</em></h3>
 <p><em>2011 - 2012</em></p>
-<h3>Foundation Diploma in Art and Design <em>- London College of Communication</em></h3>
-<p><em>2010 - 2011</em><br>Graphic Design pathway</p>
+<h3>Foundation Diploma in Art &amp; Design <em>- London College of Communication</em></h3>
+<p><em>2010 - 2011</em>  </p>
 <h3>High School <em>- City of London School</em></h3>
 <p><em>2003 - 2010</em><br>A levels: <em>Physics, Economics, Music</em></p>
  <h2>

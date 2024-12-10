@@ -15,10 +15,9 @@ Dissertation: _The use of evolutionary AI in the balancing of competitive multip
 
 _2011 - 2012_
 
-### Foundation Diploma in Art and Design _- London College of Communication_
+### Foundation Diploma in Art & Design _- London College of Communication_
 
 _2010 - 2011_  
-Graphic Design pathway
 
 ### High School _- City of London School_
 

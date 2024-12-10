@@ -9,29 +9,31 @@
 
 _November 2021 - Ongoing_
 
-Heading [Codat](https://bit.ly/3ObH0e0)'s client and developer experience, I've:
+Heading [Codat](https://bit.ly/3ObH0e0)'s user experience and platform teams, I've:
 
-- Created the product vision and strategy for the user experiences and platform teams (the majority of Codat's P&E org), reporting directly to the CEO.
+- Created and delivered product vision and strategy for the the majority of Codat's P&E org, reporting directly to the CEO.
 - Managed high-performing product, engineering, design, and technical writing teams, coaching contributors consistently recognised as top achievers.
 - Created Codat's best-in-class [Link](https://docs.codat.io/auth-flow/overview) product, driving the data sharing for 100,000s of SMBs.
 - Replatformed Codat.
-- [Dev portal](https://app.codat.io/) - Redesigned and built the [Codat Portal](https://bit.ly/3AXMZjC)
-- [Docs](https://docs.codat.io/) - Fully reimagined docs site, launched new detailed API ref and SDKs, and sample code
+- Redesigned and built the Codat [developer portal](https://bit.ly/3AXMZjC)
+- Fully reimagined Codat's award-winning [docs](https://docs.codat.io/), launched new detailed API ref and SDKs, and sample code
 - Delivered major features for the largest US & UK banks and other major enterprises
-- Growth - Launched (and later sunset) an experimental new pricing model and growth motion for Codat.
 - Managed the design team, creating beautiful and usable experiences
 - Rolled out our design system across our products, with a focus on accessibility
+- Launched (and later sunset) an experimental new pricing model and growth motion for Codat.
 - Pioneered data-driven product management, supported by Amplitude
 - Created an ethnographic research practice, focused on our developer personas
 - Celebrated as "Codat's top PM" and "top manager" and promoted at pace several times to current responsibilities
 
 ### Product Manager _- Swoop_
 
-_March 2021 - Novmber 2021_
+_March 2021 - November 2021_
 
 Managed building to loan provider and credit scoring APIs, as well as designing [Swoop](https://bit.ly/swoopfunding)'s own instant-decisioning API product. Delivered a new growth product for Swoop, allowing SMBs to find themselves up to £1,000,000 in funding, accessible within 24 hours via our loan providers' APIs.
 
-Ran delivery management for the team, and dramatically increased our my team's velocity, releasing several major projects.
+Ran delivery management for the team, and dramatically increased my team's velocity, releasing several major projects.
+
+\page
 
 ### Product Manager _- Codogo_
 
@@ -39,17 +41,14 @@ _April 2016 - August 2018_
 
 Co-founded Codogo, delivering client products through our agency business, whilst developing in-house collaborative document tool Codogo Write. I personally:
 
-- Owned project lifecycle from ideation to delivery of complex web and native apps for from 30+ clients ranging from the NHS to Arsenal FC.
+- Owned project lifecycle from ideation to delivery of complex web and native apps for 30+ clients ranging from the NHS to Arsenal FC.
 - Pitched, winning [awards](http://bit.ly/35F6psY), clients, and investors, even being flown out to try for Y Combinator with our in-house product.
-- Project managed (Agile) and supported the growth of my team.
-
-\page
 
 ### Other Experience
 
-- Software Engineer (FE) _- [Pollen](https://pollen.co/uk), [Workshare](https://www.litera.com/litera-and-workshare/), 2018 - 2021_
+- Software Engineer (FE) _- [Pollen](https://www.crunchbase.com/organization/streetteam-software), [Workshare](https://www.crunchbase.com/organization/workshare), 2018 - 2021_
 - Development & Design Intern _- Akkroo, 2015_
-- UX Designer _- Better Brief, 2012 - 2013_
-- Project manager _- Godfreys.co, 2011 - 2012_
+- UX Designer _- Better Brief, 2012_
+- Project Manager _- Godfreys.co, 2011_
 
 
