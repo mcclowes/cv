@@ -3,7 +3,7 @@
 <p class="full-width">
     <a href="mailto:contact@mcclowes.com">contact@mcclowes.com</a> · <a href="https://bit.ly/mcclowes">mcclowes.com</a>
 </p>
- <p class="full-width">I am a Product Manager with a diverse software engineering and design background. I use my background to get the best out of my development peers, and the best for my developer users. Intuition led, data backed. I've been delivering websites and apps for 10+ years. DoY's Young Entrepreneur Award winner as a founder.</p>
+ <p class="full-width">I am a Product Director with a diverse software engineering and design background. I use my background to get the best out of my development peers, and the best for my users. Intuition led, data backed. I've been delivering websites and apps for 10+ years. DoY's Young Entrepreneur Award winner as a founder.</p>
 
 <p class="full-width"><i>References available upon request. You can see what people have said about me <a href="https://github.com/mcclowes/mcclowes/blob/master/recommendations.md">here</a>.</i></p>
 
@@ -84,11 +84,11 @@
 </ul>
  <h2>
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="512" height="512"><g id="_01_align_center" data-name="01 align center"><path d="M21,24H19V18.957A2.96,2.96,0,0,0,16.043,16H7.957A2.96,2.96,0,0,0,5,18.957V24H3V18.957A4.963,4.963,0,0,1,7.957,14h8.086A4.963,4.963,0,0,1,21,18.957Z"/><path d="M12,12a6,6,0,1,1,6-6A6.006,6.006,0,0,1,12,12ZM12,2a4,4,0,1,0,4,4A4,4,0,0,0,12,2Z"/></g></svg>
-    About Me
+    About me
 </h2>
 
 <p>You can read my thoughts at <a href="https://mcclowes.com/blog">my blog</a>.</p>
 <p>I regularly attend PM conferences &amp; meet-ups <em>(Elevate, Product School)</em>. I keep up to speed with PM best-practice through online learning and blogs/newsletters.</p>
 <p>I&#39;ve always got a <a href="https://github.com/mcclowes?tab=repositories">personal development project</a> on the go; currently, I&#39;m building a fantasy football team-building AI and the <a href="https://github.com/mcclowes/cv-maker">tool that made this CV</a>. I regularly attend developer meet-ups <em>(React London, GitHub Universe, Next Conf)</em>.</p>
-<p>I love board games, quizzes, cryptic crosswords, and cats. I&#39;m a runner (first marathon will be in Valencia in December), cyclist, rock climber, and dancer (1st place university circuit). I sing and am a multi-instrumentalist.</p>
+<p>I love board games, quizzes, cryptic crosswords, and cats. I enjoy running and rock climbing. I sing and am a multi-instrumentalist.</p>
 </div>
