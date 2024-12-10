@@ -35,7 +35,7 @@
   --color-font-highlight: var(--color-gray-dark);
   --color-font-quote: var(--color-gray-light);
 
-  --font-family-serif: 'Merriweather', sans-serif;
+  --font-family-serif: 'Inknut Antiqua', 'Merriweather', sans-serif;
   --font-family-mono: 'Roboto Mono', monospace;
 }
 
@@ -104,6 +104,8 @@ li {
 
 h1 {
   margin: 0;
+  line-height: 1.6em;
+  color: var(--color-font-body);
 }
 
 h2 {
@@ -116,7 +118,8 @@ h2 {
   border-radius: 4px;
   background: var(--color-background-alt);
   color: var(--color-font-header);
-  font-size: 1.8em;
+  font-size: 1.4em;
+  line-height: 1.8em;
 }
 
 h2 > svg {
@@ -128,6 +131,8 @@ h2 > svg {
 
 h3 {
   margin-top: 1.5em;
+  font-size: 1em;
+  line-height: 1.8em;
   color: var(--color-font-accent);
 }
 
@@ -287,11 +292,9 @@ html:not(.web) .download-link {
 }
 
 .download-link {
-  position: absolute;
-  top: 0;
-  right: 0;
-  padding: 20px;
   color: var(--color-primary);
+  display: flex;
+  align-items: center;
 
   &:hover {
     opacity: 0.5;
@@ -305,4 +308,13 @@ html:not(.web) .download-link {
   height: 1em;
   margin-right: 0.25em;
   vertical-align: text-top;
+}
+
+@media screen and (min-width: 849px) {
+  .download-link {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 20px;
+  }  
 }

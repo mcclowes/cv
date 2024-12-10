@@ -9,21 +9,21 @@
 
 _November 2021 - Ongoing_
 
-Heading [Codat](https://bit.ly/3ObH0e0)'s user experience and platform teams, I've:
+Heading [Codat](https://bit.ly/3ObH0e0)'s user experience and platform teams, I have:
 
-- Created and delivered product vision and strategy for the the majority of Codat's P&E org, reporting directly to the CEO.
-- Managed high-performing product, engineering, design, and technical writing teams, coaching contributors consistently recognised as top achievers.
-- Created Codat's best-in-class [Link](https://docs.codat.io/auth-flow/overview) product, driving the data sharing for 100,000s of SMBs.
-- Replatformed Codat.
-- Redesigned and built the Codat [developer portal](https://bit.ly/3AXMZjC)
-- Fully reimagined Codat's award-winning [docs](https://docs.codat.io/), launched new detailed API ref and SDKs, and sample code
-- Delivered major features for the largest US & UK banks and other major enterprises
-- Managed the design team, creating beautiful and usable experiences
-- Rolled out our design system across our products, with a focus on accessibility
-- Launched (and later sunset) an experimental new pricing model and growth motion for Codat.
-- Pioneered data-driven product management, supported by Amplitude
-- Created an ethnographic research practice, focused on our developer personas
-- Celebrated as "Codat's top PM" and "top manager" and promoted at pace several times to current responsibilities
+- Defined and delivered product vision + strategy for the the majority of Codat's P&E org.
+- Support the largest US & UK banks and other major enterprises for Spend Analysis and Underwriting usecases, achieving adoption targets.
+- Led Codat's nascent AI & LLM initiatives.
+- Created best-in-class product [Link](https://docs.codat.io/auth-flow/overview), doubling conversion and driving data sharing for 100,000 SMBs.
+- Replatformed Codat with measured results - e.g. 2 weeks → 2 days to deploy new webhooks.
+- Redesigned and built the Codat [developer portal](https://bit.ly/3AXMZjC).
+- Reimagined Codat's award-winning [docs](https://docs.codat.io/), launched new detailed API ref and SDKs, and sample code.
+- Pioneered data-driven product management at Codat, supported by Amplitude.
+- Managed high-performing PMs, engineers, designers, and technical writers, with mentees consistently recognised as high achievers.
+- [Celebrated](https://github.com/mcclowes/mcclowes/blob/master/feedback.md) as "Codat's top PM" and "top manager" and promoted at pace several times from Senior PM.
+- Managed the design team, creating beautiful and usable experiences underpinned by driving ethnographic research practices.
+- Rolled out our design system across our products, with a focus on accessibility.
+- Launched (and later sunsetted) an experimental new pricing model and growth motion for Codat.
 
 ### Product Manager _- Swoop_
 
@@ -31,7 +31,7 @@ _March 2021 - November 2021_
 
 Managed building to loan provider and credit scoring APIs, as well as designing [Swoop](https://bit.ly/swoopfunding)'s own instant-decisioning API product. Delivered a new growth product for Swoop, allowing SMBs to find themselves up to £1,000,000 in funding, accessible within 24 hours via our loan providers' APIs.
 
-Ran delivery management for the team, and dramatically increased my team's velocity, releasing several major projects.
+Took a team which had never released to shipping several major projects through taking by delivery and engineering management.
 
 \page
 
@@ -39,7 +39,7 @@ Ran delivery management for the team, and dramatically increased my team's veloc
 
 _April 2016 - August 2018_
 
-Co-founded Codogo, delivering client products through our agency business, whilst developing in-house collaborative document tool Codogo Write. I personally:
+Co-founded [Codogo](https://www.crunchbase.com/organization/codogo), delivering client products through our agency business, whilst developing in-house collaborative document tool Codogo Write. I personally:
 
 - Owned project lifecycle from ideation to delivery of complex web and native apps for 30+ clients ranging from the NHS to Arsenal FC.
 - Pitched, winning [awards](http://bit.ly/35F6psY), clients, and investors, even being flown out to try for Y Combinator with our in-house product.
@@ -47,7 +47,7 @@ Co-founded Codogo, delivering client products through our agency business, whils
 ### Other Experience
 
 - Software Engineer (FE) _- [Pollen](https://www.crunchbase.com/organization/streetteam-software), [Workshare](https://www.crunchbase.com/organization/workshare), 2018 - 2021_
-- Development & Design Intern _- Akkroo, 2015_
+- Engineering Intern _- [Akkroo](https://www.crunchbase.com/organization/akkroo), 2015_
 - UX Designer _- Better Brief, 2012_
 - Project Manager _- Godfreys.co, 2011_
 
