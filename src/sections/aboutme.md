@@ -3,10 +3,10 @@
 	About me
 </h2>
 
-You can read my thoughts at [my blog](https://mcclowes.com/blog).
-
 I regularly attend PM conferences & meet-ups _(Elevate, Product School)_. I keep up to speed with PM best-practice through online learning and blogs/newsletters.
 
 I've always got a [personal development project](https://github.com/mcclowes?tab=repositories) on the go; currently, I'm building a fantasy football team-building AI and the [tool that made this CV](https://github.com/mcclowes/cv-maker). I regularly attend developer meet-ups _(React London, GitHub Universe, Next Conf)_.
 
 I love board games, quizzes, cryptic crosswords, and cats. I enjoy running and rock climbing. I sing and am a multi-instrumentalist.
+
+You can read my thoughts at [my blog](https://mcclowes.com/blog).

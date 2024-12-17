@@ -9,29 +9,24 @@
 
 _November 2021 - Ongoing_
 
-Heading [Codat](https://bit.ly/3ObH0e0)'s user experience and platform teams, I have:
+[Codat](https://bit.ly/3ObH0e0) helps banks and fintechs build insights and automations on accounting, banking, and commerce data. Leading the service and platform teams, I have:
 
-- Defined and delivered product vision + strategy for the the majority of Codat's P&E org.
-- Support the largest US & UK banks and other major enterprises for Spend Analysis and Underwriting usecases, achieving adoption targets.
-- Led Codat's nascent AI & LLM initiatives.
-- Created best-in-class product [Link](https://docs.codat.io/auth-flow/overview), doubling conversion and driving data sharing for 100,000 SMBs.
-- Replatformed Codat with measured results - e.g. 2 weeks → 2 days to deploy new webhooks.
-- Redesigned and built the Codat [developer portal](https://bit.ly/3AXMZjC).
-- Reimagined Codat's award-winning [docs](https://docs.codat.io/), launched new detailed API ref and SDKs, and sample code.
-- Pioneered data-driven product management at Codat, supported by Amplitude.
-- Managed high-performing PMs, engineers, designers, and technical writers, with mentees consistently recognised as high achievers.
-- [Celebrated](https://github.com/mcclowes/mcclowes/blob/master/feedback.md) as "Codat's top PM" and "top manager" and promoted at pace several times from Senior PM.
-- Managed the design team, creating beautiful and usable experiences underpinned by driving ethnographic research practices.
-- Rolled out our design system across our products, with a focus on accessibility.
-- Launched (and later sunsetted) an experimental new pricing model and growth motion for Codat.
+- Defined and delivered product vision + strategy supporting clients (e.g. J.P. Morgan) for spend analysis and underwriting.
+- Created best-in-class products including Codat's [Link](https://docs.codat.io/auth-flow/overview) (↑2x conversion, driving data sharing for 100,000 SMBs), [developer portal](https://docs.codat.io/configure/portal/companies) (↑40% MAUs), and award-winning [docs](https://docs.codat.io/) (↑30% faster go-lives).
+- Replatformed Codat, improving efficiency, supporting enterprise-grade client needs, and improving delivery pace (e.g. deploying new webhooks ↑5x faster).
+- Built cross-functional teams and nurtured high-performing PMs, engineers, designers, and technical writers. [Celebrated](https://github.com/mcclowes/mcclowes/blob/master/feedback.md) as Codat's top PM and manager, promoted swiftly several times.
+- Pioneered product excellence at Codat, including data-driven methods (supported by Amplitude).
+- Led more experimental initiatives includings Codat's nascent AI & LLM work, a growth motion, and more.
 
 ### Product Manager _- Swoop_
 
 _March 2021 - November 2021_
 
-Managed building to loan provider and credit scoring APIs, as well as designing [Swoop](https://bit.ly/swoopfunding)'s own instant-decisioning API product. Delivered a new growth product for Swoop, allowing SMBs to find themselves up to £1,000,000 in funding, accessible within 24 hours via our loan providers' APIs.
+[Swoop](https://bit.ly/swoopfunding) is the virtual CFO helping businesses secure funding and increase efficiency. Built products that solve longstanding SMB challenges:
 
-Took a team which had never released to shipping several major projects through taking by delivery and engineering management.
+- Rolled out SMB self-served access to underwriting of up to £1m, improving cost to serve and reducing time-to-funds to within 24 hours (↓3 days avg. vs. ~14 days avg. previously) via loan aggregation service.
+- Built credit scoring and reporting product backed by CRIF, increasing user retention (↑10%), data-sharing (↑15%), and reducing low-quality loan applications.
+- Wearing a delivery and manager hat, took a team which had _never_ released in a year to shipping several major projects in quick successiong.
 
 \page
 
