@@ -297,7 +297,8 @@ html:not(.web) .download-link {
   align-items: center;
 
   &:hover {
-    opacity: 0.5;
+    background: rgba(75, 95, 95, 1);
+    opacity: 1;
     text-decoration: none;
   }
 }
@@ -312,9 +313,11 @@ html:not(.web) .download-link {
 
 @media screen and (min-width: 849px) {
   .download-link {
-    position: absolute;
-    top: 0;
-    right: 0;
-    padding: 20px;
+    position: fixed;
+    top: 8px;
+    right: 8px;
+    padding: 8px 16px;
+    border-radius: 8px;
+    background: rgba(75, 95, 95, 0.75)
   }  
 }

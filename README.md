@@ -16,14 +16,14 @@
 
 <h3>Product Director <em>- Codat</em></h3>
 <p><em>November 2021 - Ongoing</em></p>
-<p><a href="https://bit.ly/3ObH0e0">Codat</a> helps banks and fintechs build insights and automations on accounting, banking, and commerce data. Leading the service and platform teams, I have:</p>
+<p><a href="https://bit.ly/3ObH0e0">Codat</a> helps banks and fintechs build insights and automations with accounting, banking, and commerce data. Leading the service and platform teams, I have:</p>
 <ul>
-<li>Defined and delivered product vision + strategy supporting clients (e.g. J.P. Morgan) for spend analysis and underwriting.</li>
+<li>Defined and delivered product vision + strategy supporting clients for spend analysis and underwriting usecases (inc. J.P. Morgan and other major banks).</li>
 <li>Created best-in-class products including Codat&#39;s <a href="https://docs.codat.io/auth-flow/overview">Link</a> (↑2x conversion, driving data sharing for 100,000 SMBs), <a href="https://docs.codat.io/configure/portal/companies">developer portal</a> (↑40% MAUs), and award-winning <a href="https://docs.codat.io/">docs</a> (↑30% faster go-lives).</li>
 <li>Replatformed Codat, improving efficiency, supporting enterprise-grade client needs, and improving delivery pace (e.g. deploying new webhooks ↑5x faster).</li>
 <li>Built cross-functional teams and nurtured high-performing PMs, engineers, designers, and technical writers. <a href="https://github.com/mcclowes/mcclowes/blob/master/feedback.md">Celebrated</a> as Codat&#39;s top PM and manager, promoted swiftly several times.</li>
 <li>Pioneered product excellence at Codat, including data-driven methods (supported by Amplitude).</li>
-<li>Led more experimental initiatives includings Codat&#39;s nascent AI &amp; LLM work, a growth motion, and more.</li>
+<li>Led more experimental initiatives includings Codat&#39;s nascent AI &amp; LLM work, a growth commercial model, and more.</li>
 </ul>
 <h3>Product Manager <em>- Swoop</em></h3>
 <p><em>March 2021 - November 2021</em></p>
