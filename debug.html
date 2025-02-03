@@ -320,10 +320,11 @@ html:not(.web) .download-link {
   color: var(--color-primary);
   display: flex;
   align-items: center;
+  border-radius: 8px;
 
   &:hover {
-    background: rgba(75, 95, 95, 1);
-    opacity: 1;
+    background: var(--color-background);
+    opacity: 0.7;
     text-decoration: none;
   }
 }
@@ -338,12 +339,12 @@ html:not(.web) .download-link {
 
 @media screen and (min-width: 849px) {
   .download-link {
+    color: var(--color-primary);
     position: fixed;
     top: 8px;
     right: 8px;
     padding: 8px 16px;
-    border-radius: 8px;
-    background: rgba(75, 95, 95, 0.75)
+    background: var(--color-background);
   }  
 }
 .pdf .page {
