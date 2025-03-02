@@ -26,7 +26,7 @@ _March 2021 - November 2021_
 
 - Rolled out SMB self-served access to underwriting of up to £1m, improving cost to serve and reducing time-to-funds to within 24 hours (↓3 days avg. vs. ~14 days avg. previously) via loan aggregation service.
 - Built credit scoring and reporting product backed by CRIF, increasing user retention (↑10%), data-sharing (↑15%), and reducing low-quality loan applications.
-- Wearing a delivery and manager hat, took a team which had _never_ released in a year to shipping several major projects in quick successiong.
+- Wearing a delivery and manager hat, took a team which had _never_ released in a year to shipping several major projects in quick succession.
 
 \page
 
