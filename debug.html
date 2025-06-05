@@ -104,6 +104,7 @@ body {
 
 body {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
 }
@@ -239,10 +240,14 @@ hr {
   margin: 0;
 }
 
-.web .pages {
+html.web .pages {
   max-width: 700px;
   padding: 1.6em 1em;
-  height: 100vh;
+}
+.pages {
+  /* height: 100vh; */
+  display: flex;
+  flex-direction: column;
 }
 
 .page {
@@ -296,11 +301,11 @@ h3 + ul {
   margin-top: 3px;
 }
 
-.pages.web ol {
+html.web .pages ol {
   padding-inline-start: 1em;
 }
 
-.pages:not(.web) ol {
+html:not(.web) .pages ol {
   padding-inline-start: 0;
 }
 
