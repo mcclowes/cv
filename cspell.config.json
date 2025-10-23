@@ -1,0 +1,40 @@
+{
+  "version": "0.2",
+  "language": "en-GB",
+  "useGitignore": true,
+  "ignorePaths": [
+    "node_modules",
+    "package-lock.json"
+  ],
+  "overrides": [
+    {
+      "filename": "**/*.md",
+      "language": "en-GB"
+    }
+  ],
+  "words": [
+    "Akkroo",
+    "Amplitude",
+    "Codogo",
+    "Codat",
+    "CRIF",
+    "DoY",
+    "fintech",
+    "fintechs",
+    "LLM",
+    "LLMs",
+    "MAUs",
+    "mcclowes",
+    "meetups",
+    "org",
+    "orgs",
+    "PMs",
+    "SaaS",
+    "SMBs",
+    "webhooks"
+  ],
+  "flagWords": [
+    "hte",
+    "teh"
+  ]
+}
