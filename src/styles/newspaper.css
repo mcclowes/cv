@@ -11,7 +11,7 @@
   -webkit-column-width: var(--width);
   -moz-column-width: var(--width);
   -webkit-column-gap: var(--gap);
-  -moz-column-gap: var(--gap );
+  -moz-column-gap: var(--gap);
 }
 
 .pdf .page a {

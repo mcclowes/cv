@@ -64,11 +64,13 @@ const generatePdf = async (content, destination = "./output.pdf", options) => {
   } catch (error) {
     const message = String(error?.message || "");
     if (message.includes("Executable doesn't exist")) {
-      console.error([
-        "Playwright browser is not installed.",
-        "Run to install Chromium locally:",
-        "  npm_config_cache=$(pwd)/.npm-cache PLAYWRIGHT_BROWSERS_PATH=0 npx --yes playwright install chromium",
-      ].join("\n"));
+      console.error(
+        [
+          "Playwright browser is not installed.",
+          "Run to install Chromium locally:",
+          "  npm_config_cache=$(pwd)/.npm-cache PLAYWRIGHT_BROWSERS_PATH=0 npx --yes playwright install chromium",
+        ].join("\n"),
+      );
     }
     throw error;
   }

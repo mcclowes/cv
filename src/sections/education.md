@@ -17,7 +17,7 @@ _2011 - 2012_
 
 ### Foundation Diploma in Art + Design _- London College of Communication_
 
-_2010 - 2011_  
+_2010 - 2011_
 
 ### High School _- City of London School_
 

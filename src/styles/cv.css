@@ -11,7 +11,7 @@
   --color-offwhite: #fffae1;
   --color-offwhite-dark: #d7d1b1;
   --color-offwhite-alt-light: #bab59f;
-  --color-offwhite-alt: #C2BDA7;
+  --color-offwhite-alt: #c2bda7;
   --color-offwhite-alt-dark: #a29d84;
 
   --color-red: #ff7070;
@@ -35,8 +35,8 @@
   --color-font-highlight: var(--color-gray-dark);
   --color-font-quote: var(--color-gray-light);
 
-  --font-family-serif: 'Inknut Antiqua', 'Merriweather', sans-serif;
-  --font-family-mono: 'Roboto Mono', monospace;
+  --font-family-serif: "Inknut Antiqua", "Merriweather", sans-serif;
+  --font-family-mono: "Roboto Mono", monospace;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -248,7 +248,7 @@ html.web .pages {
   color: white !important;
 }
 
-.pdf h2>svg {
+.pdf h2 > svg {
   fill: white !important;
 }
 
@@ -326,5 +326,5 @@ html:not(.web) .download-link {
     right: 8px;
     padding: 8px 16px;
     background: var(--color-background);
-  }  
+  }
 }

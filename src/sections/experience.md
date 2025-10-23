@@ -45,5 +45,3 @@ Co-founded [Codogo](https://www.crunchbase.com/organization/codogo), delivering 
 - Engineering Intern _- [Akkroo](https://www.crunchbase.com/organization/akkroo), 2015_
 - UX Designer _- Better Brief, 2012_
 - Project Manager _- Godfreys.co, 2011_
-
-
