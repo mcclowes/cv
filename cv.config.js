@@ -22,8 +22,8 @@ const meta = {
 const cvs = {
   product: {
     content: [
-      "./src/sections/header/productnew.md",
-      "./src/sections/introduction/productnew.md",
+      "./src/sections/header/main.md",
+      "./src/sections/introduction/main.md",
       "./src/sections/experience.md",
       "./src/sections/education.md",
       "./src/sections/awards.md",
