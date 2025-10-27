@@ -82,7 +82,7 @@ const buildHtml = (css, html, options, mode = "web") => {
 const createReadme = (content, options = {}) => {
   return `
 [![Spellcheck Markdown Files](https://github.com/mcclowes/cv/actions/workflows/spellcheck.yml/badge.svg)](https://github.com/mcclowes/cv/actions/workflows/spellcheck.yml)
-[![Build CV](https://github.com/mcclowes/cv/actions/workflows/build.yml/badge.svg)](https://github.com/mcclowes/cv/actions/workflows/build.yml)
+[![CI](https://github.com/mcclowes/cv/actions/workflows/ci.yml/badge.svg)](https://github.com/mcclowes/cv/actions/workflows/ci.yml)
 
 ${content}
 `;

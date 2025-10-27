@@ -1,6 +1,6 @@
 
 [![Spellcheck Markdown Files](https://github.com/mcclowes/cv/actions/workflows/spellcheck.yml/badge.svg)](https://github.com/mcclowes/cv/actions/workflows/spellcheck.yml)
-[![Build CV](https://github.com/mcclowes/cv/actions/workflows/build.yml/badge.svg)](https://github.com/mcclowes/cv/actions/workflows/build.yml)
+[![CI](https://github.com/mcclowes/cv/actions/workflows/ci.yml/badge.svg)](https://github.com/mcclowes/cv/actions/workflows/ci.yml)
 
 <div class="page" id="p1"><h1 class="full-width">Max Clayton Clowes</h1>
 
