@@ -16,7 +16,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: 18
+          node-version: 20
           cache: 'npm'
 
       - name: Install dependencies
@@ -28,7 +28,17 @@ jobs:
       - name: Run tests
         run: npm test -- --ci
 
-      - name: Build CV (optional)
-        if: github.event_name == 'push'
+      - name: Build CV
         run: npm run build
+
+      - name: Upload build artifacts
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: cv
+          if-no-files-found: warn
+          path: |
+            mcclowes_cv.pdf
+            index.html
+            debug.html
 
