@@ -1,10 +1,8 @@
 
-    <html>
-      <body>
-        [![Spellcheck Markdown Files](https://github.com/mcclowes/cv/actions/workflows/spellcheck.yml/badge.svg)](https://github.com/mcclowes/cv/actions/workflows/spellcheck.yml)
-        [![Build CV](https://github.com/mcclowes/cv/actions/workflows/build.yml/badge.svg)](https://github.com/mcclowes/cv/actions/workflows/build.yml)
+[![Spellcheck Markdown Files](https://github.com/mcclowes/cv/actions/workflows/spellcheck.yml/badge.svg)](https://github.com/mcclowes/cv/actions/workflows/spellcheck.yml)
+[![Build CV](https://github.com/mcclowes/cv/actions/workflows/build.yml/badge.svg)](https://github.com/mcclowes/cv/actions/workflows/build.yml)
 
-        <div class="page" id="p1"><h1 class="full-width">Max Clayton Clowes</h1>
+<div class="page" id="p1"><h1 class="full-width">Max Clayton Clowes</h1>
 
 <p class="full-width">
     <a href="mailto:contact@mcclowes.com">contact@mcclowes.com</a> · <a href="https://bit.ly/mcclowes">mcclowes.com</a> · <a href="https://www.linkedin.com/in/maxclaytonclowes/">LinkedIn</a>
@@ -93,6 +91,3 @@
 <p>I love board games, quizzes, cryptic crosswords, and cats. I enjoy running and rock climbing. I sing and am a multi-instrumentalist.</p>
 <p>You can read my thoughts at <a href="https://mcclowes.com/blog">my blog</a>.</p>
 </div>
-      </body>
-    </html>
-  
