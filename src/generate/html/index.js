@@ -79,6 +79,19 @@ const buildHtml = (css, html, options, mode = "web") => {
 	`;
 };
 
+const createReadme = (content, options = {}) => {
+  return `
+    <html>
+      <body>
+        [![Spellcheck Markdown Files](https://github.com/mcclowes/cv/actions/workflows/spellcheck.yml/badge.svg)](https://github.com/mcclowes/cv/actions/workflows/spellcheck.yml)
+        [![Build CV](https://github.com/mcclowes/cv/actions/workflows/build.yml/badge.svg)](https://github.com/mcclowes/cv/actions/workflows/build.yml)
+
+        ${content}
+      </body>
+    </html>
+  `;
+};
+
 const generateHtml = (content, options = {}) => {
   console.log("Generating HTML...");
 
@@ -88,7 +101,7 @@ const generateHtml = (content, options = {}) => {
   const html = handleTargetPages(content, markdownOptions);
   const css = readStylesheets(styleOptions).join("");
 
-  createHtmlFile(html, "README.md");
+  createHtmlFile(createReadme(html), "README.md");
 
   if (options.debug) {
     createHtmlFile(buildHtml(css, html, options, "debug pdf"), "debug.html");
