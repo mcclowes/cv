@@ -1,0 +1,35 @@
+{
+  "version": "0.2",
+  "language": "en-GB",
+  "allowCompoundWords": true,
+  "ignorePaths": [
+    "node_modules/**",
+    ".git/**",
+    "**/*.pdf"
+  ],
+  "words": [
+    "Clowes",
+    "mcclowes",
+    "fintech",
+    "fintechs",
+    "Codat",
+    "Codat's",
+    "Codogo",
+    "Workshare",
+    "Akkroo",
+    "Godfreys",
+    "Ravensbourne",
+    "ISTC",
+    "CRIF",
+    "Ludifi",
+    "CityBoard",
+    "Productboard",
+    "roadmapping",
+    "wireframing",
+    "automations",
+    "lifecycles",
+    "Replatformed",
+  ]
+}
+
+
