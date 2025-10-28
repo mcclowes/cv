@@ -1,7 +1,7 @@
 ## 📄 Experience
 
-- Senior Product Manager _- Codat, 2021 - Ongoing_
-- Product Manager _- Swoop, 2021_
+- Senior Product Manager _- [Codat](https://codat.io/), 2021 - Ongoing_
+- Product Manager _- [Swoop](https://swoopfunding.com/), 2021_
 - Founder, Product Manager _- Codogo, 2016 - 2018_
 - Software Engineer (FE) _- [Pollen](https://pollen.co/uk), 2019 - 2021_
 - Software Engineer (FE) _- [Workshare](https://www.litera.com/litera-and-workshare/), 2018 - 2019_

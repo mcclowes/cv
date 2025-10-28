@@ -3,7 +3,7 @@
 	About me
 </h2>
 
-I've always got a [personal development project](https://github.com/mcclowes?tab=repositories) on the go; currently, I'm building a fantasy football team-building AI and the [tool that made this CV](https://github.com/mcclowes/cv). I regularly attend (and occasionally speak at) developer, product, and tech writer meet-ups _(React London, GitHub Universe, Next Conf, WTD London)_.
+I've always got a [personal development project](https://github.com/mcclowes?tab=repositories) on the go; currently, I'm building a fantasy football team-building AI and the [tool that made this CV](https://github.com/mcclowes/cv). I regularly attend (and occasionally speak at) developer, product, and tech writer meet-ups _(BCS, React London, GitHub Universe, Next Conf, WTD London)_.
 
 I love board games, quizzes, cryptic crosswords, and cats. I enjoy running and rock climbing. I sing and am a multi-instrumentalist.
 

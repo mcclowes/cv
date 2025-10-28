@@ -24,7 +24,7 @@ const cvs = {
     content: [
       "./src/sections/header/main.md",
       "./src/sections/introduction/main.md",
-      "./src/sections/experience.md",
+      "./src/sections/experience/experience.md",
       "./src/sections/education.md",
       "./src/sections/awards.md",
       "./src/sections/aboutme.md",
