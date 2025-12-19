@@ -165,7 +165,7 @@ A roadmap for making this CV generator more effective, beautiful, and reliable.
 ## 🐛 Known Issues to Fix
 
 - [ ] 🟡 **Nested markdown processing** - Currently only works for `<div>` wrappers; extend to other HTML elements
-- [ ] 🟡 **Remove legacy devDependencies** - `fs` and `path` listed but are Node.js built-ins
+- [x] 🟡 **Remove legacy devDependencies** - `fs` and `path` listed but are Node.js built-ins
 - [ ] 🟢 **Pre-commit hook enforcement** - Make CV rebuild mandatory, not just a reminder
 
 ---
