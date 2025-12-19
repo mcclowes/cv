@@ -22,11 +22,12 @@ const handleTargetPages = (content, markdownOptions) => {
 const createHtmlFile = (html, fileName = "index.html") => {
   console.log(`Saving ${fileName}...`);
 
-  fs.writeFile(fileName, html, function (err) {
-    if (err) {
-      console.log(err);
-    }
-  });
+  try {
+    fs.writeFileSync(fileName, html, "utf8");
+  } catch (err) {
+    console.error(`Error writing file: ${fileName}`, err.message);
+    throw err;
+  }
 };
 
 const buildHtml = (css, html, options, mode = "web") => {

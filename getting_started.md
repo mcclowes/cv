@@ -35,31 +35,27 @@ Generate the static CV output:
 npm run build
 ```
 
-### Watch / Live Reload
+### Watch Mode
 
-For a local development server with live reload, run:
-
-```bash
-npm run start
-```
-
-This starts Vite on <http://localhost:5173>. Any changes under `src/` trigger an automatic rebuild and browser refresh.
-
-## Multiple CV Configurations
-
-The project can build several CV variants in one pass. Add configuration files under `src/createCV` and export them in `src/createCV/index.ts`.
-
-Run the build with the names of the CVs you want to generate:
+For automatic rebuilds during development, run:
 
 ```bash
-npm run build -- engineering product design
+npm run watch
 ```
 
-Each name corresponds to an exported configuration. If no extra arguments are provided, the default CV is built.
+This watches the `src/` directory and rebuilds the CV when files change.
+
+## Configuration
+
+The project configuration is in `cv.config.js`. You can customize:
+- CV content sections (markdown files)
+- Stylesheet themes
+- Output options (PDF, HTML, debug mode)
 
 ## Troubleshooting
 
 - Delete `node_modules` and run `npm install` again if dependency issues arise.
-- Use `npm run lint` to catch TypeScript or formatting problems before committing.
+- Use `npm run lint` to catch JavaScript or formatting problems before committing.
+- If PDF generation fails, ensure Playwright browsers are installed: `npx playwright install chromium`
 
 With these commands you should be ready to customise and publish updated CVs.
