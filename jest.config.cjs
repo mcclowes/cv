@@ -1,7 +1,6 @@
 module.exports = {
   transform: {
     "^.+\\.js?$": "babel-jest",
-    "^.+\\.md?$": "markdown-loader-jest",
   },
   collectCoverageFrom: [
     "src/**/*.js",

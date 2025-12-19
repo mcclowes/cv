@@ -1,7 +1,7 @@
-import generatePdf from "../index";
+import generatePdf from "../index.js";
 
 // Mock the html generator
-jest.mock("../../html", () => ({
+jest.mock("../../html/index.js", () => ({
   __esModule: true,
   default: jest.fn().mockResolvedValue("<html><body>Test CV</body></html>"),
 }));
@@ -20,6 +20,13 @@ const mockLaunch = jest.fn().mockResolvedValue({
   newPage: mockNewPage,
   close: mockClose,
 });
+
+// Mock both playwright and playwright-core since the code tries playwright-core first
+jest.mock("playwright-core", () => ({
+  chromium: {
+    launch: () => mockLaunch(),
+  },
+}));
 
 jest.mock("playwright", () => ({
   chromium: {

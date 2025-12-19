@@ -3,16 +3,16 @@
 exports[`generateHtml default 1`] = `
 "
 		<!DOCTYPE html>
-		<html lang=\\"en-GB\\" class=\\"pdf\\">
+		<html lang="en-GB" class="pdf">
 			<head>
-				<meta charset=\\"utf-8\\">
+				<meta charset="utf-8">
         
-        <meta name=\\"viewport\\" content=\\"width=device-width,initial-scale=1,maximum-scale=2,shrink-to-fit=no\\">
+        <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=2,shrink-to-fit=no">
 
-        <link rel=\\"icon\\" href=\\"assets/favicon.ico\\" />
+        <link rel="icon" href="assets/favicon.ico" />
 
         <title>CV</title>
-        <meta name=\\"description\\" content=\\"CV made with cv-maker\\">
+        <meta name="description" content="CV made with cv-maker">
     
 
 				<style>
@@ -21,10 +21,10 @@ exports[`generateHtml default 1`] = `
 				</style>
 			</head>
 			
-			<body class=\\"document\\">
-				<div class=\\"pages\\">
-					<div class=\\"page\\" id=\\"p1\\"><h1>Max Clayton Clowes</h1>
-<p><a href=\\"mailto:contact@mcclowes.com\\">contact@mcclowes.com</a> · <a href=\\"tel:+447976136097\\">+44 (0) 7976 136 097</a> · <a href=\\"https://mcclowes.com\\">mcclowes.com</a></p>
+			<body class="document">
+				<div class="pages">
+					<div class="page" id="p1"><h1>Max Clayton Clowes</h1>
+<p><a href="mailto:contact@mcclowes.com">contact@mcclowes.com</a> · <a href="tel:+447976136097">+44 (0) 7976 136 097</a> · <a href="https://mcclowes.com">mcclowes.com</a></p>
 <h2>Experience</h2>
 <h3>Software Engineer (FE) <em>- Pollen</em></h3>
 <p><em>December 2019 - Ongoing</em></p>
@@ -41,7 +41,7 @@ exports[`generateHtml default 1`] = `
 <li>Managed (Agile) and supported the growth of my small team.</li>
 <li>Pitched to top investors, including being flown out to Y Combinator based on the strength of the Alpha of our product, Codogo Write.</li>
 </ul>
-<p></div> <div class=\\"page\\" id=\\"p2\\"></p>
+<p></div> <div class="page" id="p2"></p>
 <h3>Other Experience</h3>
 <ul>
 <li>Development &amp; Design Intern <em>- Akkroo, 2015</em></li>
@@ -80,32 +80,32 @@ exports[`generateHtml default 1`] = `
 exports[`generateHtml for website 1`] = `
 "
 		<!DOCTYPE html>
-		<html lang=\\"en-GB\\" class=\\"pdf\\">
+		<html lang="en-GB" class="pdf">
 			<head>
-				<meta charset=\\"utf-8\\">
+				<meta charset="utf-8">
         
-    <meta name=\\"viewport\\" content=\\"width=device-width,initial-scale=1,maximum-scale=2,shrink-to-fit=no\\">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=2,shrink-to-fit=no">
 
-    <link rel=\\"icon\\" href=\\"assets/favicon.ico\\" />
-    <link rel=\\"canonical\\" href=\\"https://cv.joebloggs.com/\\">
+    <link rel="icon" href="assets/favicon.ico" />
+    <link rel="canonical" href="https://cv.joebloggs.com/">
 
     <title>Joe Bloggs CV</title>
-    <meta name=\\"description\\" content=\\"Enter a summary of you here.\\">
+    <meta name="description" content="Enter a summary of you here.">
 
     <!--  Social tags -->
-    <meta property=\\"og:type\\" content=\\"website\\">
-    <meta property=\\"og:description\\" content=\\"Enter a summary of you here.\\">
-    <meta property=\\"og:image\\" content=\\"https://cv.joebloggs.com/preview.png\\">
-    <meta property=\\"og:site_name\\" content=\\"The CV of Joe Bloggs\\">
-    <meta property=\\"og:title\\" content=\\"The CV of Joe Bloggs\\">
-    <meta property=\\"og:url\\" content=\\"https://cv.joebloggs.com/\\">
+    <meta property="og:type" content="website">
+    <meta property="og:description" content="Enter a summary of you here.">
+    <meta property="og:image" content="https://cv.joebloggs.com/preview.png">
+    <meta property="og:site_name" content="The CV of Joe Bloggs">
+    <meta property="og:title" content="The CV of Joe Bloggs">
+    <meta property="og:url" content="https://cv.joebloggs.com/">
 
-    <meta name=\\"twitter:card\\" content=\\"summary_large_image\\">
-    <meta name=\\"twitter:image:alt\\" content=\\"Joe Bloggs CV\\">
-    <meta name=\\"twitter:site\\" content=\\"undefined\\">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image:alt" content="Joe Bloggs CV">
+    <meta name="twitter:site" content="undefined">
 
     <!-- Structured data for AI/search engines -->
-    <script type=\\"application/ld+json\\">{\\"@context\\":\\"https://schema.org\\",\\"@type\\":\\"Person\\",\\"name\\":\\"Joe Bloggs\\",\\"description\\":\\"Enter a summary of you here.\\",\\"url\\":\\"https://cv.joebloggs.com/\\"}</script>
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"Person","name":"Joe Bloggs","description":"Enter a summary of you here.","url":"https://cv.joebloggs.com/"}</script>
   
 
 				<style>
@@ -114,10 +114,10 @@ exports[`generateHtml for website 1`] = `
 				</style>
 			</head>
 			
-			<body class=\\"document\\">
-				<div class=\\"pages\\">
-					<div class=\\"page\\" id=\\"p1\\"><h1>Max Clayton Clowes</h1>
-<p><a href=\\"mailto:contact@mcclowes.com\\">contact@mcclowes.com</a> · <a href=\\"tel:+447976136097\\">+44 (0) 7976 136 097</a> · <a href=\\"https://mcclowes.com\\">mcclowes.com</a></p>
+			<body class="document">
+				<div class="pages">
+					<div class="page" id="p1"><h1>Max Clayton Clowes</h1>
+<p><a href="mailto:contact@mcclowes.com">contact@mcclowes.com</a> · <a href="tel:+447976136097">+44 (0) 7976 136 097</a> · <a href="https://mcclowes.com">mcclowes.com</a></p>
 <h2>Experience</h2>
 <h3>Software Engineer (FE) <em>- Pollen</em></h3>
 <p><em>December 2019 - Ongoing</em></p>
@@ -134,7 +134,7 @@ exports[`generateHtml for website 1`] = `
 <li>Managed (Agile) and supported the growth of my small team.</li>
 <li>Pitched to top investors, including being flown out to Y Combinator based on the strength of the Alpha of our product, Codogo Write.</li>
 </ul>
-<p></div> <div class=\\"page\\" id=\\"p2\\"></p>
+<p></div> <div class="page" id="p2"></p>
 <h3>Other Experience</h3>
 <ul>
 <li>Development &amp; Design Intern <em>- Akkroo, 2015</em></li>
@@ -173,32 +173,32 @@ exports[`generateHtml for website 1`] = `
 exports[`generateHtml with array 1`] = `
 "
 		<!DOCTYPE html>
-		<html lang=\\"en-GB\\" class=\\"pdf\\">
+		<html lang="en-GB" class="pdf">
 			<head>
-				<meta charset=\\"utf-8\\">
+				<meta charset="utf-8">
         
-    <meta name=\\"viewport\\" content=\\"width=device-width,initial-scale=1,maximum-scale=2,shrink-to-fit=no\\">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=2,shrink-to-fit=no">
 
-    <link rel=\\"icon\\" href=\\"assets/favicon.ico\\" />
-    <link rel=\\"canonical\\" href=\\"https://cv.joebloggs.com/\\">
+    <link rel="icon" href="assets/favicon.ico" />
+    <link rel="canonical" href="https://cv.joebloggs.com/">
 
     <title>Joe Bloggs CV</title>
-    <meta name=\\"description\\" content=\\"Enter a summary of you here.\\">
+    <meta name="description" content="Enter a summary of you here.">
 
     <!--  Social tags -->
-    <meta property=\\"og:type\\" content=\\"website\\">
-    <meta property=\\"og:description\\" content=\\"Enter a summary of you here.\\">
-    <meta property=\\"og:image\\" content=\\"https://cv.joebloggs.com/preview.png\\">
-    <meta property=\\"og:site_name\\" content=\\"The CV of Joe Bloggs\\">
-    <meta property=\\"og:title\\" content=\\"The CV of Joe Bloggs\\">
-    <meta property=\\"og:url\\" content=\\"https://cv.joebloggs.com/\\">
+    <meta property="og:type" content="website">
+    <meta property="og:description" content="Enter a summary of you here.">
+    <meta property="og:image" content="https://cv.joebloggs.com/preview.png">
+    <meta property="og:site_name" content="The CV of Joe Bloggs">
+    <meta property="og:title" content="The CV of Joe Bloggs">
+    <meta property="og:url" content="https://cv.joebloggs.com/">
 
-    <meta name=\\"twitter:card\\" content=\\"summary_large_image\\">
-    <meta name=\\"twitter:image:alt\\" content=\\"Joe Bloggs CV\\">
-    <meta name=\\"twitter:site\\" content=\\"undefined\\">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image:alt" content="Joe Bloggs CV">
+    <meta name="twitter:site" content="undefined">
 
     <!-- Structured data for AI/search engines -->
-    <script type=\\"application/ld+json\\">{\\"@context\\":\\"https://schema.org\\",\\"@type\\":\\"Person\\",\\"name\\":\\"Joe Bloggs\\",\\"description\\":\\"Enter a summary of you here.\\",\\"url\\":\\"https://cv.joebloggs.com/\\"}</script>
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"Person","name":"Joe Bloggs","description":"Enter a summary of you here.","url":"https://cv.joebloggs.com/"}</script>
   
 
 				<style>
@@ -207,10 +207,10 @@ exports[`generateHtml with array 1`] = `
 				</style>
 			</head>
 			
-			<body class=\\"document\\">
-				<div class=\\"pages\\">
-					<div class=\\"page\\" id=\\"p1\\"><h1>Max Clayton Clowes</h1>
-<p><a href=\\"mailto:contact@mcclowes.com\\">contact@mcclowes.com</a> · <a href=\\"tel:+447976136097\\">+44 (0) 7976 136 097</a> · <a href=\\"https://mcclowes.com\\">mcclowes.com</a></p>
+			<body class="document">
+				<div class="pages">
+					<div class="page" id="p1"><h1>Max Clayton Clowes</h1>
+<p><a href="mailto:contact@mcclowes.com">contact@mcclowes.com</a> · <a href="tel:+447976136097">+44 (0) 7976 136 097</a> · <a href="https://mcclowes.com">mcclowes.com</a></p>
 <h2>Experience</h2>
 <h3>Software Engineer (FE) <em>- Pollen</em></h3>
 <p><em>December 2019 - Ongoing</em></p>
@@ -227,7 +227,7 @@ exports[`generateHtml with array 1`] = `
 <li>Managed (Agile) and supported the growth of my small team.</li>
 <li>Pitched to top investors, including being flown out to Y Combinator based on the strength of the Alpha of our product, Codogo Write.</li>
 </ul>
-<p></div> <div class=\\"page\\" id=\\"p2\\"></p>
+<p></div> <div class="page" id="p2"></p>
 <h3>Other Experience</h3>
 <ul>
 <li>Development &amp; Design Intern <em>- Akkroo, 2015</em></li>
@@ -255,7 +255,7 @@ exports[`generateHtml with array 1`] = `
 <p>Regularly attend PM conferences &amp; meet-ups <em>(Elevate, Product School)</em>. Regularly attend developer meet-ups <em>(React London, GitHub Universe, Next Conf)</em>. Currently work mainly with React <em>(ES6)</em>.</p>
 <p>Runner (1st marathon coming up in December), cyclist, rock climber, and dancer (1st place university circuit). Singer and multi-instrumentalist.</p>
  <h1>Max Clayton Clowes</h1>
-<p><a href=\\"mailto:contact@mcclowes.com\\">contact@mcclowes.com</a> · <a href=\\"tel:+447976136097\\">+44 (0) 7976 136 097</a> · <a href=\\"https://mcclowes.com\\">mcclowes.com</a></p>
+<p><a href="mailto:contact@mcclowes.com">contact@mcclowes.com</a> · <a href="tel:+447976136097">+44 (0) 7976 136 097</a> · <a href="https://mcclowes.com">mcclowes.com</a></p>
 <h2>Experience</h2>
 <h3>Software Engineer (FE) <em>- Pollen</em></h3>
 <p><em>December 2019 - Ongoing</em></p>
@@ -272,7 +272,7 @@ exports[`generateHtml with array 1`] = `
 <li>Managed (Agile) and supported the growth of my small team.</li>
 <li>Pitched to top investors, including being flown out to Y Combinator based on the strength of the Alpha of our product, Codogo Write.</li>
 </ul>
-<p></div> <div class=\\"page\\" id=\\"p3\\"></p>
+<p></div> <div class="page" id="p3"></p>
 <h3>Other Experience</h3>
 <ul>
 <li>Development &amp; Design Intern <em>- Akkroo, 2015</em></li>
@@ -311,32 +311,32 @@ exports[`generateHtml with array 1`] = `
 exports[`generateHtml with standard options 1`] = `
 "
 		<!DOCTYPE html>
-		<html lang=\\"en-GB\\" class=\\"pdf\\">
+		<html lang="en-GB" class="pdf">
 			<head>
-				<meta charset=\\"utf-8\\">
+				<meta charset="utf-8">
         
-    <meta name=\\"viewport\\" content=\\"width=device-width,initial-scale=1,maximum-scale=2,shrink-to-fit=no\\">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=2,shrink-to-fit=no">
 
-    <link rel=\\"icon\\" href=\\"assets/favicon.ico\\" />
-    <link rel=\\"canonical\\" href=\\"https://cv.joebloggs.com/\\">
+    <link rel="icon" href="assets/favicon.ico" />
+    <link rel="canonical" href="https://cv.joebloggs.com/">
 
     <title>Joe Bloggs CV</title>
-    <meta name=\\"description\\" content=\\"Enter a summary of you here.\\">
+    <meta name="description" content="Enter a summary of you here.">
 
     <!--  Social tags -->
-    <meta property=\\"og:type\\" content=\\"website\\">
-    <meta property=\\"og:description\\" content=\\"Enter a summary of you here.\\">
-    <meta property=\\"og:image\\" content=\\"https://cv.joebloggs.com/preview.png\\">
-    <meta property=\\"og:site_name\\" content=\\"The CV of Joe Bloggs\\">
-    <meta property=\\"og:title\\" content=\\"The CV of Joe Bloggs\\">
-    <meta property=\\"og:url\\" content=\\"https://cv.joebloggs.com/\\">
+    <meta property="og:type" content="website">
+    <meta property="og:description" content="Enter a summary of you here.">
+    <meta property="og:image" content="https://cv.joebloggs.com/preview.png">
+    <meta property="og:site_name" content="The CV of Joe Bloggs">
+    <meta property="og:title" content="The CV of Joe Bloggs">
+    <meta property="og:url" content="https://cv.joebloggs.com/">
 
-    <meta name=\\"twitter:card\\" content=\\"summary_large_image\\">
-    <meta name=\\"twitter:image:alt\\" content=\\"Joe Bloggs CV\\">
-    <meta name=\\"twitter:site\\" content=\\"undefined\\">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image:alt" content="Joe Bloggs CV">
+    <meta name="twitter:site" content="undefined">
 
     <!-- Structured data for AI/search engines -->
-    <script type=\\"application/ld+json\\">{\\"@context\\":\\"https://schema.org\\",\\"@type\\":\\"Person\\",\\"name\\":\\"Joe Bloggs\\",\\"description\\":\\"Enter a summary of you here.\\",\\"url\\":\\"https://cv.joebloggs.com/\\"}</script>
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"Person","name":"Joe Bloggs","description":"Enter a summary of you here.","url":"https://cv.joebloggs.com/"}</script>
   
 
 				<style>
@@ -345,10 +345,10 @@ exports[`generateHtml with standard options 1`] = `
 				</style>
 			</head>
 			
-			<body class=\\"document\\">
-				<div class=\\"pages\\">
-					<div class=\\"page\\" id=\\"p1\\"><h1>Max Clayton Clowes</h1>
-<p><a href=\\"mailto:contact@mcclowes.com\\">contact@mcclowes.com</a> · <a href=\\"tel:+447976136097\\">+44 (0) 7976 136 097</a> · <a href=\\"https://mcclowes.com\\">mcclowes.com</a></p>
+			<body class="document">
+				<div class="pages">
+					<div class="page" id="p1"><h1>Max Clayton Clowes</h1>
+<p><a href="mailto:contact@mcclowes.com">contact@mcclowes.com</a> · <a href="tel:+447976136097">+44 (0) 7976 136 097</a> · <a href="https://mcclowes.com">mcclowes.com</a></p>
 <h2>Experience</h2>
 <h3>Software Engineer (FE) <em>- Pollen</em></h3>
 <p><em>December 2019 - Ongoing</em></p>
@@ -365,7 +365,7 @@ exports[`generateHtml with standard options 1`] = `
 <li>Managed (Agile) and supported the growth of my small team.</li>
 <li>Pitched to top investors, including being flown out to Y Combinator based on the strength of the Alpha of our product, Codogo Write.</li>
 </ul>
-<p></div> <div class=\\"page\\" id=\\"p2\\"></p>
+<p></div> <div class="page" id="p2"></p>
 <h3>Other Experience</h3>
 <ul>
 <li>Development &amp; Design Intern <em>- Akkroo, 2015</em></li>

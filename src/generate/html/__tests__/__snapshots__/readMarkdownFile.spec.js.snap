@@ -2,7 +2,7 @@
 
 exports[`readMarkdownFile generates correct html 1`] = `
 "<h1>Max Clayton Clowes</h1>
-<p><a href=\\"mailto:contact@mcclowes.com\\">contact@mcclowes.com</a> · <a href=\\"tel:+447976136097\\">+44 (0) 7976 136 097</a> · <a href=\\"https://mcclowes.com\\">mcclowes.com</a></p>
+<p><a href="mailto:contact@mcclowes.com">contact@mcclowes.com</a> · <a href="tel:+447976136097">+44 (0) 7976 136 097</a> · <a href="https://mcclowes.com">mcclowes.com</a></p>
 <h2>Experience</h2>
 <h3>Software Engineer (FE) <em>- Pollen</em></h3>
 <p><em>December 2019 - Ongoing</em></p>
@@ -19,7 +19,7 @@ exports[`readMarkdownFile generates correct html 1`] = `
 <li>Managed (Agile) and supported the growth of my small team.</li>
 <li>Pitched to top investors, including being flown out to Y Combinator based on the strength of the Alpha of our product, Codogo Write.</li>
 </ul>
-<p>\\\\page</p>
+<p>\\page</p>
 <h3>Other Experience</h3>
 <ul>
 <li>Development &amp; Design Intern <em>- Akkroo, 2015</em></li>
