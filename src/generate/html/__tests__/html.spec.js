@@ -1,4 +1,5 @@
 import generateHtml from "../index";
+import fs from "fs";
 
 const CONFIG = {
   name: "Joe Bloggs",
@@ -23,9 +24,7 @@ const OPTIONS_DEFAULT = {
 
 describe("generateHtml", () => {
   it("default", () => {
-    expect(
-      generateHtml("src/generate/html/__tests__/markdown.md"),
-    ).toMatchSnapshot();
+    expect(generateHtml("src/generate/html/__tests__/markdown.md")).toMatchSnapshot();
   });
 
   it("with standard options", () => {
@@ -46,12 +45,41 @@ describe("generateHtml", () => {
   it("with array", () => {
     expect(
       generateHtml(
-        [
-          "src/generate/html/__tests__/markdown.md",
-          "src/generate/html/__tests__/markdown.md",
-        ],
+        ["src/generate/html/__tests__/markdown.md", "src/generate/html/__tests__/markdown.md"],
         OPTIONS_DEFAULT,
       ),
     ).toMatchSnapshot();
+  });
+
+  it("for debug mode", () => {
+    const result = generateHtml("src/generate/html/__tests__/markdown.md", {
+      ...OPTIONS_DEFAULT,
+      debug: true,
+    });
+
+    // Verify debug.html was created
+    expect(fs.existsSync("debug.html")).toBe(true);
+
+    // The result should be the PDF version
+    expect(result).toContain('class="pdf"');
+  });
+
+  it("includes download link when provided", () => {
+    const result = generateHtml("src/generate/html/__tests__/markdown.md", {
+      ...OPTIONS_DEFAULT,
+      downloadLink: "https://example.com/cv.pdf",
+    });
+
+    expect(result).toContain('href="https://example.com/cv.pdf"');
+    expect(result).toContain("Download CV");
+  });
+
+  it("uses customStyles when provided", () => {
+    const result = generateHtml("src/generate/html/__tests__/markdown.md", {
+      ...OPTIONS_DEFAULT,
+      customStyles: "cv",
+    });
+
+    expect(result).toBeDefined();
   });
 });
