@@ -1,4 +1,4 @@
-import generateHtml from "../html";
+import generateHtml from "../html/index.js";
 
 // Ensure Playwright uses a project-local browsers cache (node_modules/.cache/ms-playwright)
 if (!process.env.PLAYWRIGHT_BROWSERS_PATH) {
@@ -14,6 +14,26 @@ const DEFAULT_PDF_OPTIONS = {
     left: "0cm",
   },
   printBackground: true,
+  displayHeaderFooter: false,
+};
+
+const buildPdfMetadata = (meta) => {
+  if (!meta) {
+    return {};
+  }
+
+  const metadata = {};
+
+  if (meta.name) {
+    metadata.title = `${meta.name} CV`;
+    metadata.author = meta.name;
+  }
+
+  if (meta.description) {
+    metadata.subject = meta.description;
+  }
+
+  return metadata;
 };
 
 const getPlaywright = async () => {
@@ -80,8 +100,10 @@ const generatePdf = async (content, destination = "./output.pdf", options) => {
     await page.setContent(html, { waitUntil: "networkidle" });
     await page.emulateMedia({ media: "screen" });
 
+    const pdfMetadata = buildPdfMetadata(options?.meta);
     const pdfOptions = {
       ...DEFAULT_PDF_OPTIONS,
+      ...pdfMetadata,
       ...(options?.pdfOptions || {}),
       path: destination,
     };

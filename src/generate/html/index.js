@@ -1,9 +1,9 @@
 import fs from "fs";
 
-import readStylesheets from "./readStylesheets";
-import readMarkdownFile from "./readMarkdownFile";
-import createHtmlPages from "./createHtmlPages";
-import meta from "./meta";
+import readStylesheets from "./readStylesheets.js";
+import readMarkdownFile from "./readMarkdownFile.js";
+import createHtmlPages from "./createHtmlPages.js";
+import meta from "./meta.js";
 
 const MARKDOWN_OPTIONS_DEFAULT = {
   encoding: "utf8",
@@ -46,8 +46,10 @@ const buildHtml = (css, html, options, mode = "web") => {
   const inlineCss = isTest ? "" : css;
 
   return `
-		<html class="${mode}">
+		<!DOCTYPE html>
+		<html lang="en-GB" class="${mode}">
 			<head>
+				<meta charset="utf-8">
         ${meta(options.meta)}
 
 				<style>

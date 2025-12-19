@@ -1,16 +1,20 @@
 
-		<html class="debug pdf">
+		<!DOCTYPE html>
+		<html lang="en-GB" class="debug pdf">
 			<head>
+				<meta charset="utf-8">
         
     <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=2,shrink-to-fit=no">
 
     <link rel="icon" href="assets/favicon.ico" />
+    <link rel="canonical" href="https://cv.mcclowes.com/">
 
     <title>Max Clayton Clowes CV</title>
-    <meta name="description" content="Product Manager with diverse software engineering and design background, and experience as a founder of a client-facing business. Have been delivering websites and apps for 10+ years. Duke of York Young Entrepreneur Award winner 2017.">
+    <meta name="description" content="Product Director with diverse software engineering and design background, and experience as a founder of a client-facing business. Have been delivering websites and apps for 10+ years. Duke of York Young Entrepreneur Award winner 2017.">
 
-    <!--  Social tags -->    
-    <meta property="og:description" content="Product Manager with diverse software engineering and design background, and experience as a founder of a client-facing business. Have been delivering websites and apps for 10+ years. Duke of York Young Entrepreneur Award winner 2017.">
+    <!--  Social tags -->
+    <meta property="og:type" content="website">
+    <meta property="og:description" content="Product Director with diverse software engineering and design background, and experience as a founder of a client-facing business. Have been delivering websites and apps for 10+ years. Duke of York Young Entrepreneur Award winner 2017.">
     <meta property="og:image" content="https://cv.mcclowes.com/assets/preview.png">
     <meta property="og:site_name" content="The CV of Max Clayton Clowes">
     <meta property="og:title" content="The CV of Max Clayton Clowes">
@@ -19,11 +23,379 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:image:alt" content="Max Clayton Clowes CV">
     <meta name="twitter:site" content="@mcclowes">
+
+    <!-- Structured data for AI/search engines -->
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"Person","name":"Max Clayton Clowes","description":"Product Director with diverse software engineering and design background, and experience as a founder of a client-facing business. Have been delivering websites and apps for 10+ years. Duke of York Young Entrepreneur Award winner 2017.","url":"https://cv.mcclowes.com/","email":"contact@mcclowes.com","jobTitle":"Product Director","worksFor":{"@type":"Organization","name":"Codat"}}</script>
   
 
 				<style>
           
-					
+					:root {
+  --color-green: #4b5f5f;
+  --color-green-dark: #3c6c5e;
+  --color-green-darker: #396658;
+  --color-green-darkest: #2f5449;
+  --color-green-light: #4a8472;
+  --color-green-lighter: #4d8a78;
+  --color-green-lightest: #579c87;
+
+  --color-offwhite-light: #fffdf3;
+  --color-offwhite: #fffae1;
+  --color-offwhite-dark: #d7d1b1;
+  --color-offwhite-alt-light: #bab59f;
+  --color-offwhite-alt: #c2bda7;
+  --color-offwhite-alt-dark: #a29d84;
+
+  --color-red: #ff7070;
+
+  --color-white: var(--color-offwhite);
+  --color-gray-light: #efefef;
+  --color-gray-dark: #666;
+  --color-black: #171d1b;
+
+  --color-primary-light: var(--color-green-light);
+  --color-primary: var(--color-green);
+  --color-primary-dark: var(--color-green-dark);
+
+  --color-background: var(--color-offwhite);
+  --color-background-alt: var(--color-green);
+
+  --color-font-body: var(--color-black);
+  --color-font-link: var(--color-red);
+  --color-font-header: var(--color-offwhite);
+  --color-font-accent: var(--color-primary);
+  --color-font-highlight: var(--color-gray-dark);
+  --color-font-quote: var(--color-gray-light);
+
+  --font-family-serif: "Inknut Antiqua", "Merriweather", sans-serif;
+  --font-family-mono: "Roboto Mono", monospace;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-primary-light: var(--color-offwhite-light);
+    --color-primary: var(--color-offwhite);
+    --color-primary-dark: var(--color-offwhite-dark);
+
+    --color-background: var(--color-green);
+    --color-background-alt: var(--color-offwhite);
+
+    --color-font-body: var(--color-offwhite);
+    --color-font-link: var(--color-red);
+    --color-font-header: var(--color-green);
+    --color-font-accent: var(--color-red);
+    --color-font-highlight: var(--color-offwhite-dark);
+    --color-font-quote: var(--color-gray-light);
+  }
+}
+
+/* core styles */
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background-color: var(--color-background);
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  color: var(--color-font-body);
+  font-size: 11pt;
+  text-rendering: optimizeLegibility;
+  font-family: var(--font-family-serif);
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Core */
+
+h1,
+h2,
+h3,
+h4,
+p,
+li {
+  color: var(--color-font-body);
+}
+
+p,
+li {
+  font-family: var(--font-family-mono);
+  font-size: 0.95em;
+}
+
+/* Headers */
+
+h1 {
+  margin: 0;
+  line-height: 1.6em;
+  color: var(--color-font-body);
+}
+
+h2 {
+  display: flex;
+  margin-block-start: 2em;
+  padding: 0.3em 0;
+  display: flex;
+  align-items: center;
+  padding: 0.25em 0.5em;
+  border-radius: 4px;
+  background: var(--color-background-alt);
+  color: var(--color-font-header);
+  font-size: 1.4em;
+  line-height: 1.8em;
+}
+
+h2 > svg {
+  fill: var(--color-font-header);
+  height: 20px;
+  width: 20px;
+  margin-right: 0.5em;
+}
+
+h3 {
+  margin-top: 1.5em;
+  font-size: 1em;
+  line-height: 1.4em;
+  color: var(--color-font-accent);
+}
+
+h3 em {
+  font-style: normal;
+  font-weight: lighter;
+}
+
+h3 + p {
+  margin-block-start: 3px;
+}
+
+h4 {
+  margin-block-start: 1em;
+  color: var(--color-font-accent);
+  font-weight: normal;
+}
+
+h3,
+h4 {
+  margin-block-end: 3px;
+}
+
+h3 + h4,
+h4 + p {
+  margin-block-start: 3px;
+}
+
+h3 + p {
+  margin-block-end: 10px;
+}
+
+h3 + p + p {
+  margin-block-start: 3px;
+}
+
+/* Text Styling */
+
+p,
+li {
+  line-height: 1.3em;
+}
+
+a {
+  color: var(--color-font-link);
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  opacity: 0.75;
+}
+
+em {
+  color: var(--color-font-highlight);
+  font-weight: bold;
+}
+
+strong {
+  color: var(--color-font-body);
+}
+
+blockquote {
+  color: var(--color-font-quote);
+}
+
+/* Other widgets */
+
+hr {
+  opacity: 0.2;
+  margin: 1.5em 0;
+}
+
+/* Page */
+
+@page {
+  margin: 0;
+}
+
+html.web .pages {
+  max-width: 700px;
+  padding: 1.6em 1em;
+}
+.pages {
+  /* height: 100vh; */
+  display: flex;
+  flex-direction: column;
+}
+
+.page {
+  position: relative;
+}
+
+.pdf .page,
+.debug .page {
+  height: 297mm;
+  width: 210mm;
+  text-rendering: optimizeLegibility;
+  page-break-before: always;
+  page-break-after: always;
+  padding: 1cm 1.7cm;
+  padding-bottom: 1.5cm;
+}
+
+.pdf {
+  background: white !important;
+}
+
+.pdf h2 {
+  color: white !important;
+}
+
+.pdf h2 > svg {
+  fill: white !important;
+}
+
+.debug .page {
+  outline: 1px solid white;
+}
+
+/* Lists */
+
+ul {
+  padding-inline-start: 1em;
+  margin-top: 1em;
+}
+
+ul,
+ol {
+  margin-block-start: 0.5em;
+  margin-block-end: 0.5em;
+}
+
+h2 + ul,
+h3 + ul {
+  padding-inline-start: 0;
+  list-style-type: none;
+  margin-top: 3px;
+}
+
+html.web .pages ol {
+  padding-inline-start: 1em;
+}
+
+html:not(.web) .pages ol {
+  padding-inline-start: 0;
+}
+
+ul li,
+ol li {
+  margin-bottom: 0.5em;
+  /* text-align: justify; */
+  /* text-justify: inter-word; */
+}
+
+/* */
+
+html:not(.web) .download-link {
+  display: none;
+}
+
+.download-link {
+  color: var(--color-primary);
+  display: flex;
+  align-items: center;
+  border-radius: 8px;
+
+  &:hover {
+    background: var(--color-background);
+    opacity: 0.7;
+    text-decoration: none;
+  }
+}
+
+.download-link svg {
+  fill: var(--color-primary);
+  width: 1em;
+  height: 1em;
+  margin-right: 0.25em;
+  vertical-align: text-top;
+}
+
+@media screen and (min-width: 849px) {
+  .download-link {
+    color: var(--color-primary);
+    position: fixed;
+    top: 8px;
+    right: 8px;
+    padding: 8px 16px;
+    background: var(--color-background);
+  }
+}
+.pdf .page {
+  --gap: 0.75cm;
+  --width: 8cm;
+
+  column-count: 2;
+  column-fill: auto;
+  column-gap: var(--gap);
+  column-width: var(--width);
+  -webkit-column-count: 2;
+  -moz-column-count: 2;
+  -webkit-column-width: var(--width);
+  -moz-column-width: var(--width);
+  -webkit-column-gap: var(--gap);
+  -moz-column-gap: var(--gap);
+}
+
+.pdf .page a {
+  --color-font-link: var(--color-primary);
+  text-decoration: underline;
+}
+
+.pdf .full-width {
+  column-span: all;
+}
+
+.pdf .full-width + h2:not(.full-width) {
+  margin-top: 0;
+}
+
+.page p:first-child {
+  margin: 0;
+}
+
+.page p:first-child + h3 {
+  margin-top: 0;
+}
+
 				</style>
 			</head>
 			

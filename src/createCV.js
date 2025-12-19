@@ -1,5 +1,5 @@
-import { config } from "../cv.config";
-import generatePDF from "./generate/pdf";
+import { config } from "../cv.config.js";
+import generatePDF from "./generate/pdf/index.js";
 
 /**
  * Validates the CV configuration

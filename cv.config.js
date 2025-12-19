@@ -10,13 +10,17 @@ const defaults = {
 
 const meta = {
   name: "Max Clayton Clowes",
-  description: "Product Manager with diverse software engineering and design background, and experience as a founder of a client-facing business. Have been delivering websites and apps for 10+ years. Duke of York Young Entrepreneur Award winner 2017.",
+  description: "Product Director with diverse software engineering and design background, and experience as a founder of a client-facing business. Have been delivering websites and apps for 10+ years. Duke of York Young Entrepreneur Award winner 2017.",
   preview: {
     image: "https://cv.mcclowes.com/assets/preview.png",
     text: "Max Clayton Clowes CV",
   },
   url: "https://cv.mcclowes.com/",
   twitterUser: "@mcclowes",
+  // Structured data fields for JSON-LD
+  email: "contact@mcclowes.com",
+  jobTitle: "Product Director",
+  employer: "Codat",
 }
 
 const cvs = {
