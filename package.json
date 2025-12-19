@@ -11,7 +11,8 @@
     "spellcheck": "cspell --no-progress --config ./cspell.config.json \"**/*.md\"",
     "test": "jest",
     "test:watch": "jest --watch --runInBand --bail",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "spellcheck": "npx cspell \"**/*.md\""
   },
   "repository": {
     "type": "git",
@@ -23,6 +24,7 @@
   ],
   "author": "mcclowes",
   "license": "ISC",
+  "dependencies": {},
   "bugs": {
     "url": "https://github.com/mcclowes/CV/issues"
   },
@@ -41,11 +43,10 @@
   "devDependencies": {
     "@babel/cli": "^7.20.7",
     "@babel/core": "^7.12.13",
-    "@babel/node": "^7.12.13",
+    "@babel/node": "^7.22.19",
     "@babel/preset-env": "^7.22.9",
     "babel-jest": "^26.6.3",
     "copyfiles": "^2.4.1",
-    "fs": "0.0.1-security",
     "husky": "^8.0.0",
     "jest": "^26.6.3",
     "lodash": "^4.17.21",
@@ -53,7 +54,6 @@
     "markdown-loader-jest": "^0.1.1",
     "marked": "^9.0.3",
     "merge-md": "^1.0.3",
-    "path": "^0.12.7",
     "playwright": "^1.56.1",
     "prettier": "^3.0.3",
     "pretty-quick": "^3.1.3",

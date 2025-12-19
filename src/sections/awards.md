@@ -3,10 +3,10 @@
 	Awards
 </h2>
 
-- **UK Technical Communication award**, _ISTC, 2024_
-- **Duke of York Young Entrepreneur Award**, _2017_
+- **[UK Technical Communication award](https://mcclowes.com/blog/2024/09/10/istc-award)**, _ISTC, 2024_
+- **[Duke of York Young Entrepreneur Award](https://mcclowes.com/blog/2017/04/17/doy-award)**, _2017_
 - **Rising Stars of Research Symposium Member**, _Durham University, 2016_
-- **Blueprint Enterprise Challenge**, _Durham University, 2016_
+- **[Blueprint Enterprise Challenge](https://mcclowes.com/blog/2016/09/16/blueprint)**, _Durham University, 2016_
 - **Genesis Pitching Competition**, _2016_
 - **Enterprise Kickstart Winner**, _Durham University Enterprise Society, 2015_
-- **Best Website Award**, _Meat Management Magazine, 2012_
+- **[Best Website Award](https://mcclowes.com/blog/2012/01/27/godfreys-website#the-award)**, _Meat Management Magazine, 2012_

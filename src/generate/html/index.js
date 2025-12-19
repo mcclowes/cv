@@ -28,23 +28,28 @@ const createHtmlFile = (html, fileName = "index.html") => {
 };
 
 const buildHtml = (css, html, options, mode = "web") => {
+  const isTest = process.env.NODE_ENV === "test";
+
+  const inlineFonts =
+    mode === "web"
+      ? `
+            /* colors and fonts */
+            @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700');
+            @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+            @import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@300;400;500;600;700;800;900&display=swap');
+            `
+      : "";
+
+  const inlineCss = isTest ? "" : css;
+
   return `
 		<html class="${mode}">
 			<head>
         ${meta(options.meta)}
 
 				<style>
-          ${
-            mode === "web"
-              ? `
-            /* colors and fonts */
-            @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700');
-            @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
-            @import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@300;400;500;600;700;800;900&display=swap');
-            `
-              : ""
-          }
-					${css}
+          ${inlineFonts}
+					${inlineCss}
 				</style>
 			</head>
 			
@@ -74,6 +79,15 @@ const buildHtml = (css, html, options, mode = "web") => {
 	`;
 };
 
+const createReadme = (content, options = {}) => {
+  return `
+[![Spellcheck Markdown Files](https://github.com/mcclowes/cv/actions/workflows/spellcheck.yml/badge.svg)](https://github.com/mcclowes/cv/actions/workflows/spellcheck.yml)
+[![CI](https://github.com/mcclowes/cv/actions/workflows/ci.yml/badge.svg)](https://github.com/mcclowes/cv/actions/workflows/ci.yml)
+
+${content}
+`;
+};
+
 const generateHtml = (content, options = {}) => {
   console.log("Generating HTML...");
 
@@ -83,7 +97,7 @@ const generateHtml = (content, options = {}) => {
   const html = handleTargetPages(content, markdownOptions);
   const css = readStylesheets(styleOptions).join("");
 
-  createHtmlFile(html, "README.md");
+  createHtmlFile(createReadme(html), "README.md");
 
   if (options.debug) {
     createHtmlFile(buildHtml(css, html, options, "debug pdf"), "debug.html");

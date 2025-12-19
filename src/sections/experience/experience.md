@@ -14,9 +14,9 @@ _November 2021 - Ongoing_
 - Defined and delivered product vision + strategy supporting clients for spend analysis and underwriting use-cases (inc. J.P. Morgan and other major banks).
 - Created best-in-class products including Codat's [Link](https://docs.codat.io/auth-flow/overview) (↑2x conversion, driving data sharing for 100,000 SMBs), [developer portal](https://docs.codat.io/configure/portal/companies) (↑40% MAUs), and award-winning [docs](https://docs.codat.io/) (↑30% faster go-lives).
 - Replatformed Codat, improving efficiency, supporting enterprise-grade client needs, and improving delivery pace (e.g. deploying new webhooks ↑5x faster).
-- Built cross-functional teams and nurtured high-performing PMs, engineers, designers, and technical writers. [Celebrated](https://github.com/mcclowes/mcclowes/blob/master/feedback.md) as Codat's top PM and manager, promoted swiftly several times.
+- Built cross-functional teams and nurtured high-performing PMs, engineers, designers, and technical writers. [Celebrated](https://github.com/mcclowes/mcclowes/blob/master/feedback.md) as a top PM and manager, promoted swiftly.
 - Pioneered product excellence at Codat, including data-driven methods (supported by Amplitude).
-- Led more experimental initiatives including Codat's nascent AI & LLM work, a growth commercial model, and more.
+- Led innovative projects inc. Codat's nascent AI & LLM work, new commercial models, and more.
 
 ### Product Manager _- Swoop_
 
@@ -28,8 +28,6 @@ _March 2021 - November 2021_
 - Built credit scoring and reporting product backed by CRIF, increasing user retention (↑10%), data-sharing (↑15%), and reducing low-quality loan applications.
 - Wearing a delivery and manager hat, took a team which had _never_ released in a year to shipping several major projects in quick succession.
 
-\page
-
 ### Product Manager _- Codogo_
 
 _April 2016 - August 2018_
@@ -38,6 +36,8 @@ Co-founded [Codogo](https://www.crunchbase.com/organization/codogo), delivering 
 
 - Owned project lifecycles from ideation to delivery of complex web and native apps for 30+ clients ranging from the NHS to Arsenal FC.
 - Pitched, winning [awards](http://bit.ly/35F6psY), clients, and investors, even being flown out to try for Y Combinator with our in-house product.
+
+\page
 
 ### Other Experience
 

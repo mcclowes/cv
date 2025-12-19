@@ -1,3 +1,5 @@
-# Max Clayton Clowes
+<h1 class="full-width">Max Clayton Clowes</h1>
 
-[contact@mcclowes.com](mailto:contact@mcclowes.com) · [mcclowes.com](https://bit.ly/mcclowes)
+<p class="full-width">
+    <a href="mailto:contact@mcclowes.com">contact@mcclowes.com</a> · <a href="https://bit.ly/mcclowes">mcclowes.com</a> · <a href="https://www.linkedin.com/in/maxclaytonclowes/">LinkedIn</a>
+</p>
