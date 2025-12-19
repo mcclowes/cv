@@ -1,4 +1,4 @@
 #!/usr/bin/env sh
 . "$(dirname -- "$0")/_/husky.sh"
 
-npm run format:staged && echo 'Did you remember to build the CV?'
+npx lint-staged

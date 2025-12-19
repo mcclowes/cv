@@ -7,7 +7,9 @@ const STYLESHEETS = {
 
 const readStyle = (style) =>
   fs.readFileSync(style, function (err) {
-    if (err) console.log(err);
+    if (err) {
+      console.log(err);
+    }
   });
 
 const readStylesheets = (styleOptions) => {

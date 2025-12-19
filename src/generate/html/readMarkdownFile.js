@@ -14,7 +14,7 @@ const renderer = {
       html = html.substring(html.indexOf(">") + 1);
       html = html.substring(0, html.lastIndexOf("</div>"));
 
-      return `${openTag} ${markdown.parse(html)} </div>`;
+      return `${openTag} ${marked.parse(html)} </div>`;
     }
 
     return html;

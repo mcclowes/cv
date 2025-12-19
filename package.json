@@ -1,6 +1,7 @@
 {
   "name": "cv",
   "version": "3.0.0",
+  "type": "module",
   "description": "Results-driven product leader with 10+ years of experience delivering impactful products across SaaS and fintech industries. Proven expertise in defining product strategy, nurturing talent, and driving adoption. Adept at aligning product vision with organizational goals to deliver measurable growth. Intuition led, data backed. DoY's Young Entrepreneur Award winner as a founder.",
   "main": "index.html",
   "scripts": {
@@ -8,11 +9,14 @@
     "watch": "watch 'npm run build' ./src --wait=1",
     "format": "prettier --write src/",
     "format:staged": "pretty-quick --staged --pattern ./src/**",
+    "lint": "eslint src/",
+    "lint:fix": "eslint src/ --fix",
     "spellcheck": "cspell --no-progress --config ./cspell.config.json \"**/*.md\"",
     "test": "jest",
     "test:watch": "jest --watch --runInBand --bail",
-    "prepare": "husky install",
-    "spellcheck": "npx cspell \"**/*.md\""
+    "test:coverage": "jest --coverage",
+    "validate": "npm run lint && npm run test",
+    "prepare": "husky install"
   },
   "repository": {
     "type": "git",
@@ -28,16 +32,14 @@
   "bugs": {
     "url": "https://github.com/mcclowes/CV/issues"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "npm run format:staged && echo 'Did you remember to build the CV?'"
-    }
-  },
-  "jest": {
-    "transform": {
-      "^.+\\.js?$": "babel-jest",
-      "^.+\\.md?$": "markdown-loader-jest"
-    }
+  "lint-staged": {
+    "src/**/*.js": [
+      "eslint --fix",
+      "prettier --write"
+    ],
+    "**/*.md": [
+      "cspell --no-progress --config ./cspell.config.json"
+    ]
   },
   "homepage": "https://github.com/mcclowes/CV#readme",
   "devDependencies": {
@@ -45,12 +47,15 @@
     "@babel/core": "^7.12.13",
     "@babel/node": "^7.22.19",
     "@babel/preset-env": "^7.22.9",
+    "@eslint/js": "^9.0.0",
     "babel-jest": "^26.6.3",
     "copyfiles": "^2.4.1",
+    "cspell": "^8.13.3",
+    "eslint": "^9.0.0",
     "husky": "^8.0.0",
     "jest": "^26.6.3",
+    "lint-staged": "^15.0.0",
     "lodash": "^4.17.21",
-    "cspell": "^8.13.3",
     "markdown-loader-jest": "^0.1.1",
     "marked": "^9.0.3",
     "merge-md": "^1.0.3",
