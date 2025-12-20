@@ -16,7 +16,7 @@ A roadmap for making this CV generator more effective, beautiful, and reliable.
 
 ### Make CV Writing Easier
 
-- [ ] 🔴 **Add a CV content schema/template** - Create `src/sections/_template.md` with documented structure showing available classes, page breaks, and formatting options
+- [x] 🔴 **Add a CV content schema/template** - Create `src/sections/_template.md` with documented structure showing available classes, page breaks, and formatting options
 - [ ] 🔴 **Create content validation** - Script to validate markdown files exist, check for broken internal references, and warn about missing sections
 - [ ] 🟡 **Add more section templates** - Pre-built templates for common sections (Projects, Publications, Certifications, Languages, Volunteering)
 - [ ] 🟡 **Simplify page break syntax** - Replace `\page` with a cleaner `---PAGE---` or HTML comment syntax that's harder to accidentally include in content
