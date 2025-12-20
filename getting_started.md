@@ -58,4 +58,4 @@ The project configuration is in `cv.config.js`. You can customize:
 - Use `npm run lint` to catch JavaScript or formatting problems before committing.
 - If PDF generation fails, ensure Playwright browsers are installed: `npx playwright install chromium`
 
-With these commands you should be ready to customise and publish updated CVs.
+With these commands you should be ready to customize and publish updated CVs.
