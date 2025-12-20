@@ -10,6 +10,6 @@ The generator automatically merges any `pdfOptions` you pass through `createCV` 
 
 - `format`: Defaults to `"A4"`. Any format supported by [`page.pdf`](https://playwright.dev/docs/api/class-page#page-pdf) is accepted.
 - `margin`: All sides default to `"0cm"`. Provide a partial object (e.g. `{ top: "1cm" }`) to override individual edges.
-- `printBackground`: Defaults to `true` so background colours are preserved.
+- `printBackground`: Defaults to `true` so background colors are preserved.
 
 Any additional options supported by Playwright's [`page.pdf`](https://playwright.dev/docs/api/class-page#page-pdf) API are forwarded untouched.

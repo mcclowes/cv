@@ -1,18 +1,20 @@
 {
   "version": "0.2",
-  "language": "en-GB",
+  "language": "en-US",
   "useGitignore": true,
   "ignorePaths": [
     "node_modules",
-    "package-lock.json"
+    "package-lock.json",
+    "**/_template.md"
   ],
   "overrides": [
     {
       "filename": "**/*.md",
-      "language": "en-GB"
+      "language": "en-US"
     }
   ],
   "words": [
+    "aboutme",
     "Akkroo",
     "Amplitude",
     "Codogo",
@@ -28,6 +30,7 @@
     "meetups",
     "org",
     "orgs",
+    "pandoc",
     "PMs",
     "SaaS",
     "SMBs",

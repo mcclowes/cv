@@ -19,7 +19,7 @@ This is a **CV/Resume generator** that converts Markdown content into styled HTM
 - **Markdown Processing**: `marked` library
 - **Linting**: ESLint 9 (flat config)
 - **Formatting**: Prettier
-- **Spell Checking**: cspell (configured for en-GB)
+- **Spell Checking**: cspell (configured for en-US)
 - **Git Hooks**: Husky + lint-staged
 
 ## Project Structure
@@ -135,7 +135,7 @@ Pre-commit hooks run automatically via Husky:
 
 ### Markdown Content
 
-- British English spelling (en-GB)
+- American English spelling (en-US)
 - Custom words added to `cspell.config.json`
 - HTML can be embedded in Markdown for custom styling
 
