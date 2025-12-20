@@ -34,7 +34,12 @@ jobs:
             echo "Manual or non-PR event detected; checking all Markdown files."
             CHANGED_FILES=$(git ls-files '*.md' || true)
           fi
-          echo "CHANGED_FILES=$CHANGED_FILES" >> $GITHUB_ENV
+          # Use heredoc syntax for multi-line values in GITHUB_ENV
+          {
+            echo 'CHANGED_FILES<<EOF'
+            echo "$CHANGED_FILES"
+            echo 'EOF'
+          } >> $GITHUB_ENV
 
       # Step 4: Run spellcheck on changed files
       - name: Run cspell
