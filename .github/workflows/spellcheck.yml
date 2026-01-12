@@ -6,6 +6,10 @@ on:
       - '**/*.md'  # Trigger only when Markdown files are changed
   workflow_dispatch:
 
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
   spellcheck:
     runs-on: ubuntu-latest
