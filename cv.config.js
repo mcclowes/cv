@@ -19,8 +19,8 @@ const meta = {
   twitterUser: "@mcclowes",
   // Structured data fields for JSON-LD
   email: "contact@mcclowes.com",
-  jobTitle: "Product Director",
-  employer: "Codat",
+  jobTitle: "Fractional Product Manager",
+  employer: "NHS / Weavr",
 }
 
 const cvs = {

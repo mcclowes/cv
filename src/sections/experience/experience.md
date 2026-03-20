@@ -5,11 +5,20 @@
 	Experience
 </h2>
 
+### Fractional Product Manager
+
+_August 2025 - Ongoing_
+
+Working part-time across multiple organizations:
+
+- **NHS** - Releasing AI-powered patient referrals automation, improving efficiency and outcomes across healthcare pathways.
+- **[Weavr](https://www.weavr.io/)** - Leading developer experience, building best-in-class tools and documentation to accelerate integration for embedded finance clients.
+
 ### Product Director _- Codat_
 
-_November 2021 - Ongoing_
+_November 2021 - August 2025_
 
-[Codat](https://bit.ly/3ObH0e0) helps banks and fintechs build insights and automations with accounting, banking, and commerce data. Leading the service and platform teams, I have:
+[Codat](https://bit.ly/3ObH0e0) helps banks and fintechs build insights and automations with accounting, banking, and commerce data. Leading the service and platform teams, I:
 
 - Defined and delivered product vision + strategy supporting clients for spend analysis and underwriting use-cases (inc. J.P. Morgan and other major banks).
 - Created best-in-class products including Codat's [Link](https://docs.codat.io/auth-flow/overview) (↑2x conversion, driving data sharing for 100,000 SMBs), [developer portal](https://docs.codat.io/configure/portal/companies) (↑40% MAUs), and award-winning [docs](https://docs.codat.io/) (↑30% faster go-lives).
