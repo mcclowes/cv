@@ -134,7 +134,8 @@ describe("generatePdf error handling", () => {
     const executableError = new Error(
       "browserType.launch: Executable doesn't exist at /path/to/chromium",
     );
-    mockLaunch.mockRejectedValueOnce(executableError);
+    // Reject all launch attempts (including fallback with executablePath)
+    mockLaunch.mockRejectedValue(executableError);
 
     await expect(generatePdf(["./test.md"], "./test.pdf", {})).rejects.toThrow(
       "Executable doesn't exist",
@@ -143,6 +144,12 @@ describe("generatePdf error handling", () => {
     expect(console.error).toHaveBeenCalledWith(
       expect.stringContaining("Playwright browser is not installed"),
     );
+
+    // Restore default mock behavior for other tests
+    mockLaunch.mockResolvedValue({
+      newPage: mockNewPage,
+      close: mockClose,
+    });
   });
 
   it("rethrows non-executable errors without special message", async () => {

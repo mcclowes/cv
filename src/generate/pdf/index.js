@@ -1,9 +1,41 @@
+import { existsSync, readdirSync } from "fs";
+import { join } from "path";
 import generateHtml from "../html/index.js";
 
-// Ensure Playwright uses a project-local browsers cache (node_modules/.cache/ms-playwright)
-if (!process.env.PLAYWRIGHT_BROWSERS_PATH) {
-  process.env.PLAYWRIGHT_BROWSERS_PATH = "0";
-}
+/**
+ * Attempt to find a Chromium executable in the Playwright browser cache.
+ * This handles version mismatches between the installed Playwright package
+ * and the locally cached browser builds.
+ */
+const findChromiumExecutable = () => {
+  const cacheDir =
+    process.env.PLAYWRIGHT_BROWSERS_PATH === "0"
+      ? join(process.cwd(), "node_modules", "playwright-core", ".local-browsers")
+      : process.env.PLAYWRIGHT_BROWSERS_PATH ||
+        join(process.env.HOME || "/root", ".cache", "ms-playwright");
+
+  if (!existsSync(cacheDir)) {
+    return null;
+  }
+
+  try {
+    const entries = readdirSync(cacheDir);
+    // Look for chromium directories (e.g. chromium-1194)
+    const chromiumDir = entries.find(
+      (e) => e.startsWith("chromium-") && !e.includes("headless_shell"),
+    );
+    if (chromiumDir) {
+      const executable = join(cacheDir, chromiumDir, "chrome-linux", "chrome");
+      if (existsSync(executable)) {
+        return executable;
+      }
+    }
+  } catch {
+    // Ignore errors reading directory
+  }
+
+  return null;
+};
 
 const DEFAULT_PDF_OPTIONS = {
   format: "A4",
@@ -81,18 +113,33 @@ const generatePdf = async (content, destination = "./output.pdf", options) => {
   let browser;
   try {
     browser = await chromium.launch();
-  } catch (error) {
-    const message = String(error?.message || "");
+  } catch (firstError) {
+    const message = String(firstError?.message || "");
     if (message.includes("Executable doesn't exist")) {
-      console.error(
-        [
-          "Playwright browser is not installed.",
-          "Run to install Chromium locally:",
-          "  npm_config_cache=$(pwd)/.npm-cache PLAYWRIGHT_BROWSERS_PATH=0 npx --yes playwright install chromium",
-        ].join("\n"),
-      );
+      // Try to find a compatible Chromium in the cache (handles version mismatches)
+      const executablePath = findChromiumExecutable();
+      if (executablePath) {
+        console.log(`Using Chromium at: ${executablePath}`);
+        try {
+          browser = await chromium.launch({ executablePath });
+        } catch {
+          // Fall through to error message below
+        }
+      }
+
+      if (!browser) {
+        console.error(
+          [
+            "Playwright browser is not installed.",
+            "Run to install Chromium:",
+            "  npx playwright install chromium",
+          ].join("\n"),
+        );
+        throw firstError;
+      }
+    } else {
+      throw firstError;
     }
-    throw error;
   }
 
   try {
