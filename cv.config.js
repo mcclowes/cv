@@ -10,7 +10,7 @@ const defaults = {
 
 const meta = {
   name: "Max Clayton Clowes",
-  description: "Product Director with diverse software engineering and design background, and experience as a founder of a client-facing business. Have been delivering websites and apps for 10+ years. Duke of York Young Entrepreneur Award winner 2017.",
+  description: "Product leader, maker, and team-builder. Over a decade of building software, founding startups, and helping people do their best work. I care about craft, creativity, and leaving things better than I found them.",
   preview: {
     image: "https://cv.mcclowes.com/assets/preview.png",
     text: "Max Clayton Clowes CV",

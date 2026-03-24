@@ -9,42 +9,41 @@
 
 _August 2025 - Ongoing_
 
-Working part-time across multiple organizations:
+Working across organizations where I can make a real difference:
 
-- **NHS** - Releasing AI-powered patient referrals automation, improving efficiency and outcomes across healthcare pathways.
-- **[Weavr](https://www.weavr.io/)** - Leading developer experience, building best-in-class tools and documentation to accelerate integration for embedded finance clients.
+- **NHS** — Helping bring AI into patient referrals in a way that actually respects the complexity of healthcare. The goal isn't automation for its own sake; it's giving clinicians time back for the human stuff.
+- **[Weavr](https://www.weavr.io/)** — Making the developer experience something people enjoy rather than endure. Great documentation, thoughtful tooling, and genuinely caring about the people integrating with the platform.
 
 ### Product Director _- Codat_
 
 _November 2021 - August 2025_
 
-[Codat](https://bit.ly/3ObH0e0) helps banks and fintechs build insights and automations with accounting, banking, and commerce data. Leading the service and platform teams, I:
+[Codat](https://bit.ly/3ObH0e0) connects banks and fintechs to accounting, banking, and commerce data. I led the service and platform teams and this is where I really grew into who I am as a product leader:
 
-- Defined and delivered product vision + strategy supporting clients for spend analysis and underwriting use-cases (inc. J.P. Morgan and other major banks).
-- Created best-in-class products including Codat's [Link](https://docs.codat.io/auth-flow/overview) (↑2x conversion, driving data sharing for 100,000 SMBs), [developer portal](https://docs.codat.io/configure/portal/companies) (↑40% MAUs), and award-winning [docs](https://docs.codat.io/) (↑30% faster go-lives).
-- Replatformed Codat, improving efficiency, supporting enterprise-grade client needs, and improving delivery pace (e.g. deploying new webhooks ↑5x faster).
-- Built cross-functional teams and nurtured high-performing PMs, engineers, designers, and technical writers. [Celebrated](https://github.com/mcclowes/mcclowes/blob/master/feedback.md) as a top PM and manager, promoted swiftly.
-- Pioneered product excellence at Codat, including data-driven methods (supported by Amplitude).
-- Led innovative projects inc. Codat's nascent AI & LLM work, new commercial models, and more.
+- Set the creative direction for products I'm deeply proud of — [Link](https://docs.codat.io/auth-flow/overview), a [developer portal](https://docs.codat.io/configure/portal/companies), and [documentation](https://docs.codat.io/) that won an industry award. Each one started with genuinely understanding the people using them.
+- Rebuilt the platform from the ground up. Not for the sake of it — because the team deserved better tools and our clients deserved a better experience.
+- Built and mentored teams of PMs, engineers, designers, and writers. Creating the conditions for people to do their best work is the thing I care about most. The [feedback I've received](https://github.com/mcclowes/mcclowes/blob/master/feedback.md) reflects that.
+- Navigated complex stakeholder relationships with major banks, translating between worlds that don't always speak the same language.
+- Pushed boundaries with early AI/LLM exploration and new commercial models — always asking "what if?" rather than "what's safe?"
 
 ### Product Manager _- Swoop_
 
 _March 2021 - November 2021_
 
-[Swoop](https://bit.ly/swoopfunding) is the virtual CFO helping businesses secure funding and increase efficiency. Built products that solve longstanding SMB challenges:
+[Swoop](https://bit.ly/swoopfunding) helps small businesses find funding. This role was about unlocking potential — both in the product and in the team:
 
-- Rolled out SMB self-served access to underwriting of up to £1m, improving cost to serve and reducing time-to-funds to within 24 hours (↓3 days avg. vs. ~14 days avg. previously) via loan aggregation service.
-- Built credit scoring and reporting product backed by CRIF, increasing user retention (↑10%), data-sharing (↑15%), and reducing low-quality loan applications.
-- Wearing a delivery and manager hat, took a team which had _never_ released in a year to shipping several major projects in quick succession.
+- Made it possible for small businesses to access real money, fast. Redesigned loan underwriting so people who needed funding weren't waiting weeks in limbo.
+- Built a credit scoring product that actually helped users understand their position — not just gatekeep them.
+- Inherited a team that hadn't shipped in a year. By building trust, clarity, and momentum, we went from zero releases to delivering major projects back to back.
 
 ### Product Manager _- Codogo_
 
 _April 2016 - August 2018_
 
-Co-founded [Codogo](https://www.crunchbase.com/organization/codogo), delivering client products through our agency business, whilst developing in-house collaborative document tool Codogo Write. I personally:
+Co-founded [Codogo](https://www.crunchbase.com/organization/codogo) — an agency and product studio. This is where I learned that making things is a team sport:
 
-- Owned project lifecycles from ideation to delivery of complex web and native apps for 30+ clients ranging from the NHS to Arsenal FC.
-- Pitched, winning [awards](http://bit.ly/35F6psY), clients, and investors, even being flown out to try for Y Combinator with our in-house product.
+- Delivered web and native apps for 30+ clients including the NHS and Arsenal FC. Every project was a new world to understand and a new relationship to build.
+- Won [awards](http://bit.ly/35F6psY), pitched to investors, got flown out for Y Combinator. The hustle was real but the best part was building something from nothing with people I believed in.
 
 \page
 
