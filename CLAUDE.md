@@ -28,6 +28,7 @@ This is a **CV/Resume generator** that converts Markdown content into styled HTM
 cv/
 ├── src/
 │   ├── createCV.js              # Main entry point
+│   ├── __tests__/               # Top-level Jest tests (createCV.spec.js)
 │   ├── generate/
 │   │   ├── html/                # HTML generation logic
 │   │   │   ├── index.js         # Main HTML generator
@@ -37,19 +38,28 @@ cv/
 │   │   │   ├── meta.js          # SEO/meta tag generation
 │   │   │   └── __tests__/       # Jest tests with snapshots
 │   │   └── pdf/
-│   │       └── index.js         # PDF generation using Playwright
+│   │       ├── index.js         # PDF generation using Playwright
+│   │       ├── README.md        # PDF module notes
+│   │       └── __tests__/       # Jest tests
 │   ├── sections/                # CV content in Markdown
-│   │   ├── header/
-│   │   ├── introduction/
-│   │   ├── experience/
+│   │   ├── _template.md         # Section template / schema reference
+│   │   ├── header/              # main.md, main-markdown.md
+│   │   ├── introduction/        # main.md, main-markdown.md
+│   │   ├── experience/          # experience.md, experience-full.md, problems.md
 │   │   ├── education.md
 │   │   ├── awards.md
-│   │   ├── skills/
+│   │   ├── skills/              # product.md, productnew.md
 │   │   └── aboutme.md
 │   └── styles/                  # CSS stylesheets
 │       ├── cv.css
 │       └── newspaper.css
+├── assets/                      # Static assets (preview image, etc.)
 ├── cv.config.js                 # CV configuration (content, meta, options)
+├── jest.config.cjs              # Jest config incl. coverage thresholds
+├── eslint.config.js             # ESLint 9 flat config
+├── cspell.config.json           # Spellcheck config + custom words
+├── getting_started.md           # Setup / build quickstart guide
+├── TODO.md                      # Project roadmap
 ├── index.html                   # Generated website output
 ├── debug.html                   # Generated debug view
 ├── mcclowes_cv.pdf              # Generated PDF output
@@ -68,6 +78,9 @@ npx playwright install chromium
 # Build the CV (generates PDF, HTML, README)
 npm run build
 
+# Watch mode - rebuilds on changes to src/
+npm run watch
+
 # Run tests
 npm test
 npm run test:watch     # Watch mode
@@ -76,7 +89,8 @@ npm run test:coverage  # With coverage
 # Linting and formatting
 npm run lint           # Check for issues
 npm run lint:fix       # Auto-fix issues
-npm run format         # Format with Prettier
+npm run format         # Format all src/ with Prettier
+npm run format:staged  # Prettier on staged files only (via pretty-quick)
 npm run spellcheck     # Check markdown spelling
 
 # Validation (lint + test)
@@ -141,18 +155,22 @@ Pre-commit hooks run automatically via Husky:
 
 ## CI/CD Pipeline
 
-GitHub Actions workflow (`.github/workflows/ci.yml`) runs on push/PR to main:
+Two GitHub Actions workflows live in `.github/workflows/`:
 
-1. **Lint**: ESLint + spellcheck
-2. **Security**: npm audit for vulnerabilities
-3. **Test**: Jest with coverage (minimum thresholds enforced)
-4. **Build**: Generate CV artifacts (requires lint + test to pass)
+- **`ci.yml`** — runs on push/PR to `main`:
+  1. **Lint**: ESLint + spellcheck
+  2. **Security**: `npm audit --audit-level=critical`
+  3. **Test**: Jest with coverage (thresholds enforced); uploads coverage artifact
+  4. **Build**: Generate CV artifacts and verify `mcclowes_cv.pdf` + `index.html` exist (needs lint + test green); uploads the CV as a build artifact
+- **`spellcheck.yml`** — runs on PRs that touch `.md` files (and via `workflow_dispatch`): installs cspell, checks changed Markdown files, and posts results as a PR comment.
 
-Coverage thresholds:
-- Branches: 30%
-- Functions: 50%
-- Lines: 40%
-- Statements: 40%
+Both workflows use concurrency groups keyed on workflow + ref to cancel in-progress runs on new pushes.
+
+Coverage thresholds (from `jest.config.cjs`):
+- Branches: 50%
+- Functions: 60%
+- Lines: 60%
+- Statements: 60%
 
 ## Common Tasks for AI Assistants
 

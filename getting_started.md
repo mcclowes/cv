@@ -4,8 +4,9 @@ This guide walks you through installing dependencies, building the site, and wor
 
 ## Prerequisites
 
-- [Node.js](https://nodejs.org/) (version 18 or later is recommended)
+- [Node.js](https://nodejs.org/) — the project pins Node 20 via `.nvmrc` (use `nvm use` to match)
 - npm (bundled with Node.js)
+- Playwright Chromium browser — required for PDF generation (`npx playwright install chromium`)
 
 Check your versions:
 
