@@ -1,25 +1,24 @@
 import fs from "fs";
 
 import readStylesheets from "./readStylesheets.js";
-import readMarkdownFile from "./readMarkdownFile.js";
-import createHtmlPages from "./createHtmlPages.js";
+import { readRawMarkdown, renderMarkdown } from "./readMarkdownFile.js";
+import { splitPages, wrapPagesInDivs } from "./createHtmlPages.js";
 import meta from "./meta.js";
+import { escapeHtmlAttr } from "./escape.js";
 
 const MARKDOWN_OPTIONS_DEFAULT = {
   encoding: "utf8",
 };
 
 const handleTargetPages = (content, markdownOptions) => {
-  if (Array.isArray(content)) {
-    return createHtmlPages(
-      content.map((path) => readMarkdownFile(path, markdownOptions)).join(" "),
-    );
-  }
-
-  return createHtmlPages(readMarkdownFile(content, markdownOptions));
+  const sources = Array.isArray(content) ? content : [content];
+  const rawMarkdown = sources.map((path) => readRawMarkdown(path, markdownOptions)).join("\n\n");
+  const markdownPages = splitPages(rawMarkdown);
+  const htmlPages = markdownPages.map(renderMarkdown);
+  return wrapPagesInDivs(htmlPages);
 };
 
-const createHtmlFile = (html, fileName = "index.html") => {
+const writeHtmlFile = (html, fileName) => {
   console.log(`Saving ${fileName}...`);
 
   try {
@@ -44,6 +43,7 @@ const buildHtml = (css, html, options, mode = "web") => {
       : "";
 
   const inlineCss = isTest ? "" : css;
+  const downloadHref = options.downloadLink ? escapeHtmlAttr(options.downloadLink) : null;
 
   return `
 		<!DOCTYPE html>
@@ -57,14 +57,14 @@ const buildHtml = (css, html, options, mode = "web") => {
 					${inlineCss}
 				</style>
 			</head>
-			
+
 			<body class="document">
 				<div class="pages">
 					${html}
 
           ${
-            options.downloadLink
-              ? `<a class="download-link" href="${options.downloadLink}" target="_blank" aria-label="Download CV as PDF" rel="noopener">
+            downloadHref
+              ? `<a class="download-link" href="${downloadHref}" target="_blank" aria-label="Download CV as PDF" rel="noopener">
                 <svg x="0px" y="0px" width="36.375px" height="36.376px" viewBox="0 0 36.375 36.376" style="enable-background:new 0 0 36.375 36.376;" xml:space="preserve" aria-hidden="true" focusable="false">
                   <g>
                     <path d="M33.938,25.626v8.25c0,1.383-1.119,2.5-2.5,2.5h-26.5c-1.381,0-2.5-1.117-2.5-2.5v-8.25c0-1.381,1.119-2.5,2.5-2.5
@@ -84,7 +84,7 @@ const buildHtml = (css, html, options, mode = "web") => {
 	`;
 };
 
-const createReadme = (content, _options = {}) => {
+const createReadme = (content) => {
   return `
 [![Spellcheck Markdown Files](https://github.com/mcclowes/cv/actions/workflows/spellcheck.yml/badge.svg)](https://github.com/mcclowes/cv/actions/workflows/spellcheck.yml)
 [![CI](https://github.com/mcclowes/cv/actions/workflows/ci.yml/badge.svg)](https://github.com/mcclowes/cv/actions/workflows/ci.yml)
@@ -93,7 +93,7 @@ ${content}
 `;
 };
 
-const generateHtml = (content, options = {}) => {
+const renderHtmlBundle = (content, options = {}) => {
   console.log("Generating HTML...");
 
   const styleOptions = options.customStyles || options.style || "cv";
@@ -102,17 +102,13 @@ const generateHtml = (content, options = {}) => {
   const html = handleTargetPages(content, markdownOptions);
   const css = readStylesheets(styleOptions).join("");
 
-  createHtmlFile(createReadme(html), "README.md");
-
-  if (options.debug) {
-    createHtmlFile(buildHtml(css, html, options, "debug pdf"), "debug.html");
-  }
-
-  if (options.website) {
-    createHtmlFile(buildHtml(css, html, options, "web"), "index.html");
-  }
-
-  return buildHtml(css, html, options, "pdf");
+  return {
+    pdf: buildHtml(css, html, options, "pdf"),
+    website: options.website ? buildHtml(css, html, options, "web") : null,
+    debug: options.debug ? buildHtml(css, html, options, "debug pdf") : null,
+    readme: createReadme(html),
+  };
 };
 
-export default generateHtml;
+export { writeHtmlFile };
+export default renderHtmlBundle;

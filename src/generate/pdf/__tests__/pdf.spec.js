@@ -1,12 +1,5 @@
-import generatePdf from "../index.js";
+import generatePdfFromHtml from "../index.js";
 
-// Mock the html generator
-jest.mock("../../html/index.js", () => ({
-  __esModule: true,
-  default: jest.fn().mockResolvedValue("<html><body>Test CV</body></html>"),
-}));
-
-// Mock playwright
 const mockPdf = jest.fn().mockResolvedValue(Buffer.from("pdf content"));
 const mockSetContent = jest.fn().mockResolvedValue(undefined);
 const mockEmulateMedia = jest.fn().mockResolvedValue(undefined);
@@ -21,7 +14,6 @@ const mockLaunch = jest.fn().mockResolvedValue({
   close: mockClose,
 });
 
-// Mock both playwright and playwright-core since the code tries playwright-core first
 jest.mock("playwright-core", () => ({
   chromium: {
     launch: () => mockLaunch(),
@@ -34,10 +26,11 @@ jest.mock("playwright", () => ({
   },
 }));
 
-describe("generatePdf", () => {
+const HTML = "<html><body>Test CV</body></html>";
+
+describe("generatePdfFromHtml", () => {
   beforeEach(() => {
     jest.clearAllMocks();
-    // Suppress console output during tests
     jest.spyOn(console, "log").mockImplementation(() => {});
     jest.spyOn(console, "error").mockImplementation(() => {});
   });
@@ -48,22 +41,18 @@ describe("generatePdf", () => {
   });
 
   it("generates PDF with default options", async () => {
-    const content = ["./test.md"];
-    const destination = "./test.pdf";
-    const options = {};
-
-    await generatePdf(content, destination, options);
+    await generatePdfFromHtml(HTML, "./test.pdf", {});
 
     expect(mockLaunch).toHaveBeenCalled();
     expect(mockNewPage).toHaveBeenCalled();
-    expect(mockSetContent).toHaveBeenCalledWith("<html><body>Test CV</body></html>", {
+    expect(mockSetContent).toHaveBeenCalledWith(HTML, {
       waitUntil: "networkidle",
     });
     expect(mockEmulateMedia).toHaveBeenCalledWith({ media: "screen" });
     expect(mockPdf).toHaveBeenCalledWith(
       expect.objectContaining({
         format: "A4",
-        path: destination,
+        path: "./test.pdf",
         printBackground: true,
       }),
     );
@@ -71,7 +60,7 @@ describe("generatePdf", () => {
   });
 
   it("uses default destination when none provided", async () => {
-    await generatePdf(["./test.md"], undefined, {});
+    await generatePdfFromHtml(HTML, undefined, {});
 
     expect(mockPdf).toHaveBeenCalledWith(
       expect.objectContaining({
@@ -81,14 +70,12 @@ describe("generatePdf", () => {
   });
 
   it("merges custom PDF options", async () => {
-    const options = {
+    await generatePdfFromHtml(HTML, "./custom.pdf", {
       pdfOptions: {
         format: "Letter",
         landscape: true,
       },
-    };
-
-    await generatePdf(["./test.md"], "./custom.pdf", options);
+    });
 
     expect(mockPdf).toHaveBeenCalledWith(
       expect.objectContaining({
@@ -99,26 +86,32 @@ describe("generatePdf", () => {
     );
   });
 
+  it("applies PDF metadata from meta.name and meta.description", async () => {
+    await generatePdfFromHtml(HTML, "./meta.pdf", {
+      meta: { name: "Jane Doe", description: "A summary" },
+    });
+
+    expect(mockPdf).toHaveBeenCalledWith(
+      expect.objectContaining({
+        title: "Jane Doe CV",
+        author: "Jane Doe",
+        subject: "A summary",
+      }),
+    );
+  });
+
   it("closes browser even on error", async () => {
     mockPdf.mockRejectedValueOnce(new Error("PDF generation failed"));
 
-    await expect(generatePdf(["./test.md"], "./test.pdf", {})).rejects.toThrow(
+    await expect(generatePdfFromHtml(HTML, "./test.pdf", {})).rejects.toThrow(
       "PDF generation failed",
     );
 
     expect(mockClose).toHaveBeenCalled();
   });
-
-  it("logs progress messages", async () => {
-    await generatePdf(["./test.md"], "./test.pdf", {});
-
-    expect(console.log).toHaveBeenCalledWith("Starting PDF generation...");
-    expect(console.log).toHaveBeenCalledWith("Creating PDF with options:", expect.any(Object));
-    expect(console.log).toHaveBeenCalledWith("./test.pdf generated");
-  });
 });
 
-describe("generatePdf error handling", () => {
+describe("generatePdfFromHtml error handling", () => {
   beforeEach(() => {
     jest.clearAllMocks();
     jest.spyOn(console, "log").mockImplementation(() => {});
@@ -136,7 +129,7 @@ describe("generatePdf error handling", () => {
     );
     mockLaunch.mockRejectedValueOnce(executableError);
 
-    await expect(generatePdf(["./test.md"], "./test.pdf", {})).rejects.toThrow(
+    await expect(generatePdfFromHtml(HTML, "./test.pdf", {})).rejects.toThrow(
       "Executable doesn't exist",
     );
 
@@ -149,6 +142,6 @@ describe("generatePdf error handling", () => {
     const networkError = new Error("Network timeout");
     mockLaunch.mockRejectedValueOnce(networkError);
 
-    await expect(generatePdf(["./test.md"], "./test.pdf", {})).rejects.toThrow("Network timeout");
+    await expect(generatePdfFromHtml(HTML, "./test.pdf", {})).rejects.toThrow("Network timeout");
   });
 });

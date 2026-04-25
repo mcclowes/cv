@@ -117,5 +117,37 @@ describe("validateConfig", () => {
         'CV variation "noContent" has no content defined',
       );
     });
+
+    it("throws error when more than one variation is marked primary", () => {
+      const config = {
+        defaults: {},
+        meta: {},
+        cvs: {
+          first: {
+            content: ["./a.md"],
+            overrides: { primary: true },
+          },
+          second: {
+            content: ["./b.md"],
+            overrides: { primary: true },
+          },
+        },
+      };
+
+      expect(() => validateConfig(config)).toThrow(/Multiple CV variations marked primary/);
+    });
+
+    it("accepts a single primary variation", () => {
+      const config = {
+        defaults: {},
+        meta: {},
+        cvs: {
+          first: { content: ["./a.md"], overrides: { primary: true } },
+          second: { content: ["./b.md"], overrides: {} },
+        },
+      };
+
+      expect(() => validateConfig(config)).not.toThrow();
+    });
   });
 });

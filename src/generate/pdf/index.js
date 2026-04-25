@@ -1,10 +1,3 @@
-import generateHtml from "../html/index.js";
-
-// Ensure Playwright uses a project-local browsers cache (node_modules/.cache/ms-playwright)
-if (!process.env.PLAYWRIGHT_BROWSERS_PATH) {
-  process.env.PLAYWRIGHT_BROWSERS_PATH = "0";
-}
-
 const DEFAULT_PDF_OPTIONS = {
   format: "A4",
   margin: {
@@ -37,7 +30,10 @@ const buildPdfMetadata = (meta) => {
 };
 
 const getPlaywright = async () => {
-  // Try playwright-core first (lighter dependency)
+  if (!process.env.PLAYWRIGHT_BROWSERS_PATH) {
+    process.env.PLAYWRIGHT_BROWSERS_PATH = "0";
+  }
+
   try {
     const playwrightCore = await import("playwright-core");
     if (playwrightCore?.chromium) {
@@ -50,7 +46,6 @@ const getPlaywright = async () => {
     }
   }
 
-  // Fallback to full playwright (bundles browsers)
   try {
     const playwright = await import("playwright");
     if (playwright?.chromium) {
@@ -63,19 +58,18 @@ const getPlaywright = async () => {
     }
   }
 
-  const missingDependencyMessage = [
-    "A Playwright package is required to generate PDFs.",
-    "Install one of:",
-    "  - npm install --save-dev playwright      # includes browsers",
-    "  - npm install --save-dev playwright-core # bring your own browser",
-  ].join("\n");
-
-  throw new Error(missingDependencyMessage);
+  throw new Error(
+    [
+      "A Playwright package is required to generate PDFs.",
+      "Install one of:",
+      "  - npm install --save-dev playwright      # includes browsers",
+      "  - npm install --save-dev playwright-core # bring your own browser",
+    ].join("\n"),
+  );
 };
 
-const generatePdf = async (content, destination = "./output.pdf", options) => {
+const generatePdfFromHtml = async (html, destination = "./output.pdf", options = {}) => {
   console.log("Starting PDF generation...");
-  const html = await generateHtml(content, options);
 
   const chromium = await getPlaywright();
   let browser;
@@ -100,11 +94,11 @@ const generatePdf = async (content, destination = "./output.pdf", options) => {
     await page.setContent(html, { waitUntil: "networkidle" });
     await page.emulateMedia({ media: "screen" });
 
-    const pdfMetadata = buildPdfMetadata(options?.meta);
+    const pdfMetadata = buildPdfMetadata(options.meta);
     const pdfOptions = {
       ...DEFAULT_PDF_OPTIONS,
       ...pdfMetadata,
-      ...(options?.pdfOptions || {}),
+      ...(options.pdfOptions || {}),
       path: destination,
     };
 
@@ -121,4 +115,4 @@ const generatePdf = async (content, destination = "./output.pdf", options) => {
   }
 };
 
-export default generatePdf;
+export default generatePdfFromHtml;

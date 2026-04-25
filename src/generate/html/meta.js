@@ -1,3 +1,5 @@
+import { escapeHtml, escapeHtmlAttr, escapeJsonForScript } from "./escape.js";
+
 const generateStructuredData = (config) => {
   const { name, description, url, email, jobTitle, employer } = config;
 
@@ -24,7 +26,7 @@ const generateStructuredData = (config) => {
     };
   }
 
-  return `<script type="application/ld+json">${JSON.stringify(structuredData)}</script>`;
+  return `<script type="application/ld+json">${escapeJsonForScript(JSON.stringify(structuredData))}</script>`;
 };
 
 const meta = (config) => {
@@ -41,26 +43,33 @@ const meta = (config) => {
 
   const { description, name, preview, twitterUser, url } = config;
 
+  const safeName = escapeHtml(name);
+  const safeDescription = escapeHtmlAttr(description);
+  const safeUrl = escapeHtmlAttr(url);
+  const previewImage = preview?.image ? escapeHtmlAttr(preview.image) : "";
+  const previewText = preview?.text ? escapeHtmlAttr(preview.text) : "";
+  const twitterHandle = twitterUser ? escapeHtmlAttr(twitterUser) : "";
+
   return `
     <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=2,shrink-to-fit=no">
 
     <link rel="icon" href="assets/favicon.ico" />
-    <link rel="canonical" href="${url}">
+    ${url ? `<link rel="canonical" href="${safeUrl}">` : ""}
 
-    <title>${name} CV</title>
-    <meta name="description" content="${description}">
+    <title>${safeName} CV</title>
+    <meta name="description" content="${safeDescription}">
 
     <!--  Social tags -->
     <meta property="og:type" content="website">
-    <meta property="og:description" content="${description}">
-    <meta property="og:image" content="${preview.image}">
-    <meta property="og:site_name" content="The CV of ${name}">
-    <meta property="og:title" content="The CV of ${name}">
-    <meta property="og:url" content="${url}">
+    <meta property="og:description" content="${safeDescription}">
+    ${previewImage ? `<meta property="og:image" content="${previewImage}">` : ""}
+    <meta property="og:site_name" content="The CV of ${safeName}">
+    <meta property="og:title" content="The CV of ${safeName}">
+    ${url ? `<meta property="og:url" content="${safeUrl}">` : ""}
 
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:image:alt" content="${preview.text}">
-    <meta name="twitter:site" content="${twitterUser}">
+    ${previewText ? `<meta name="twitter:image:alt" content="${previewText}">` : ""}
+    ${twitterHandle ? `<meta name="twitter:site" content="${twitterHandle}">` : ""}
 
     <!-- Structured data for AI/search engines -->
     ${generateStructuredData(config)}

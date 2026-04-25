@@ -1,4 +1,4 @@
-import generateHtml from "../index";
+import renderHtmlBundle from "../index";
 
 const CONFIG = {
   name: "Joe Bloggs",
@@ -21,37 +21,59 @@ const OPTIONS_DEFAULT = {
   meta: CONFIG,
 };
 
-describe("generateHtml", () => {
-  it("default", () => {
-    expect(
-      generateHtml("src/generate/html/__tests__/markdown.md"),
-    ).toMatchSnapshot();
+const FIXTURE = "src/generate/html/__tests__/markdown.md";
+
+describe("renderHtmlBundle", () => {
+  it("always returns a pdf string", () => {
+    const bundle = renderHtmlBundle(FIXTURE);
+    expect(typeof bundle.pdf).toBe("string");
+    expect(bundle.pdf).toContain('class="pdf"');
   });
 
-  it("with standard options", () => {
-    expect(
-      generateHtml("src/generate/html/__tests__/markdown.md", OPTIONS_DEFAULT),
-    ).toMatchSnapshot();
+  it("always returns a readme string", () => {
+    const bundle = renderHtmlBundle(FIXTURE);
+    expect(typeof bundle.readme).toBe("string");
+    expect(bundle.readme).toContain("badge.svg");
   });
 
-  it("for website", () => {
-    expect(
-      generateHtml("src/generate/html/__tests__/markdown.md", {
-        ...OPTIONS_DEFAULT,
-        website: true,
-      }),
-    ).toMatchSnapshot();
+  it("omits website and debug when their options are false", () => {
+    const bundle = renderHtmlBundle(FIXTURE, OPTIONS_DEFAULT);
+    expect(bundle.website).toBeNull();
+    expect(bundle.debug).toBeNull();
   });
 
-  it("with array", () => {
-    expect(
-      generateHtml(
-        [
-          "src/generate/html/__tests__/markdown.md",
-          "src/generate/html/__tests__/markdown.md",
-        ],
-        OPTIONS_DEFAULT,
-      ),
-    ).toMatchSnapshot();
+  it("includes website output when website: true", () => {
+    const bundle = renderHtmlBundle(FIXTURE, { ...OPTIONS_DEFAULT, website: true });
+    expect(bundle.website).toContain('class="web"');
+  });
+
+  it("includes debug output when debug: true", () => {
+    const bundle = renderHtmlBundle(FIXTURE, { ...OPTIONS_DEFAULT, debug: true });
+    expect(bundle.debug).toContain('class="debug pdf"');
+  });
+
+  it("wraps every page in a numbered page div", () => {
+    const bundle = renderHtmlBundle(FIXTURE, OPTIONS_DEFAULT);
+    expect(bundle.pdf).toContain('id="p1"');
+  });
+
+  it("accepts an array of files and produces one combined document", () => {
+    const bundle = renderHtmlBundle([FIXTURE, FIXTURE], OPTIONS_DEFAULT);
+    expect(bundle.pdf).toContain('id="p1"');
+  });
+
+  it("does not inline CSS in test mode (NODE_ENV=test)", () => {
+    const bundle = renderHtmlBundle(FIXTURE, OPTIONS_DEFAULT);
+    expect(bundle.pdf).not.toContain("--color-green");
+  });
+
+  it("escapes the download link href", () => {
+    const bundle = renderHtmlBundle(FIXTURE, {
+      ...OPTIONS_DEFAULT,
+      website: true,
+      downloadLink: 'https://example.com/"><script>alert(1)</script>',
+    });
+    expect(bundle.website).not.toContain("<script>alert(1)</script>");
+    expect(bundle.website).toContain("&quot;");
   });
 });

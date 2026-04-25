@@ -1,12 +1,7 @@
 import { config } from "../cv.config.js";
-import generatePDF from "./generate/pdf/index.js";
+import generatePdfFromHtml from "./generate/pdf/index.js";
+import renderHtmlBundle, { writeHtmlFile } from "./generate/html/index.js";
 
-/**
- * Validates the CV configuration
- * @param {Object} cvConfig - The CV configuration object
- * @param {string|undefined} variation - The requested CV variation
- * @throws {Error} If configuration is invalid
- */
 const validateConfig = (cvConfig, variation) => {
   if (!cvConfig) {
     throw new Error("Configuration is missing. Ensure cv.config.js exports a valid config object.");
@@ -17,6 +12,16 @@ const validateConfig = (cvConfig, variation) => {
   if (!cvs || typeof cvs !== "object" || Object.keys(cvs).length === 0) {
     throw new Error(
       "No CV variations defined in cv.config.js. Add at least one CV to the 'cvs' object.",
+    );
+  }
+
+  const primaryVariations = Object.entries(cvs).filter(
+    ([, entry]) => entry?.overrides?.primary === true,
+  );
+  if (primaryVariations.length > 1) {
+    const names = primaryVariations.map(([key]) => key).join(", ");
+    throw new Error(
+      `Multiple CV variations marked primary (${names}). At most one variation may set primary: true.`,
     );
   }
 
@@ -40,11 +45,18 @@ const validateConfig = (cvConfig, variation) => {
   return { defaults, meta, cvs, variationKey };
 };
 
-/**
- * Creates a CV from the specified variation
- * @param {string|undefined} variation - The CV variation to generate
- * @returns {Promise<string>} The path to the generated PDF
- */
+const persistBundle = (bundle, { writeReadme = true } = {}) => {
+  if (bundle.website) {
+    writeHtmlFile(bundle.website, "index.html");
+  }
+  if (bundle.debug) {
+    writeHtmlFile(bundle.debug, "debug.html");
+  }
+  if (writeReadme && bundle.readme) {
+    writeHtmlFile(bundle.readme, "README.md");
+  }
+};
+
 const createCV = async (variation) => {
   const { defaults, meta, cvs, variationKey } = validateConfig(config, variation);
   const { content, overrides } = cvs[variationKey];
@@ -57,14 +69,18 @@ const createCV = async (variation) => {
 
   const destination = options.primary ? `./mcclowes_cv.pdf` : `./mcclowes_cv_${variationKey}.pdf`;
 
-  await generatePDF(content, destination, options);
+  const bundle = renderHtmlBundle(content, options);
+
+  persistBundle(bundle, { writeReadme: Boolean(options.primary) });
+
+  await generatePdfFromHtml(bundle.pdf, destination, {
+    meta: options.meta,
+    pdfOptions: options.pdfOptions,
+  });
 
   return destination;
 };
 
-/**
- * Main entry point - processes command line arguments
- */
 const main = async () => {
   const inputs = process.argv.slice(2);
 
@@ -86,11 +102,8 @@ const main = async () => {
   }
 };
 
-// Run main function only when executed directly (not imported for testing)
-// NODE_ENV is set to 'test' by Jest automatically
 if (process.env.NODE_ENV !== "test") {
   main();
 }
 
-// Export for testing
-export { createCV, validateConfig, main };
+export { createCV, validateConfig, persistBundle, main };

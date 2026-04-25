@@ -2,8 +2,8 @@
   "name": "cv",
   "version": "3.0.0",
   "type": "module",
-  "description": "Results-driven product leader with 10+ years of experience delivering impactful products across SaaS and fintech industries. Proven expertise in defining product strategy, nurturing talent, and driving adoption. Adept at aligning product vision with organizational goals to deliver measurable growth. Intuition led, data backed. DoY's Young Entrepreneur Award winner as a founder.",
-  "main": "index.html",
+  "description": "Markdown-driven CV generator that renders styled HTML and PDF outputs via Playwright.",
+  "main": "src/createCV.js",
   "scripts": {
     "build": "babel-node ./src/createCV.js",
     "watch": "chokidar './src/**/*' -c 'npm run build' --initial",
@@ -24,12 +24,14 @@
   },
   "keywords": [
     "cv",
-    "pdf"
+    "resume",
+    "pdf",
+    "markdown",
+    "playwright"
   ],
   "author": "mcclowes",
   "license": "ISC",
   "dependencies": {
-    "lodash": "^4.17.23",
     "marked": "^9.0.3",
     "playwright": "^1.56.1"
   },
@@ -53,15 +55,13 @@
     "@babel/preset-env": "^7.22.9",
     "@eslint/js": "^9.0.0",
     "babel-jest": "^29.7.0",
-    "copyfiles": "^2.4.1",
+    "chokidar-cli": "^3.0.0",
     "cspell": "^8.13.3",
     "eslint": "^9.0.0",
     "husky": "^8.0.0",
     "jest": "^29.7.0",
     "lint-staged": "^15.0.0",
-    "merge-md": "^1.0.3",
     "prettier": "^3.0.3",
-    "pretty-quick": "^4.0.0",
-    "chokidar-cli": "^3.0.0"
+    "pretty-quick": "^4.0.0"
   }
 }

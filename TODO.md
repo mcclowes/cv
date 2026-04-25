@@ -19,7 +19,7 @@ A roadmap for making this CV generator more effective, beautiful, and reliable.
 - [x] 🔴 **Add a CV content schema/template** - Create `src/sections/_template.md` with documented structure showing available classes, page breaks, and formatting options
 - [ ] 🔴 **Create content validation** - Script to validate markdown files exist, check for broken internal references, and warn about missing sections
 - [ ] 🟡 **Add more section templates** - Pre-built templates for common sections (Projects, Publications, Certifications, Languages, Volunteering)
-- [ ] 🟡 **Simplify page break syntax** - Replace `\page` with a cleaner `---PAGE---` or HTML comment syntax that's harder to accidentally include in content
+- [x] 🟡 **Simplify page break syntax** - `\page`, `<!-- PAGE_BREAK -->`, and `---PAGE---` all supported
 - [ ] 🟡 **Add content linting** - Validate markdown structure (e.g., ensure headers are consistent, dates are formatted correctly)
 - [ ] 🟢 **Create a content style guide** - Document best practices for writing compelling CV content
 
@@ -68,19 +68,21 @@ A roadmap for making this CV generator more effective, beautiful, and reliable.
 - [ ] 🔴 **Add PDF generation tests** - Verify PDF is generated and has expected page count
 - [ ] 🔴 **Add integration test** - Full build pipeline test ensuring all outputs are created
 - [ ] 🟡 **Visual regression tests** - Screenshot comparison for HTML output using Playwright
-- [ ] 🟡 **Add unit tests for:**
-  - [ ] `createHtmlPages.js` - Page splitting logic
-  - [ ] `readStylesheets.js` - Style loading
-  - [ ] Config parsing and validation
-- [ ] 🟢 **Test coverage reporting** - Add Jest coverage and set minimum threshold (aim for 80%)
+- [x] 🟡 **Add unit tests for:**
+  - [x] `createHtmlPages.js` - Page splitting logic
+  - [x] `readStylesheets.js` - Style loading
+  - [x] Config parsing and validation
+- [x] 🟡 **Page-break regression test** - Splitting happens at markdown level, not on rendered HTML
+- [x] 🟢 **Test coverage reporting** - Jest coverage thresholds live in `jest.config.cjs`
 
 ### Code Quality
 
-- [ ] 🟡 **Add ESLint** - Enforce consistent code style alongside Prettier
+- [x] 🟡 **Add ESLint** - Enforce consistent code style alongside Prettier
+- [x] 🟡 **HTML-escape config interpolations** - `meta.js`, JSON-LD, and download link sanitized via `src/generate/html/escape.js`
 - [ ] 🟡 **Error handling improvements:**
   - [ ] Better error messages when markdown files are missing
   - [ ] Graceful handling of Playwright failures with helpful debugging info
-  - [ ] Validate config schema on startup
+  - [x] Validate config schema on startup (at-most-one primary variation enforced)
 - [ ] 🟢 **Add JSDoc comments** - Document public functions for better IDE support
 - [ ] 🟢 **Extract constants** - Move magic strings (file paths, CSS class names) to constants file
 
@@ -91,7 +93,7 @@ A roadmap for making this CV generator more effective, beautiful, and reliable.
 ### Enhanced CI Pipeline
 
 - [ ] 🔴 **Add CI caching** - Cache Playwright browsers between runs (currently installs fresh each time)
-- [ ] 🔴 **Parallel test execution** - Run tests, linting, and spellcheck in parallel jobs
+- [x] 🔴 **Parallel test execution** - Lint, security and test run as separate CI jobs
 - [ ] 🟡 **Add build matrix** - Test on multiple Node.js versions (18, 20, 22)
 - [ ] 🟡 **PR preview deployments** - Auto-deploy preview of CV to Vercel/Netlify on PRs
 - [ ] 🟡 **PDF size monitoring** - Track PDF file size in CI, alert if it grows unexpectedly
@@ -102,8 +104,8 @@ A roadmap for making this CV generator more effective, beautiful, and reliable.
 - [ ] 🔴 **Enforce tests pass before merge** - Add branch protection rules
 - [ ] 🟡 **Lighthouse CI** - Audit web version for performance, accessibility, SEO
 - [ ] 🟡 **Link checker** - Verify all URLs in CV content are valid
-- [ ] 🟡 **Add ESLint to CI** - Lint check on all PRs
-- [ ] 🟢 **Dependency audit** - `npm audit` check in CI for security vulnerabilities
+- [x] 🟡 **Add ESLint to CI** - Lint job runs in `ci.yml`
+- [x] 🟢 **Dependency audit** - `npm audit --audit-level=critical` runs in `ci.yml`
 - [ ] 🟢 **Bundle size tracking** - Monitor node_modules size over time
 
 ### Deployment & Release
@@ -166,6 +168,9 @@ A roadmap for making this CV generator more effective, beautiful, and reliable.
 
 - [ ] 🟡 **Nested markdown processing** - Currently only works for `<div>` wrappers; extend to other HTML elements
 - [x] 🟡 **Remove legacy devDependencies** - `fs` and `path` listed but are Node.js built-ins
+- [x] 🟡 **Remove unused deps** - `lodash`, `merge-md`, `copyfiles` removed
+- [x] 🟡 **Fix page-break corruption** - Page splits now happen at markdown level, preventing malformed `<p></div>` output
+- [x] 🟡 **Hermetic tests** - `renderHtmlBundle` is pure; tests no longer write files into the project root
 - [ ] 🟢 **Pre-commit hook enforcement** - Make CV rebuild mandatory, not just a reminder
 
 ---
